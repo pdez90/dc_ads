@@ -33,6 +33,21 @@ SRC = dict(
   UCS="https://www.utilitydive.com/news/gas-power-plants-reliability-winter-union-concerned-scientists/704031/",
   ENTERGY="https://www.ktbs.com/news/louisiana/entergy-says-meta-will-save-ratepayers-billions-here-s-how/article_0eb5a464-25ef-5c86-a9eb-a6ccbc71904c.html",
   EPOCH="https://epoch.ai/data-insights/ai-supercomputers-performance-share-by-country",
+  DTE="https://www.michiganpublic.org/environment-climate-change/2025-12-18/michigan-regulators-approve-saline-twp-data-center-request-with-conditions",
+  DTE2="https://www.bridgedetroit.com/?p=232469",
+  PJMIMM="https://energynow.com/2025/06/data-centers-added-9-4-billion-in-costs-on-biggest-us-grid",
+  DH="https://www.dailyherald.com/?p=1349282",
+  PWCOR="https://olis.oregonlegislature.gov/liz/2025I1/Downloads/CommitteeMeetingDocument/311430",
+  COAL="https://energyinnovation.org/report/the-coal-cost-crossover-3-0/",
+  OHRATES="https://www.axios.com/local/columbus/2025/08/11/ohio-electricity-prices-data-center-rules",
+  OKLAW="https://www.aarp.org/states/oklahoma/oklahoma-enacts-data-center-consumer-protection-law/",
+  MOSB4="https://psc.mo.gov/General/Utility_Tariffs_for_Large_Load_Customers",
+  MIWATER="https://environmentenergyleader.com/stories/michigan-bill-targets-data-center-water-disclosure,138033",
+  BLOOM="https://www.datacenterdynamics.com/en/news/aws-looks-to-deploy-bloom-fuel-cells-at-oregon-data-centers-as-as-primary-fuel-source",
+  AIRTRUNK="https://inthecove.com.au/2025/12/05/data-centre-cluster-boom-sydney-water-infrastructure-under-pressure-as-data-centre-approvals-surge",
+  ALBERTA="https://www.mondaq.com/canada/utilities/1814978/albertas-byog-framework-what-data-centre-and-generation-proponents-need-to-know",
+  JOBSGJF="https://qz.com/data-center-jobs-employment-investment-economic-development-051326",
+  E3="https://ppc.land/data-centers-5-5m-jobs-927bn-gdp-and-no-proof-they-raised-your-energy-bills/",
   AZ="https://www.circleofblue.org/2025/supply/data-centers-a-small-but-growing-factor-in-arizonas-water-budget/",
 )
 L = {l["id"]: l for l in laws}
@@ -52,7 +67,7 @@ FC = {
  "compassrates": ("No public data", "The '$300 million' for substations and transmission is self-reported, with no breakdown by site or utility filing in the ad.", ""),
  "adani59": ("Missing context", "Adani's own 2026 report gives 59% renewable energy for Chennai 1; 'up to 100%' is a general offering.", "ADANI"),
  "neidemand": ("Missing context", "The IEA projects global data-center electricity use to more than double by 2030, which matches the ad. For the US, DOE/LBNL projects use to 'double or triple' by 2028, so 'triple' is the top of the range. 'The only source that's both clean and reliable' leaves out hydro and geothermal.", "LBNL"),
- "nukeslogan": ("Not checkable", "A slogan ('Only nuclear has the power…'); no figure to test.", ""),
+ "nukeslogan": ("Not checkable", "A slogan ('Nuclear makes it happen'); no figure to test.", ""),
  "nmpowering": ("Missing context", "Some data centers buy power from existing nuclear plants, but most announced nuclear-for-data-center deals depend on restarts or new reactors not yet online; the IEA expects the first small modular reactors around 2030.", "IEA"),
  "ceglean": ("Missing context", "Constellation bought Calpine in January 2026, adding over 50 natural-gas plants. 'Emissions free' describes its nuclear fleet, not all of its generation; the spots kept running after the deal.", "CEG"),
  "txwater": ("Supported", "HARC estimates Texas data centers used about 0.4% of state water in 2025, rising to as much as 2.7% by 2030.", "HARC"),
@@ -70,10 +85,26 @@ FC = {
  "jobsmodel": ("Missing context", "These are modeled totals from PwC's study for the Data Center Coalition: direct jobs plus 'indirect and induced' jobs estimated with an economic multiplier, not jobs inside data centers. Facilities themselves employ few permanent staff (often 30–50, up to a few hundred), and Good Jobs First puts the average subsidy in large deals near $2M per job. Georgia's state auditor cut its own data center job estimate by about two-thirds (see Internal documents, ID-17).", "JOBS"),
  "jobsvague": ("Not checkable", "Says data centers create jobs without a number, place or time period. Permanent staffing at a data center is usually small; most jobs are temporary construction work.", "JOBS"),
  "gasreliable": ("Missing context", "Gas plants made up most of the capacity that failed in recent winter storms: 56% in Winter Storm Uri (2021) and 63% in Winter Storm Elliott (2022), per the Union of Concerned Scientists using FERC/NERC data. Gas supply can freeze off when demand peaks.", "UCS"),
- "coalbills": ("Not yet checked", "A specific claim about coal and utility bills that could be checked against utility cost filings; we haven't checked it yet.", ""),
+ "coalbills": ("Disputed", "Studies disagree. Energy Innovation's Coal Cost Crossover (2023) finds 99% of US coal plants cost more to run than replacement with new local wind, solar and storage; an Energy Ventures Analysis study (2025) argues replacing retiring coal plants would cost more. Keeping retiring plants open by federal order has been estimated to cost ratepayers over $3B a year.", "COAL"),
  "entergy": ("Missing context", "Entergy's own 20-year projection (about $650M plus $2B from the Meta deals), which depends on Meta's rates exceeding the cost of serving it. Consumer advocates say the savings rest on optimistic assumptions, and gas-plant costs were redacted in the rate case (Internal documents, ID-13).", "ENTERGY"),
  "chinadata": ("Missing context", "Implies the alternative to building in Texas is data going to China. Epoch AI estimates the US already hosts about three-quarters of global AI computing capacity and China about 15%; where data is stored depends on company and federal rules, not one state's permits.", "EPOCH"),
  "chinaspend": ("No public data", "No source is given for China 'investing trillions'. Epoch AI estimates the US hosts about three-quarters of global AI computing capacity and China about 15%.", "EPOCH"),
+ "golf": ("Missing context", "Compares only on-site water. National golf-course and data-center totals are not published on the same basis, and on-site figures leave out the water used to generate a data center's electricity. HARC estimates Texas data centers used about 0.4% of state water in 2025, rising to as much as 2.7% by 2030.", "HARC"),
+ "notx": ("Not yet checked", "No captions or text available; we haven't transcribed this ad yet.", ""),
+ "taxmodel": ("Missing context", "Statewide 'tax revenue' figures like these match PwC's model for the Data Center Coalition, which counts direct, indirect and induced taxes (Oregon: $789M in 2023 on that basis). They don't subtract the sales-tax exemptions most of these states give data centers.", "PWCOR"),
+ "related300": ("Missing context", "The $300M a year is DTE's own projection of what Oracle's payments will add to fixed grid costs. Michigan regulators approved the contracts with conditions, including that DTE absorbs any shortfall; the Attorney General appealed, and critics say the cost of serving the site could offset the savings.", "DTE"),
+ "eeispread": ("Missing context", "Spreading fixed costs over more sales can lower rates only if a large customer pays more than the new costs it causes. In PJM, the independent market monitor found data center demand added about $9.3B to capacity costs paid by all customers.", "PJMIMM"),
+ "ssgatax": ("Supported", "Local reporting cites an estimate of $5–6 million a year in property taxes for the CyrusOne project.", "DH"),
+ "ibewtax": ("Missing context", "Local reporting gives a $31.1 million property-tax bill for Meta's DeKalb campus (2025). The campus also has a 20-year, 55% property-tax abatement and state sales-tax exemptions.", "DH"),
+ "wmmstudy": ("Missing context", "The ad doesn't name its 'independent study'. The best-known study with this finding, by E3 (May 2026), was commissioned by the Data Center Coalition, which funds these ads; it also found data-center demand drove about half of PJM's capacity price increase and flagged risks where new supply lags demand.", "E3"),
+ "ohiorates": ("Disputed", "Ohio electricity bills rose as data-center demand drove up PJM capacity prices: AEP Ohio's June 2025 change added about $27 to an average monthly bill, and Ohio residential prices rose about 37% from 2019 to 2025.", "OHRATES"),
+ "oklaw": ("Missing context", "Oklahoma's Data Center Consumer Ratepayer Protection Act (HB 2992, in force July 1, 2026) requires loads of 75 MW or more to pay for the infrastructure they need. It is new and untested; 'ensures' goes beyond what any rate case has yet shown.", "OKLAW"),
+ "mosb4": ("Missing context", "Senate Bill 4 does require large-load tariffs, and regulators approved them for Ameren and Evergy. The same law lets utilities charge customers for plants under construction, and Missouri's consumer advocate and the Consumers Council say its protections leave room for cost shifts.", "MOSB4"),
+ "miwater": ("Missing context", "Michigan regulates large water withdrawals and requires tax-break data centers to use public water systems, but sets no data-center water caps and does not require facility-level disclosure; bills to add both were introduced in 2026.", "MIWATER"),
+ "jobs100": ("Missing context", "Large campuses can employ 100 or more, but typical permanent staffing is 30–50, and the '150 to 400 more' jobs are a multiplier estimate, not counted jobs.", "JOBSGJF"),
+ "bloom": ("Missing context", "'Without combustion' is accurate, but most Bloom servers run on natural gas. Bloom's own range is 679–833 lb of CO2 per MWh, about the US grid average. 'Renewable' applies only when they run on biogas or hydrogen; Oregon regulators said gas fuel cells would raise AWS's emissions there.", "BLOOM"),
+ "airtrunk": ("Missing context", "Dry closed-loop cooling avoids evaporative water use on site, but leaves out water used to generate the electricity. AirTrunk has not disclosed water use for its Sydney sites, some of which use adiabatic (evaporative) cooling.", "AIRTRUNK"),
+ "alberta": ("Missing context", "Alberta's 'bring your own generation' rule is now law (Data Centre Regulation, June 2026), and most self-supplied power will come from on-site gas plants. We found no rule placing data centres last for water.", "ALBERTA"),
  "counter": ("Counter-ad (not rated)", "Parody or advocacy against data center water use.", ""),
  "none": ("No energy/water claim", "", ""),
 }
@@ -131,6 +162,19 @@ C = {  # id: (appears_as, paid_for_by, funding_disclosed, audience_who, factchec
  "US-39": ("NetChoice", "NetChoice (Meta disclaimer)", "Partly: trade group named; member companies not shown in the ad", "National; South Dakota", "chinaspend", ""),
  "US-40": ("American Edge Project", "American Edge (Meta disclaimer; verified Google advertiser)", "Partly: group named; donors not disclosed, but CNBC reported Facebook (now Meta) gave $34M in 2020–21 after a $4M seed grant", "National", "jobsvague", ""),
  "US-41": ("Connects state groups", AC_PAID.replace("Google lists the payer as GMMB, Inc.", "Meta disclaimers name each state group"), AC_DISC, "Ohio, Indiana, Oregon, Pennsylvania, Virginia (Meta)", "jobsmodel", ""),
+ "US-42": ("Related Companies", "Related Companies / Related Digital (Meta disclaimers; verified Google advertisers)", "Yes: developer named; the end user (Oracle) is not named in the ads", "Michigan and national (Meta; YouTube)", "related300", ""),
+ "US-43": ("Springfield Sangamon Growth Alliance", "Springfield Sangamon Growth Alliance (Meta disclaimer on labeled ads)", "Partly: some ads unlabeled; CyrusOne named in the ads", "Sangamon County, Illinois", "zerocool", ""),
+ "US-44": ("Southwestern Illinois Coalition for Job Growth", "Southwestern Illinois Coalition for Job Growth (Meta disclaimer)", "Partly: coalition named, members not listed in the ads", "Metro East Illinois", "golf", ""),
+ "US-45": ("Future Ready Frederick", "Future Ready Frederick (Meta disclaimer; verified Google advertiser)", "Partly: group named, funders not disclosed", "Frederick County, Maryland", "vague", ""),
+ "US-46": ("Built Here Oklahoma", "Not shown: ads ran without an issue-ad label", "No", "Oklahoma", "oklaw", ""),
+ "US-47": ("NWI Data Facts", "Not shown on most ads (no issue-ad label)", "No", "Northwest Indiana", "jobsvague", ""),
+ "US-48": ("Power Connection, IBEW Local 364", "Not shown: ad ran without an issue-ad label", "Partly: union named", "DeKalb area, Illinois", "ibewtax", ""),
+ "OI-04": ("Edison Electric Institute", "EEI (Meta disclaimer on its 'We Stand For Energy' page; verified Google advertiser)", "Partly: page name differs from the payer", "Missouri (Meta); national (Google)", "eeispread", ""),
+ "OI-05": ("Bloom Energy", "Bloom Energy Corp (verified Google advertiser)", "Yes: company brand", "US Google search users", "bloom", ""),
+ "GL-13": ("AirTrunk", "Not shown: ad ran without an issue-ad label", "Yes: company brand", "Australia", "airtrunk", ""),
+ "GL-14": ("Government of Alberta", "YourAlberta (Government of Alberta) (Meta disclaimer)", "Yes: government", "Alberta", "alberta", ""),
+ "GL-15": ("Saskatchewan Party Caucus", "Saskatchewan Party Caucus (Meta disclaimer)", "Yes: party caucus", "Saskatchewan", "jobsvague", ""),
+ "GL-16": ("Counter-ads outside the US", "Friends of the Earth, Environment Centre NT, Greens MPs, NSNDP and others (Meta disclaimers)", "Yes: campaign disclaimers", "UK, Australia, Canada", "counter", ""),
  "GL-01": ("Polaroid", "Polaroid", "Yes: brand", "Coney Island, London Underground, South Korea", "counter", ""),
  "GL-02": ("Avaada Group", "Avaada Group", "Yes: brand", "Indian national TV", "vague", ""),
  "GL-03": ("Microsoft", "Microsoft", "Yes: brand", "Hyderabad launch audience", "zerocool", ""),
@@ -166,7 +210,7 @@ for l in laws:
 # ---------------------------------------------------------------- videos
 STATE_GROUP = {"Oregon Connects": "Oregon Connects", "Connected OH": "Connected Ohio", "ConnectedGA": "Connected Georgia", "IN Connects": "Indiana Connects",
                "NC Connects": "North Carolina Connects", "OR Connects": "Oregon Connects"}
-VID_FC = {"u-sHlkSxmsw": "notyet", "dyhMX1Gt3OA": "notyet", "Io7h_19LHWE": "nukeslogan", "ffDG_n1zcis": "nukeslogan", "oThjI485c3U": "nukeslogan", "4GwRC82WLzs": "neidemand",
+VID_FC = {"ShWj7Rlz8Pw": "ohiorates", "u-sHlkSxmsw": "notx", "dyhMX1Gt3OA": "notx", "XTsm24wKu_I": "golf", "9WjL1mNgkjY": "paycost", "-qFK2gX70J8": "notx", "jgoi3ilu0mo": "wmmstudy", "1i0K-Ejk6o8": "notx", "qPI8sUP1ebQ": "related300", "zKdCn0Y-MRQ": "notx", "aEfo8Wqg8fM": "notx", "a8A6vcZs194": "notx", "q7deAI_ooMI": "jobsvague", "-AOJOKtomfE": "related300", "ma3SBpoNmL8": "vague", "Z3RD_ho5Pt8": "jobsvague", "T0cNo2jAEu0": "vague", "jhvGXO2wIGM": "vague", "jytG-SMKgIo": "notx", "EqG8jj64flk": "jobsvague", "Io7h_19LHWE": "nukeslogan", "ffDG_n1zcis": "nukeslogan", "oThjI485c3U": "nukeslogan", "4GwRC82WLzs": "neidemand",
           "TsiNMFTxjF0": "ceglean", "1zTYeqE1VVc": "ceglean", "bj9dZxbgKu0": "none", "zu_AH_cVtLk": "none", "IwQCwpzG_GY": "txbuilt", "L-g5j8Dah_o": "orcosts", "F-lA8tM5ytg": "orcosts", "0JS96iU0k0o": "compasswater",
           "XNaTFb_tYXM": "compasswater", "Cwh4o5H-rtU": "compassrates", "IQqPY39Vpes": "none", "Li0ap16ReOQ": "none"}
 def vid_fc(v):
@@ -201,6 +245,9 @@ for v in vids:
         v["appears_as"] = ch; v["paid_for_by"] = C["US-34"][1]; v["funding_disclosed"] = "Yes: company brand"; v["audience_where"] = v["state"]
     elif ch in ("Google", "Grow with Google"):
         v["appears_as"] = "Google"; v["paid_for_by"] = "Google LLC (verified Google advertiser)"; v["funding_disclosed"] = "Yes: company brand"; v["audience_where"] = v["state"]
+    elif ch in ("Related Companies", "Future Ready Frederick") or ch.startswith("Project Jupiter"):
+        v["appears_as"] = ch.split(" (")[0]; v["paid_for_by"] = v.get("advertiser") or ch; v["audience_where"] = v["state"]
+        v["funding_disclosed"] = C["US-42"][2] if ch == "Related Companies" else (C["US-45"][2] if ch.startswith("Future") else "Partly: campaign name; STACK Infrastructure is the verified advertiser")
     elif ch == "Texans for Economic Liberty":
         v["appears_as"] = ch; v["paid_for_by"] = "Texans for Economic Liberty"; v["funding_disclosed"] = C["US-22"][2]; v["audience_where"] = "Texas"
     else:
@@ -228,6 +275,39 @@ M_FC.update({"1293519818383322": "gasreliable", "587902634262124": "gasreliable"
   "1160273426235067": "jobsvague", "1649238866660651": "jobsvague", "1651381009885730": "jobsvague", "2630526374051685": "jobsvague",
   "2206183790208701": "jobsmodel", "1470542390873188": "jobsmodel", "2124533385058477": "jobsmodel", "4266661140310707": "jobsmodel",
   "26196583389979722": "jobsmodel"})
+M_FC.update({"2354723418684252": "jobsvague", "1094460799605149": "jobsvague", "1097501102754397": "jobsvague", "2547339009120724": "jobsvague",
+  "1550680310423772": "jobsvague", "2862833327433517": "chinadata", "951757917360097": "chinadata", "2063664707611988": "chinadata", "1090651106914529": "chinadata",
+  "3386975414803944": "chinaspend", "1076917745072871": "jobsvague", "1600467024909948": "jobsvague", "1744760690072742": "jobsvague", "2182059112743694": "jobsvague",
+  "1742995237835583": "jobsvague", "1272138085104271": "jobsmodel", "825735950567625": "jobsmodel", "1333681062048725": "vague", "1303405985187214": "taxmodel",
+  "1059638200321804": "taxmodel", "2591474914616984": "taxmodel", "1760680921635866": "taxmodel", "994343963380862": "vague", "1089916010172765": "taxmodel",
+  "2104731653767779": "taxmodel", "1108461391525372": "taxmodel", "1639529273807981": "vague", "1107646538861160": "entergy", "1055641820404525": "vague",
+  "1791895145337885": "vague", "2250211189162737": "pledge", "1272981641648678": "related300", "2785184291821003": "related300", "1272495225070609": "vague",
+  "1982285979053620": "nodata", "862531826652827": "vague", "1351760670154303": "zerocool", "2160503341546394": "ssgatax", "2031856607408530": "golf",
+  "2076591636312533": "zerocool",  "1590508512808580": "vague", "1754136019201009": "oklaw", "2372537626883774": "oklaw",
+  "1146371605015712": "vague", "1401579901604310": "jobsvague", "28792759310375561": "ibewtax", "2358942264597308": "eeispread", "2236644027133626": "mosb4", "1120497433890697": "jobs100", "1615312140006989": "miwater", "1441711237344326": "coalbills", "1400627271367785": "vague", "1810827893585871": "airtrunk", "1601780274686250": "alberta", "1071752032382332": "jobsvague"})
+PAID6 = {"1730516554619571": "Earthjustice", "4301839766740670": "Earthjustice", "1511733583996891": "Earthjustice", "1641018310411783": "Natural Resources Defense Council",
+  "1048346007649229": "Montana Conservation Voters", "1400627271367785": "Williams Companies, Inc.", "1601780274686250": "YourAlberta (Government of Alberta)",
+  "1071752032382332": "Saskatchewan Party Caucus", "2172889726617169": "Friends of the Earth (EWNI)", "2012700756027978": "Environment Centre NT",
+  "1617839936414098": "Katherine Copsey", "3082818265257315": "NSNDP", "1790561518818248": "Olivia Chow for Mayor"}
+PAID5 = {"2354723418684252": "Texans for Economic Liberty", "1094460799605149": "Texans for Economic Liberty", "1097501102754397": "Texans for Economic Liberty",
+  "2547339009120724": "Texans for Economic Liberty", "1550680310423772": "Texans for Economic Liberty", "2862833327433517": "Texans for Economic Liberty",
+  "951757917360097": "Texans for Economic Liberty", "2063664707611988": "Texans for Economic Liberty", "1090651106914529": "Texans for Economic Liberty",
+  "3386975414803944": "NetChoice", "1076917745072871": "American Edge", "1600467024909948": "American Edge", "1744760690072742": "American Edge",
+  "2182059112743694": "American Edge", "1742995237835583": "American Edge", "1272138085104271": "Virginia Connects", "825735950567625": "Virginia Connects",
+  "1333681062048725": "Virginia Connects", "994343963380862": "Connected Georgia, a Project of America Connects", "1639529273807981": "North Carolina Connects",
+  "1791895145337885": "Wyoming Driven Innovation LLC", "1272981641648678": "Related Companies", "2785184291821003": "Related Companies",
+  "1272495225070609": "Related Companies", "1982285979053620": "Related Companies", "862531826652827": "Related Digital",
+  "2160503341546394": "Springfield Sangamon Growth Alliance", "2031856607408530": "Southwestern Illinois Coalition for Job Growth",
+  "2076591636312533": "Southwestern Illinois Coalition for Job Growth", "1120497433890697": "Southwestern Illinois Coalition for Job Growth",
+  "1590508512808580": "Future Ready Frederick", "1146371605015712": "NWI Data Facts", "2358942264597308": "EEI", "2236644027133626": "EEI",
+  "912252061727422": "Conservation Voters of Michigan PAC", "1638176964326002": "DAGA People's Lawyer Project NV", "1091363737137522": "Half Court Political Fund",
+  "1120874683614951": "Sierra Club Florida", "2060421341232960": "Friends of Tina Kotek", "2228839401023928": "Dr Theresa Brooks for State Senate",
+  "1787510099256086": "The Wisco Project PAC", "2784983821860945": "WorkMoney", "2026394025414584": "Texans for Henry Cuellar Congressional Campaign",
+  "1221109883504437": "Tiffany for Wisconsin", "1119207593924689": "Maine Conservation Voters Action Fund", "1815074113136528": "Citizens for Common Sense Michigan",
+  "1375768711074811": "Government That Works PAC", "28194997226868784": "Innovation Ohio", "2167025290881029": "Friends for Kathy Hochul",
+  "1751481502753963": "Utility Information Alliance"}
+UNL5 = {"1303405985187214", "1059638200321804", "2591474914616984", "1760680921635866", "1089916010172765", "2104731653767779", "1108461391525372",
+  "1107646538861160", "1055641820404525", "1351760670154303", "1754136019201009", "2372537626883774", "1401579901604310", "28792759310375561"}
 import ast
 _s = open(os.path.join(B, "sectors.py"), encoding="utf-8").read()
 M_PAID4 = ast.literal_eval(_s[_s.index("M_PAID4 = ") + 10:_s.index("}", _s.index("M_PAID4 = ")) + 1])
@@ -241,7 +321,15 @@ for m in meta:
         m["reach"] = f"{a['spend']} spent; {a['impressions']} impressions"
         for f in ("age_18_34", "age_35_54", "age_55_plus", "women", "men"): m[f] = a[f]
     else:
-        if i in M_PAID4:
+        if i in PAID6:
+            m["paid_for_by"] = PAID6[i] + " (Meta 'Paid for by' disclaimer)"
+        elif i == "1810827893585871":
+            m["paid_for_by"] = "AirTrunk: Not shown: ad ran without an issue-ad label, so Meta publishes no payer, spend or audience"
+        elif i in PAID5:
+            m["paid_for_by"] = PAID5[i] + " (Meta 'Paid for by' disclaimer)"
+        elif i in UNL5 or i == "2250211189162737":
+            m["paid_for_by"] = (m["appears_as"] + ": " if True else "") + ("Meta says this ad ran without a required disclaimer" if i == "2250211189162737" else "Not shown: ad ran without an issue-ad label, so Meta publishes no payer, spend or audience")
+        elif i in M_PAID4:
             m["paid_for_by"] = M_PAID4[i] + " (Meta 'Paid for by' disclaimer)"
         elif i in UNLABELED:
             m["paid_for_by"] = ("Compass Datacenters: " if "Compass" in s else "Entergy Louisiana: " if "Entergy" in s else "") + "Not shown: ad ran as 'Sponsored' without an issue-ad label, so Meta publishes no payer, spend or audience"
@@ -272,9 +360,21 @@ for m in meta:
 TYPE = {r["appears_as"]: r["sponsor_type"] for r in camp}
 NUC = {"Nuclear Energy Institute", "Nuclear Matters", "Constellation", "Clean Jobs for Pennsylvania"}
 def stype(g):
+    if g.startswith("Power Connection"): return "Labor union"
+    if g == "AirTrunk": return "Data center operator"
+    if g == "Government of Alberta": return "Government"
+    if g == "Saskatchewan Party Caucus": return "Political (supporting)"
     if "Connect" in g: return "Industry trade group"
     if g in NUC: return "Nuclear industry"
     if g == "American Energy Institute" or g.startswith("Brian Helton"): return "Coal and fossil advocacy"
+    if g == "Edison Electric Institute": return "Electric utility trade group"
+    if g in ("Related Companies", "Related Digital"): return "Data center developer"
+    if g in ("Springfield Sangamon Growth Alliance", "Southwestern Illinois Coalition for Job Growth", "Future Ready Frederick", "Built Here Oklahoma", "NWI Data Facts"): return "Local pro-data-center group"
+    if g.startswith("Power Connection"): return "Labor union"
+    if g == "AirTrunk": return "Data center operator"
+    if g == "Government of Alberta": return "Government"
+    if g == "Saskatchewan Party Caucus": return "Political (supporting)"
+    if g.startswith("Project Jupiter"): return "Data center developer"
     return TYPE.get(g, "")
 allrows = []
 for r in camp:
@@ -309,7 +409,7 @@ def themes(r):
 def category(r):
     st = (r.get("sponsor_type") or "").lower(); ct = (r.get("claim_type") or "").lower()
     if "nuclear industry" in st: return "Nuclear industry"
-    if st in ("gas industry", "coal and fossil advocacy", "electric utility"): return "Other industries riding the boom"
+    if st in ("gas industry", "coal and fossil advocacy", "electric utility", "electric utility trade group", "fuel cell maker"): return "Other industries riding the boom"
     if "counter" in ct or "counter" in st or "opposing" in st: return "Opposition and counter-ads"
     return "Data center industry and allies"
 for r in allrows:

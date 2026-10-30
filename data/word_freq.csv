@@ -360,17 +360,17 @@ OI-01,Campaign entry,Other industries riding the boom,Williams Companies,Energy,
 OI-01,Campaign entry,Other industries riding the boom,Williams Companies,Energy,Missing context,No,energy,1
 OI-01,Campaign entry,Other industries riding the boom,Williams Companies,Energy,Missing context,No,affordability,1
 OI-01,Campaign entry,Other industries riding the boom,Williams Companies,Energy,Missing context,No,superpower,1
-OI-02,Campaign entry,Other industries riding the boom,Coal and fossil-fuel advocates,Energy,Not yet checked,No,cannot,1
-OI-02,Campaign entry,Other industries riding the boom,Coal and fossil-fuel advocates,Energy,Not yet checked,No,win,1
-OI-02,Campaign entry,Other industries riding the boom,Coal and fossil-fuel advocates,Energy,Not yet checked,No,race,1
-OI-02,Campaign entry,Other industries riding the boom,Coal and fossil-fuel advocates,Energy,Not yet checked,No,energy,1
-OI-02,Campaign entry,Other industries riding the boom,Coal and fossil-fuel advocates,Energy,Not yet checked,No,works,1
-OI-02,Campaign entry,Other industries riding the boom,Coal and fossil-fuel advocates,Energy,Not yet checked,No,wind,1
-OI-02,Campaign entry,Other industries riding the boom,Coal and fossil-fuel advocates,Energy,Not yet checked,No,blows,1
-OI-02,Campaign entry,Other industries riding the boom,Coal and fossil-fuel advocates,Energy,Not yet checked,No,coal,1
-OI-02,Campaign entry,Other industries riding the boom,Coal and fossil-fuel advocates,Energy,Not yet checked,No,keeps,1
-OI-02,Campaign entry,Other industries riding the boom,Coal and fossil-fuel advocates,Energy,Not yet checked,No,utility,1
-OI-02,Campaign entry,Other industries riding the boom,Coal and fossil-fuel advocates,Energy,Not yet checked,No,bills,1
+OI-02,Campaign entry,Other industries riding the boom,Coal and fossil-fuel advocates,Energy,Disputed,No,cannot,1
+OI-02,Campaign entry,Other industries riding the boom,Coal and fossil-fuel advocates,Energy,Disputed,No,win,1
+OI-02,Campaign entry,Other industries riding the boom,Coal and fossil-fuel advocates,Energy,Disputed,No,race,1
+OI-02,Campaign entry,Other industries riding the boom,Coal and fossil-fuel advocates,Energy,Disputed,No,energy,1
+OI-02,Campaign entry,Other industries riding the boom,Coal and fossil-fuel advocates,Energy,Disputed,No,works,1
+OI-02,Campaign entry,Other industries riding the boom,Coal and fossil-fuel advocates,Energy,Disputed,No,wind,1
+OI-02,Campaign entry,Other industries riding the boom,Coal and fossil-fuel advocates,Energy,Disputed,No,blows,1
+OI-02,Campaign entry,Other industries riding the boom,Coal and fossil-fuel advocates,Energy,Disputed,No,coal,1
+OI-02,Campaign entry,Other industries riding the boom,Coal and fossil-fuel advocates,Energy,Disputed,No,keeps,1
+OI-02,Campaign entry,Other industries riding the boom,Coal and fossil-fuel advocates,Energy,Disputed,No,utility,1
+OI-02,Campaign entry,Other industries riding the boom,Coal and fossil-fuel advocates,Energy,Disputed,No,bills,1
 OI-03,Campaign entry,Other industries riding the boom,Entergy Louisiana,Energy,Missing context,No,creating,1
 OI-03,Campaign entry,Other industries riding the boom,Entergy Louisiana,Energy,Missing context,No,jobs,1
 OI-03,Campaign entry,Other industries riding the boom,Entergy Louisiana,Energy,Missing context,No,louisiana,1
@@ -413,6 +413,202 @@ US-41,Campaign entry,Data center industry and allies,Connects state groups,Jobs,
 US-41,Campaign entry,Data center industry and allies,Connects state groups,Jobs,Missing context,No,supports,1
 US-41,Campaign entry,Data center industry and allies,Connects state groups,Jobs,Missing context,No,additional,1
 US-41,Campaign entry,Data center industry and allies,Connects state groups,Jobs,Missing context,No,virginia,1
+US-42,Campaign entry,Data center industry and allies,Related Companies,Energy + Water,Missing context,No,pay,1
+US-42,Campaign entry,Data center industry and allies,Related Companies,Energy + Water,Missing context,No,energy,1
+US-42,Campaign entry,Data center industry and allies,Related Companies,Energy + Water,Missing context,No,costs,1
+US-42,Campaign entry,Data center industry and allies,Related Companies,Energy + Water,Missing context,No,bills,1
+US-42,Campaign entry,Data center industry and allies,Related Companies,Energy + Water,Missing context,No,grid,1
+US-42,Campaign entry,Data center industry and allies,Related Companies,Energy + Water,Missing context,No,investments,1
+US-42,Campaign entry,Data center industry and allies,Related Companies,Energy + Water,Missing context,No,result,1
+US-42,Campaign entry,Data center industry and allies,Related Companies,Energy + Water,Missing context,No,million,1
+US-42,Campaign entry,Data center industry and allies,Related Companies,Energy + Water,Missing context,No,annual,1
+US-42,Campaign entry,Data center industry and allies,Related Companies,Energy + Water,Missing context,No,savings,1
+US-42,Campaign entry,Data center industry and allies,Related Companies,Energy + Water,Missing context,No,customers,1
+US-42,Campaign entry,Data center industry and allies,Related Companies,Energy + Water,Missing context,No,closed-loop,1
+US-42,Campaign entry,Data center industry and allies,Related Companies,Energy + Water,Missing context,No,air,1
+US-42,Campaign entry,Data center industry and allies,Related Companies,Energy + Water,Missing context,No,cooling,1
+US-42,Campaign entry,Data center industry and allies,Related Companies,Energy + Water,Missing context,No,saves,1
+US-42,Campaign entry,Data center industry and allies,Related Companies,Energy + Water,Missing context,No,hundreds,1
+US-42,Campaign entry,Data center industry and allies,Related Companies,Energy + Water,Missing context,No,millions,1
+US-42,Campaign entry,Data center industry and allies,Related Companies,Energy + Water,Missing context,No,gallons,1
+US-42,Campaign entry,Data center industry and allies,Related Companies,Energy + Water,Missing context,No,water,1
+US-43,Campaign entry,Data center industry and allies,Springfield Sangamon Growth Alliance,Water + taxes,Missing context,No,water,2
+US-43,Campaign entry,Data center industry and allies,Springfield Sangamon Growth Alliance,Water + taxes,Missing context,No,use,1
+US-43,Campaign entry,Data center industry and allies,Springfield Sangamon Growth Alliance,Water + taxes,Missing context,No,comparable,1
+US-43,Campaign entry,Data center industry and allies,Springfield Sangamon Growth Alliance,Water + taxes,Missing context,No,homes,1
+US-43,Campaign entry,Data center industry and allies,Springfield Sangamon Growth Alliance,Water + taxes,Missing context,No,closed-loop,1
+US-43,Campaign entry,Data center industry and allies,Springfield Sangamon Growth Alliance,Water + taxes,Missing context,No,cooling,1
+US-43,Campaign entry,Data center industry and allies,Springfield Sangamon Growth Alliance,Water + taxes,Missing context,No,won't,1
+US-43,Campaign entry,Data center industry and allies,Springfield Sangamon Growth Alliance,Water + taxes,Missing context,No,require,1
+US-43,Campaign entry,Data center industry and allies,Springfield Sangamon Growth Alliance,Water + taxes,Missing context,No,ongoing,1
+US-43,Campaign entry,Data center industry and allies,Springfield Sangamon Growth Alliance,Water + taxes,Missing context,No,consumption,1
+US-43,Campaign entry,Data center industry and allies,Springfield Sangamon Growth Alliance,Water + taxes,Missing context,No,nearly,1
+US-43,Campaign entry,Data center industry and allies,Springfield Sangamon Growth Alliance,Water + taxes,Missing context,No,million,1
+US-43,Campaign entry,Data center industry and allies,Springfield Sangamon Growth Alliance,Water + taxes,Missing context,No,annually,1
+US-43,Campaign entry,Data center industry and allies,Springfield Sangamon Growth Alliance,Water + taxes,Missing context,No,local,1
+US-43,Campaign entry,Data center industry and allies,Springfield Sangamon Growth Alliance,Water + taxes,Missing context,No,property,1
+US-43,Campaign entry,Data center industry and allies,Springfield Sangamon Growth Alliance,Water + taxes,Missing context,No,taxes,1
+US-44,Campaign entry,Data center industry and allies,Southwestern Illinois Coalition for Job Growth,Water + jobs,Missing context,No,nationally,1
+US-44,Campaign entry,Data center industry and allies,Southwestern Illinois Coalition for Job Growth,Water + jobs,Missing context,No,golf,1
+US-44,Campaign entry,Data center industry and allies,Southwestern Illinois Coalition for Job Growth,Water + jobs,Missing context,No,courses,1
+US-44,Campaign entry,Data center industry and allies,Southwestern Illinois Coalition for Job Growth,Water + jobs,Missing context,No,use,2
+US-44,Campaign entry,Data center industry and allies,Southwestern Illinois Coalition for Job Growth,Water + jobs,Missing context,No,water,1
+US-44,Campaign entry,Data center industry and allies,Southwestern Illinois Coalition for Job Growth,Water + jobs,Missing context,No,site,1
+US-44,Campaign entry,Data center industry and allies,Southwestern Illinois Coalition for Job Growth,Water + jobs,Missing context,No,closed-loop,1
+US-44,Campaign entry,Data center industry and allies,Southwestern Illinois Coalition for Job Growth,Water + jobs,Missing context,No,recycling,1
+US-44,Campaign entry,Data center industry and allies,Southwestern Illinois Coalition for Job Growth,Water + jobs,Missing context,No,large,1
+US-44,Campaign entry,Data center industry and allies,Southwestern Illinois Coalition for Job Growth,Water + jobs,Missing context,No,employs,1
+US-44,Campaign entry,Data center industry and allies,Southwestern Illinois Coalition for Job Growth,Water + jobs,Missing context,No,full-time,1
+US-44,Campaign entry,Data center industry and allies,Southwestern Illinois Coalition for Job Growth,Water + jobs,Missing context,No,workers,1
+US-44,Campaign entry,Data center industry and allies,Southwestern Illinois Coalition for Job Growth,Water + jobs,Missing context,No,supports,1
+US-44,Campaign entry,Data center industry and allies,Southwestern Illinois Coalition for Job Growth,Water + jobs,Missing context,No,jobs,1
+US-45,Campaign entry,Data center industry and allies,Future Ready Frederick,Water + taxes,Not checkable,No,misinformation,1
+US-45,Campaign entry,Data center industry and allies,Future Ready Frederick,Water + taxes,Not checkable,No,spreading,1
+US-45,Campaign entry,Data center industry and allies,Future Ready Frederick,Water + taxes,Not checkable,No,use,1
+US-45,Campaign entry,Data center industry and allies,Future Ready Frederick,Water + taxes,Not checkable,No,advanced,1
+US-45,Campaign entry,Data center industry and allies,Future Ready Frederick,Water + taxes,Not checkable,No,technology,1
+US-45,Campaign entry,Data center industry and allies,Future Ready Frederick,Water + taxes,Not checkable,No,reduce,1
+US-45,Campaign entry,Data center industry and allies,Future Ready Frederick,Water + taxes,Not checkable,No,water,1
+US-45,Campaign entry,Data center industry and allies,Future Ready Frederick,Water + taxes,Not checkable,No,consumption,1
+US-45,Campaign entry,Data center industry and allies,Future Ready Frederick,Water + taxes,Not checkable,No,create,1
+US-45,Campaign entry,Data center industry and allies,Future Ready Frederick,Water + taxes,Not checkable,No,high,1
+US-45,Campaign entry,Data center industry and allies,Future Ready Frederick,Water + taxes,Not checkable,No,paying,1
+US-45,Campaign entry,Data center industry and allies,Future Ready Frederick,Water + taxes,Not checkable,No,local,2
+US-45,Campaign entry,Data center industry and allies,Future Ready Frederick,Water + taxes,Not checkable,No,jobs,1
+US-45,Campaign entry,Data center industry and allies,Future Ready Frederick,Water + taxes,Not checkable,No,generate,1
+US-45,Campaign entry,Data center industry and allies,Future Ready Frederick,Water + taxes,Not checkable,No,millions,1
+US-45,Campaign entry,Data center industry and allies,Future Ready Frederick,Water + taxes,Not checkable,No,tax,1
+US-45,Campaign entry,Data center industry and allies,Future Ready Frederick,Water + taxes,Not checkable,No,revenue,1
+US-46,Campaign entry,Data center industry and allies,Built Here Oklahoma,Energy (costs),Missing context,No,oklahomans,1
+US-46,Campaign entry,Data center industry and allies,Built Here Oklahoma,Energy (costs),Missing context,No,wanted,1
+US-46,Campaign entry,Data center industry and allies,Built Here Oklahoma,Energy (costs),Missing context,No,assurances,1
+US-46,Campaign entry,Data center industry and allies,Built Here Oklahoma,Energy (costs),Missing context,No,wouldn't,1
+US-46,Campaign entry,Data center industry and allies,Built Here Oklahoma,Energy (costs),Missing context,No,impact,1
+US-46,Campaign entry,Data center industry and allies,Built Here Oklahoma,Energy (costs),Missing context,No,ratepayers,1
+US-46,Campaign entry,Data center industry and allies,Built Here Oklahoma,Energy (costs),Missing context,No,law,1
+US-46,Campaign entry,Data center industry and allies,Built Here Oklahoma,Energy (costs),Missing context,No,ensures,1
+US-46,Campaign entry,Data center industry and allies,Built Here Oklahoma,Energy (costs),Missing context,No,won't,1
+US-47,Campaign entry,Data center industry and allies,NWI Data Facts,Jobs + taxes,Not checkable,No,northwest,1
+US-47,Campaign entry,Data center industry and allies,NWI Data Facts,Jobs + taxes,Not checkable,No,indiana,1
+US-47,Campaign entry,Data center industry and allies,NWI Data Facts,Jobs + taxes,Not checkable,No,create,1
+US-47,Campaign entry,Data center industry and allies,NWI Data Facts,Jobs + taxes,Not checkable,No,jobs,1
+US-47,Campaign entry,Data center industry and allies,NWI Data Facts,Jobs + taxes,Not checkable,No,next,1
+US-47,Campaign entry,Data center industry and allies,NWI Data Facts,Jobs + taxes,Not checkable,No,generation,1
+US-47,Campaign entry,Data center industry and allies,NWI Data Facts,Jobs + taxes,Not checkable,No,site,1
+US-47,Campaign entry,Data center industry and allies,NWI Data Facts,Jobs + taxes,Not checkable,No,generating,1
+US-47,Campaign entry,Data center industry and allies,NWI Data Facts,Jobs + taxes,Not checkable,No,millions,1
+US-47,Campaign entry,Data center industry and allies,NWI Data Facts,Jobs + taxes,Not checkable,No,fund,1
+US-47,Campaign entry,Data center industry and allies,NWI Data Facts,Jobs + taxes,Not checkable,No,housing,1
+US-47,Campaign entry,Data center industry and allies,NWI Data Facts,Jobs + taxes,Not checkable,No,projects,1
+US-48,Campaign entry,Data center industry and allies,"Power Connection, IBEW Local 364",Taxes,Missing context,No,dekalb,1
+US-48,Campaign entry,Data center industry and allies,"Power Connection, IBEW Local 364",Taxes,Missing context,No,paid,1
+US-48,Campaign entry,Data center industry and allies,"Power Connection, IBEW Local 364",Taxes,Missing context,No,million,1
+US-48,Campaign entry,Data center industry and allies,"Power Connection, IBEW Local 364",Taxes,Missing context,No,property,1
+US-48,Campaign entry,Data center industry and allies,"Power Connection, IBEW Local 364",Taxes,Missing context,No,taxes,1
+OI-04,Campaign entry,Other industries riding the boom,Edison Electric Institute,Energy (costs),Missing context,No,large,1
+OI-04,Campaign entry,Other industries riding the boom,Edison Electric Institute,Energy (costs),Missing context,No,help,1
+OI-04,Campaign entry,Other industries riding the boom,Edison Electric Institute,Energy (costs),Missing context,No,put,1
+OI-04,Campaign entry,Other industries riding the boom,Edison Electric Institute,Energy (costs),Missing context,No,downward,1
+OI-04,Campaign entry,Other industries riding the boom,Edison Electric Institute,Energy (costs),Missing context,No,pressure,1
+OI-04,Campaign entry,Other industries riding the boom,Edison Electric Institute,Energy (costs),Missing context,No,electric,1
+OI-04,Campaign entry,Other industries riding the boom,Edison Electric Institute,Energy (costs),Missing context,No,rates,1
+OI-04,Campaign entry,Other industries riding the boom,Edison Electric Institute,Energy (costs),Missing context,No,spreading,1
+OI-04,Campaign entry,Other industries riding the boom,Edison Electric Institute,Energy (costs),Missing context,No,system,1
+OI-04,Campaign entry,Other industries riding the boom,Edison Electric Institute,Energy (costs),Missing context,No,costs,1
+OI-04,Campaign entry,Other industries riding the boom,Edison Electric Institute,Energy (costs),Missing context,No,across,1
+OI-04,Campaign entry,Other industries riding the boom,Edison Electric Institute,Energy (costs),Missing context,No,broader,1
+OI-04,Campaign entry,Other industries riding the boom,Edison Electric Institute,Energy (costs),Missing context,No,base,1
+OI-04,Campaign entry,Other industries riding the boom,Edison Electric Institute,Energy (costs),Missing context,No,missouri,1
+OI-04,Campaign entry,Other industries riding the boom,Edison Electric Institute,Energy (costs),Missing context,No,law,1
+OI-04,Campaign entry,Other industries riding the boom,Edison Electric Institute,Energy (costs),Missing context,No,requires,1
+OI-04,Campaign entry,Other industries riding the boom,Edison Electric Institute,Energy (costs),Missing context,No,pay,1
+OI-04,Campaign entry,Other industries riding the boom,Edison Electric Institute,Energy (costs),Missing context,No,fair,1
+OI-04,Campaign entry,Other industries riding the boom,Edison Electric Institute,Energy (costs),Missing context,No,share,1
+OI-05,Campaign entry,Other industries riding the boom,Bloom Energy,Energy,Missing context,No,onsite,2
+OI-05,Campaign entry,Other industries riding the boom,Bloom Energy,Energy,Missing context,No,power,1
+OI-05,Campaign entry,Other industries riding the boom,Bloom Energy,Energy,Missing context,No,renewable,1
+OI-05,Campaign entry,Other industries riding the boom,Bloom Energy,Energy,Missing context,No,energy,1
+OI-05,Campaign entry,Other industries riding the boom,Bloom Energy,Energy,Missing context,No,microgrids,1
+OI-05,Campaign entry,Other industries riding the boom,Bloom Energy,Energy,Missing context,No,fuel,1
+OI-05,Campaign entry,Other industries riding the boom,Bloom Energy,Energy,Missing context,No,cells,1
+OI-05,Campaign entry,Other industries riding the boom,Bloom Energy,Energy,Missing context,No,lower,1
+OI-05,Campaign entry,Other industries riding the boom,Bloom Energy,Energy,Missing context,No,emissions,1
+OI-05,Campaign entry,Other industries riding the boom,Bloom Energy,Energy,Missing context,No,move,1
+OI-05,Campaign entry,Other industries riding the boom,Bloom Energy,Energy,Missing context,No,towards,1
+OI-05,Campaign entry,Other industries riding the boom,Bloom Energy,Energy,Missing context,No,zero,1
+OI-05,Campaign entry,Other industries riding the boom,Bloom Energy,Energy,Missing context,No,carbon,1
+OI-05,Campaign entry,Other industries riding the boom,Bloom Energy,Energy,Missing context,No,generate,1
+OI-05,Campaign entry,Other industries riding the boom,Bloom Energy,Energy,Missing context,No,electricity,1
+OI-05,Campaign entry,Other industries riding the boom,Bloom Energy,Energy,Missing context,No,without,1
+OI-05,Campaign entry,Other industries riding the boom,Bloom Energy,Energy,Missing context,No,combustion,1
+OI-05,Campaign entry,Other industries riding the boom,Bloom Energy,Energy,Missing context,No,using,1
+OI-05,Campaign entry,Other industries riding the boom,Bloom Energy,Energy,Missing context,No,natural,1
+OI-05,Campaign entry,Other industries riding the boom,Bloom Energy,Energy,Missing context,No,gas,1
+OI-05,Campaign entry,Other industries riding the boom,Bloom Energy,Energy,Missing context,No,biogas,1
+OI-05,Campaign entry,Other industries riding the boom,Bloom Energy,Energy,Missing context,No,hydrogen,1
+GL-13,Campaign entry,Data center industry and allies,AirTrunk,Water,Missing context,No,using,1
+GL-13,Campaign entry,Data center industry and allies,AirTrunk,Water,Missing context,No,dry,1
+GL-13,Campaign entry,Data center industry and allies,AirTrunk,Water,Missing context,No,air,1
+GL-13,Campaign entry,Data center industry and allies,AirTrunk,Water,Missing context,No,cooling,1
+GL-13,Campaign entry,Data center industry and allies,AirTrunk,Water,Missing context,No,closed,1
+GL-13,Campaign entry,Data center industry and allies,AirTrunk,Water,Missing context,No,loop,1
+GL-13,Campaign entry,Data center industry and allies,AirTrunk,Water,Missing context,No,added,1
+GL-13,Campaign entry,Data center industry and allies,AirTrunk,Water,Missing context,No,pressure,1
+GL-13,Campaign entry,Data center industry and allies,AirTrunk,Water,Missing context,No,local,1
+GL-13,Campaign entry,Data center industry and allies,AirTrunk,Water,Missing context,No,water,1
+GL-13,Campaign entry,Data center industry and allies,AirTrunk,Water,Missing context,No,resources,1
+GL-14,Campaign entry,Data center industry and allies,Government of Alberta,Energy + Water,Missing context,No,approach,1
+GL-14,Campaign entry,Data center industry and allies,Government of Alberta,Energy + Water,Missing context,No,limits,1
+GL-14,Campaign entry,Data center industry and allies,Government of Alberta,Energy + Water,Missing context,No,centres,1
+GL-14,Campaign entry,Data center industry and allies,Government of Alberta,Energy + Water,Missing context,No,industrial,1
+GL-14,Campaign entry,Data center industry and allies,Government of Alberta,Energy + Water,Missing context,No,zones,1
+GL-14,Campaign entry,Data center industry and allies,Government of Alberta,Energy + Water,Missing context,No,puts,1
+GL-14,Campaign entry,Data center industry and allies,Government of Alberta,Energy + Water,Missing context,No,last,1
+GL-14,Campaign entry,Data center industry and allies,Government of Alberta,Energy + Water,Missing context,No,water,1
+GL-14,Campaign entry,Data center industry and allies,Government of Alberta,Energy + Water,Missing context,No,supply,1
+GL-14,Campaign entry,Data center industry and allies,Government of Alberta,Energy + Water,Missing context,No,power,1
+GL-15,Campaign entry,Data center industry and allies,Saskatchewan Party Caucus,National security,Not checkable,No,centre,1
+GL-15,Campaign entry,Data center industry and allies,Saskatchewan Party Caucus,National security,Not checkable,No,near,1
+GL-15,Campaign entry,Data center industry and allies,Saskatchewan Party Caucus,National security,Not checkable,No,regina,1
+GL-15,Campaign entry,Data center industry and allies,Saskatchewan Party Caucus,National security,Not checkable,No,create,1
+GL-15,Campaign entry,Data center industry and allies,Saskatchewan Party Caucus,National security,Not checkable,No,thousands,1
+GL-15,Campaign entry,Data center industry and allies,Saskatchewan Party Caucus,National security,Not checkable,No,good,1
+GL-15,Campaign entry,Data center industry and allies,Saskatchewan Party Caucus,National security,Not checkable,No,paying,1
+GL-15,Campaign entry,Data center industry and allies,Saskatchewan Party Caucus,National security,Not checkable,No,jobs,1
+GL-15,Campaign entry,Data center industry and allies,Saskatchewan Party Caucus,National security,Not checkable,No,building,1
+GL-15,Campaign entry,Data center industry and allies,Saskatchewan Party Caucus,National security,Not checkable,No,protect,1
+GL-15,Campaign entry,Data center industry and allies,Saskatchewan Party Caucus,National security,Not checkable,No,sovereignty,1
+GL-16,Campaign entry,Opposition and counter-ads,Counter-ads outside the US,Water + energy (counter-claim),Counter-ad (not rated),No,centres,1
+GL-16,Campaign entry,Opposition and counter-ads,Counter-ads outside the US,Water + energy (counter-claim),Counter-ad (not rated),No,competing,1
+GL-16,Campaign entry,Opposition and counter-ads,Counter-ads outside the US,Water + energy (counter-claim),Counter-ad (not rated),No,communities,1
+GL-16,Campaign entry,Opposition and counter-ads,Counter-ads outside the US,Water + energy (counter-claim),Counter-ad (not rated),No,limited,1
+GL-16,Campaign entry,Opposition and counter-ads,Counter-ads outside the US,Water + energy (counter-claim),Counter-ad (not rated),No,water,2
+GL-16,Campaign entry,Opposition and counter-ads,Counter-ads outside the US,Water + energy (counter-claim),Counter-ad (not rated),No,energy,1
+GL-16,Campaign entry,Opposition and counter-ads,Counter-ads outside the US,Water + energy (counter-claim),Counter-ad (not rated),No,friends,1
+GL-16,Campaign entry,Opposition and counter-ads,Counter-ads outside the US,Water + energy (counter-claim),Counter-ad (not rated),No,earth,1
+GL-16,Campaign entry,Opposition and counter-ads,Counter-ads outside the US,Water + energy (counter-claim),Counter-ad (not rated),No,guzzle,1
+GL-16,Campaign entry,Opposition and counter-ads,Counter-ads outside the US,Water + energy (counter-claim),Counter-ad (not rated),No,environment,1
+GL-16,Campaign entry,Opposition and counter-ads,Counter-ads outside the US,Water + energy (counter-claim),Counter-ad (not rated),No,centre,1
+GL-16,Campaign entry,Opposition and counter-ads,Counter-ads outside the US,Water + energy (counter-claim),Counter-ad (not rated),No,australia,1
+GL-16,Campaign entry,Opposition and counter-ads,Counter-ads outside the US,Water + energy (counter-claim),Counter-ad (not rated),No,big,1
+GL-16,Campaign entry,Opposition and counter-ads,Counter-ads outside the US,Water + energy (counter-claim),Counter-ad (not rated),No,power,1
+GL-16,Campaign entry,Opposition and counter-ads,Counter-ads outside the US,Water + energy (counter-claim),Counter-ad (not rated),No,bill,1
+GL-16,Campaign entry,Opposition and counter-ads,Counter-ads outside the US,Water + energy (counter-claim),Counter-ad (not rated),No,hikes,1
+GL-16,Campaign entry,Opposition and counter-ads,Counter-ads outside the US,Water + energy (counter-claim),Counter-ad (not rated),No,nova,1
+GL-16,Campaign entry,Opposition and counter-ads,Counter-ads outside the US,Water + energy (counter-claim),Counter-ad (not rated),No,scotia,1
+GL-16,Campaign entry,Opposition and counter-ads,Counter-ads outside the US,Water + energy (counter-claim),Counter-ad (not rated),No,ndp,1
+jgoi3ilu0mo,YouTube ad,Data center industry and allies,Connected Georgia,Energy,Missing context,No,independent,1
+jgoi3ilu0mo,YouTube ad,Data center industry and allies,Connected Georgia,Energy,Missing context,No,study,1
+jgoi3ilu0mo,YouTube ad,Data center industry and allies,Connected Georgia,Energy,Missing context,No,confirmed,1
+jgoi3ilu0mo,YouTube ad,Data center industry and allies,Connected Georgia,Energy,Missing context,No,across,1
+jgoi3ilu0mo,YouTube ad,Data center industry and allies,Connected Georgia,Energy,Missing context,No,nation,1
+jgoi3ilu0mo,YouTube ad,Data center industry and allies,Connected Georgia,Energy,Missing context,No,paying,1
+jgoi3ilu0mo,YouTube ad,Data center industry and allies,Connected Georgia,Energy,Missing context,No,energy,1
+jgoi3ilu0mo,YouTube ad,Data center industry and allies,Connected Georgia,Energy,Missing context,No,costs,1
+jgoi3ilu0mo,YouTube ad,Data center industry and allies,Connected Georgia,Energy,Missing context,No,help,1
+jgoi3ilu0mo,YouTube ad,Data center industry and allies,Connected Georgia,Energy,Missing context,No,lower,1
+jgoi3ilu0mo,YouTube ad,Data center industry and allies,Connected Georgia,Energy,Missing context,No,rates,1
+jgoi3ilu0mo,YouTube ad,Data center industry and allies,Connected Georgia,Energy,Missing context,No,everyone,1
 Ns1QMFCUtK8,YouTube ad,Data center industry and allies,Connected Georgia,Energy,Missing context,No,georgia,3
 Ns1QMFCUtK8,YouTube ad,Data center industry and allies,Connected Georgia,Energy,Missing context,No,challenge,1
 Ns1QMFCUtK8,YouTube ad,Data center industry and allies,Connected Georgia,Energy,Missing context,No,roll,1
@@ -680,6 +876,47 @@ aSO_L69uRjg,YouTube ad,Data center industry and allies,Louisiana Connects,Water,
 aSO_L69uRjg,YouTube ad,Data center industry and allies,Louisiana Connects,Water,No public data,No,billion,1
 aSO_L69uRjg,YouTube ad,Data center industry and allies,Louisiana Connects,Water,No public data,No,building,1
 aSO_L69uRjg,YouTube ad,Data center industry and allies,Louisiana Connects,Water,No public data,No,responsibly,1
+Z3RD_ho5Pt8,YouTube ad,Data center industry and allies,Future Ready Frederick,Jobs,Not checkable,No,title,1
+Z3RD_ho5Pt8,YouTube ad,Data center industry and allies,Future Ready Frederick,Jobs,Not checkable,No,claim,1
+Z3RD_ho5Pt8,YouTube ad,Data center industry and allies,Future Ready Frederick,Jobs,Not checkable,No,high,1
+Z3RD_ho5Pt8,YouTube ad,Data center industry and allies,Future Ready Frederick,Jobs,Not checkable,No,paying,1
+Z3RD_ho5Pt8,YouTube ad,Data center industry and allies,Future Ready Frederick,Jobs,Not checkable,No,jobs,1
+Z3RD_ho5Pt8,YouTube ad,Data center industry and allies,Future Ready Frederick,Jobs,Not checkable,No,tax,1
+Z3RD_ho5Pt8,YouTube ad,Data center industry and allies,Future Ready Frederick,Jobs,Not checkable,No,relief,1
+ma3SBpoNmL8,YouTube ad,Data center industry and allies,Future Ready Frederick,Taxes,Not checkable,No,title,1
+ma3SBpoNmL8,YouTube ad,Data center industry and allies,Future Ready Frederick,Taxes,Not checkable,No,claim,1
+ma3SBpoNmL8,YouTube ad,Data center industry and allies,Future Ready Frederick,Taxes,Not checkable,No,help,1
+ma3SBpoNmL8,YouTube ad,Data center industry and allies,Future Ready Frederick,Taxes,Not checkable,No,lower,1
+ma3SBpoNmL8,YouTube ad,Data center industry and allies,Future Ready Frederick,Taxes,Not checkable,No,taxes,1
+qPI8sUP1ebQ,YouTube ad,Data center industry and allies,Related Companies,Energy + Water,Missing context,No,description,1
+qPI8sUP1ebQ,YouTube ad,Data center industry and allies,Related Companies,Energy + Water,Missing context,No,paying,1
+qPI8sUP1ebQ,YouTube ad,Data center industry and allies,Related Companies,Energy + Water,Missing context,No,energy,1
+qPI8sUP1ebQ,YouTube ad,Data center industry and allies,Related Companies,Energy + Water,Missing context,No,infrastructure,1
+qPI8sUP1ebQ,YouTube ad,Data center industry and allies,Related Companies,Energy + Water,Missing context,No,protecting,1
+qPI8sUP1ebQ,YouTube ad,Data center industry and allies,Related Companies,Energy + Water,Missing context,No,water,1
+-AOJOKtomfE,YouTube ad,Data center industry and allies,Related Companies,Energy + Water,Missing context,No,we'll,1
+-AOJOKtomfE,YouTube ad,Data center industry and allies,Related Companies,Energy + Water,Missing context,No,pay,1
+-AOJOKtomfE,YouTube ad,Data center industry and allies,Related Companies,Energy + Water,Missing context,No,electricity,1
+-AOJOKtomfE,YouTube ad,Data center industry and allies,Related Companies,Energy + Water,Missing context,No,shift,1
+-AOJOKtomfE,YouTube ad,Data center industry and allies,Related Companies,Energy + Water,Missing context,No,costs,1
+-AOJOKtomfE,YouTube ad,Data center industry and allies,Related Companies,Energy + Water,Missing context,No,onto,1
+-AOJOKtomfE,YouTube ad,Data center industry and allies,Related Companies,Energy + Water,Missing context,No,michigan,1
+-AOJOKtomfE,YouTube ad,Data center industry and allies,Related Companies,Energy + Water,Missing context,No,families,1
+-AOJOKtomfE,YouTube ad,Data center industry and allies,Related Companies,Energy + Water,Missing context,No,closed-loop,1
+-AOJOKtomfE,YouTube ad,Data center industry and allies,Related Companies,Energy + Water,Missing context,No,air,1
+-AOJOKtomfE,YouTube ad,Data center industry and allies,Related Companies,Energy + Water,Missing context,No,cooling,1
+-AOJOKtomfE,YouTube ad,Data center industry and allies,Related Companies,Energy + Water,Missing context,No,uses,1
+-AOJOKtomfE,YouTube ad,Data center industry and allies,Related Companies,Energy + Water,Missing context,No,less,1
+-AOJOKtomfE,YouTube ad,Data center industry and allies,Related Companies,Energy + Water,Missing context,No,water,1
+-AOJOKtomfE,YouTube ad,Data center industry and allies,Related Companies,Energy + Water,Missing context,No,take,1
+-AOJOKtomfE,YouTube ad,Data center industry and allies,Related Companies,Energy + Water,Missing context,No,farm,1
+-AOJOKtomfE,YouTube ad,Data center industry and allies,Related Companies,Energy + Water,Missing context,No,land,1
+9WjL1mNgkjY,YouTube ad,Data center industry and allies,North Carolina Connects,Energy,Missing context,No,description,1
+9WjL1mNgkjY,YouTube ad,Data center industry and allies,North Carolina Connects,Energy,Missing context,No,north,2
+9WjL1mNgkjY,YouTube ad,Data center industry and allies,North Carolina Connects,Energy,Missing context,No,carolina,2
+9WjL1mNgkjY,YouTube ad,Data center industry and allies,North Carolina Connects,Energy,Missing context,No,paying,1
+9WjL1mNgkjY,YouTube ad,Data center industry and allies,North Carolina Connects,Energy,Missing context,No,cost,1
+9WjL1mNgkjY,YouTube ad,Data center industry and allies,North Carolina Connects,Energy,Missing context,No,families,1
 3QroEOG6DdM,YouTube ad,Data center industry and allies,North Carolina Connects,Energy,Missing context,No,know,1
 3QroEOG6DdM,YouTube ad,Data center industry and allies,North Carolina Connects,Energy,Missing context,No,paying,1
 3QroEOG6DdM,YouTube ad,Data center industry and allies,North Carolina Connects,Energy,Missing context,No,watt,1
@@ -739,13 +976,13 @@ v72N9D7w4NE,YouTube ad,Data center industry and allies,North Carolina Connects,W
 v72N9D7w4NE,YouTube ad,Data center industry and allies,North Carolina Connects,Water,No public data,No,belongs,1
 v72N9D7w4NE,YouTube ad,Data center industry and allies,North Carolina Connects,Water,No public data,No,building,1
 v72N9D7w4NE,YouTube ad,Data center industry and allies,North Carolina Connects,Water,No public data,No,responsibly,1
-ShWj7Rlz8Pw,YouTube ad,Data center industry and allies,Build American AI,Energy,Not yet checked,No,ohio,1
-ShWj7Rlz8Pw,YouTube ad,Data center industry and allies,Build American AI,Energy,Not yet checked,No,creating,1
-ShWj7Rlz8Pw,YouTube ad,Data center industry and allies,Build American AI,Energy,Not yet checked,No,jobs,1
-ShWj7Rlz8Pw,YouTube ad,Data center industry and allies,Build American AI,Energy,Not yet checked,No,investment,1
-ShWj7Rlz8Pw,YouTube ad,Data center industry and allies,Build American AI,Energy,Not yet checked,No,decreasing,1
-ShWj7Rlz8Pw,YouTube ad,Data center industry and allies,Build American AI,Energy,Not yet checked,No,energy,1
-ShWj7Rlz8Pw,YouTube ad,Data center industry and allies,Build American AI,Energy,Not yet checked,No,rates,1
+ShWj7Rlz8Pw,YouTube ad,Data center industry and allies,Build American AI,Energy,Disputed,No,ohio,1
+ShWj7Rlz8Pw,YouTube ad,Data center industry and allies,Build American AI,Energy,Disputed,No,creating,1
+ShWj7Rlz8Pw,YouTube ad,Data center industry and allies,Build American AI,Energy,Disputed,No,jobs,1
+ShWj7Rlz8Pw,YouTube ad,Data center industry and allies,Build American AI,Energy,Disputed,No,investment,1
+ShWj7Rlz8Pw,YouTube ad,Data center industry and allies,Build American AI,Energy,Disputed,No,decreasing,1
+ShWj7Rlz8Pw,YouTube ad,Data center industry and allies,Build American AI,Energy,Disputed,No,energy,1
+ShWj7Rlz8Pw,YouTube ad,Data center industry and allies,Build American AI,Energy,Disputed,No,rates,1
 X-S4py1uM3M,YouTube ad,Data center industry and allies,Build American AI,Energy,Not checkable,No,use,1
 X-S4py1uM3M,YouTube ad,Data center industry and allies,Build American AI,Energy,Not checkable,No,power,1
 X-S4py1uM3M,YouTube ad,Data center industry and allies,Build American AI,Energy,Not checkable,No,lot,1
@@ -1260,6 +1497,19 @@ Cwh4o5H-rtU,YouTube ad,Data center industry and allies,Compass Datacenters,Energ
 Cwh4o5H-rtU,YouTube ad,Data center industry and allies,Compass Datacenters,Energy,No public data,No,version,1
 Cwh4o5H-rtU,YouTube ad,Data center industry and allies,Compass Datacenters,Energy,No public data,No,compass,1
 Cwh4o5H-rtU,YouTube ad,Data center industry and allies,Compass Datacenters,Energy,No public data,No,pays,1
+q7deAI_ooMI,YouTube ad,Data center industry and allies,Related Companies,Energy + Water,Not checkable,No,materials,1
+q7deAI_ooMI,YouTube ad,Data center industry and allies,Related Companies,Energy + Water,Not checkable,No,across,1
+q7deAI_ooMI,YouTube ad,Data center industry and allies,Related Companies,Energy + Water,Not checkable,No,country,1
+q7deAI_ooMI,YouTube ad,Data center industry and allies,Related Companies,Energy + Water,Not checkable,No,re-energizing,1
+q7deAI_ooMI,YouTube ad,Data center industry and allies,Related Companies,Energy + Water,Not checkable,No,manufacturing,1
+q7deAI_ooMI,YouTube ad,Data center industry and allies,Related Companies,Energy + Water,Not checkable,No,creating,1
+q7deAI_ooMI,YouTube ad,Data center industry and allies,Related Companies,Energy + Water,Not checkable,No,thousands,1
+q7deAI_ooMI,YouTube ad,Data center industry and allies,Related Companies,Energy + Water,Not checkable,No,american,1
+q7deAI_ooMI,YouTube ad,Data center industry and allies,Related Companies,Energy + Water,Not checkable,No,jobs,1
+EqG8jj64flk,YouTube ad,Data center industry and allies,Compass Datacenters,Jobs,Not checkable,No,agree,1
+EqG8jj64flk,YouTube ad,Data center industry and allies,Compass Datacenters,Jobs,Not checkable,No,jobs,1
+EqG8jj64flk,YouTube ad,Data center industry and allies,Compass Datacenters,Jobs,Not checkable,No,spot,1
+EqG8jj64flk,YouTube ad,Data center industry and allies,Compass Datacenters,Jobs,Not checkable,No,captions,1
 XNaTFb_tYXM,YouTube ad,Data center industry and allies,Compass Datacenters,Water,No public data,No,agree,1
 XNaTFb_tYXM,YouTube ad,Data center industry and allies,Compass Datacenters,Water,No public data,No,water,2
 XNaTFb_tYXM,YouTube ad,Data center industry and allies,Compass Datacenters,Water,No public data,No,reel,1
@@ -1527,13 +1777,13 @@ HpDH_znD6DE,YouTube ad,Data center industry and allies,Virginia Connects,Water,M
 982172037575661,Meta ad,Data center industry and allies,Michigan for Responsible Data Centers,Energy (costs),Missing context,No,rules,1
 982172037575661,Meta ad,Data center industry and allies,Michigan for Responsible Data Centers,Energy (costs),Missing context,No,require,1
 982172037575661,Meta ad,Data center industry and allies,Michigan for Responsible Data Centers,Energy (costs),Missing context,No,full,1
-1615312140006989,Meta ad,Data center industry and allies,Michigan for Responsible Data Centers,Water,Not yet checked,No,michigan,1
-1615312140006989,Meta ad,Data center industry and allies,Michigan for Responsible Data Centers,Water,Not yet checked,No,water,1
-1615312140006989,Meta ad,Data center industry and allies,Michigan for Responsible Data Centers,Water,Not yet checked,No,usage,1
-1615312140006989,Meta ad,Data center industry and allies,Michigan for Responsible Data Centers,Water,Not yet checked,No,regulations,1
-1615312140006989,Meta ad,Data center industry and allies,Michigan for Responsible Data Centers,Water,Not yet checked,No,place,1
-1615312140006989,Meta ad,Data center industry and allies,Michigan for Responsible Data Centers,Water,Not yet checked,No,mifordatacenters,1
-1615312140006989,Meta ad,Data center industry and allies,Michigan for Responsible Data Centers,Water,Not yet checked,No,org,1
+1615312140006989,Meta ad,Data center industry and allies,Michigan for Responsible Data Centers,Water,Missing context,No,michigan,1
+1615312140006989,Meta ad,Data center industry and allies,Michigan for Responsible Data Centers,Water,Missing context,No,water,1
+1615312140006989,Meta ad,Data center industry and allies,Michigan for Responsible Data Centers,Water,Missing context,No,usage,1
+1615312140006989,Meta ad,Data center industry and allies,Michigan for Responsible Data Centers,Water,Missing context,No,regulations,1
+1615312140006989,Meta ad,Data center industry and allies,Michigan for Responsible Data Centers,Water,Missing context,No,place,1
+1615312140006989,Meta ad,Data center industry and allies,Michigan for Responsible Data Centers,Water,Missing context,No,mifordatacenters,1
+1615312140006989,Meta ad,Data center industry and allies,Michigan for Responsible Data Centers,Water,Missing context,No,org,1
 1666489028820952,Meta ad,Data center industry and allies,Michigan for Responsible Data Centers,Energy (costs),Missing context,No,michigan,1
 1666489028820952,Meta ad,Data center industry and allies,Michigan for Responsible Data Centers,Energy (costs),Missing context,No,energy,2
 1666489028820952,Meta ad,Data center industry and allies,Michigan for Responsible Data Centers,Energy (costs),Missing context,No,regulations,1
@@ -1541,9 +1791,16 @@ HpDH_znD6DE,YouTube ad,Data center industry and allies,Virginia Connects,Water,M
 1666489028820952,Meta ad,Data center industry and allies,Michigan for Responsible Data Centers,Energy (costs),Missing context,No,explore,1
 1666489028820952,Meta ad,Data center industry and allies,Michigan for Responsible Data Centers,Energy (costs),Missing context,No,bills,1
 1666489028820952,Meta ad,Data center industry and allies,Michigan for Responsible Data Centers,Energy (costs),Missing context,No,protected,1
+1086975924010981,Meta ad,Data center industry and allies,Fight Back Fund,Water + costs,Not checkable,No,means,1
+1086975924010981,Meta ad,Data center industry and allies,Fight Back Fund,Water + costs,Not checkable,No,fewer,1
+1086975924010981,Meta ad,Data center industry and allies,Fight Back Fund,Water + costs,Not checkable,No,union,1
+1086975924010981,Meta ad,Data center industry and allies,Fight Back Fund,Water + costs,Not checkable,No,jobs,1
+1086975924010981,Meta ad,Data center industry and allies,Fight Back Fund,Water + costs,Not checkable,No,less,1
+1086975924010981,Meta ad,Data center industry and allies,Fight Back Fund,Water + costs,Not checkable,No,tax,1
+1086975924010981,Meta ad,Data center industry and allies,Fight Back Fund,Water + costs,Not checkable,No,revenue,1
 1086975924010981,Meta ad,Data center industry and allies,Fight Back Fund,Water + costs,Not checkable,No,illinois,1
 1086975924010981,Meta ad,Data center industry and allies,Fight Back Fund,Water + costs,Not checkable,No,towns,1
-1086975924010981,Meta ad,Data center industry and allies,Fight Back Fund,Water + costs,Not checkable,No,working,1
+1086975924010981,Meta ad,Data center industry and allies,Fight Back Fund,Water + costs,Not checkable,No,work,1
 1086975924010981,Meta ad,Data center industry and allies,Fight Back Fund,Water + costs,Not checkable,No,water,1
 1086975924010981,Meta ad,Data center industry and allies,Fight Back Fund,Water + costs,Not checkable,No,safe,1
 1086975924010981,Meta ad,Data center industry and allies,Fight Back Fund,Water + costs,Not checkable,No,usage,1
@@ -1630,13 +1887,20 @@ HpDH_znD6DE,YouTube ad,Data center industry and allies,Virginia Connects,Water,M
 1927445971757558,Meta ad,Data center industry and allies,Compass Datacenters,None (jobs),No energy/water claim,No,create,1
 1927445971757558,Meta ad,Data center industry and allies,Compass Datacenters,None (jobs),No energy/water claim,No,lasting,1
 1927445971757558,Meta ad,Data center industry and allies,Compass Datacenters,None (jobs),No energy/water claim,No,careers,1
-1821241565897458,Meta ad,Data center industry and allies,Wyoming Driven Innovation,Energy,Not checkable,No,need,1
-1821241565897458,Meta ad,Data center industry and allies,Wyoming Driven Innovation,Energy,Not checkable,No,reliable,1
-1821241565897458,Meta ad,Data center industry and allies,Wyoming Driven Innovation,Energy,Not checkable,No,energy,1
-1821241565897458,Meta ad,Data center industry and allies,Wyoming Driven Innovation,Energy,Not checkable,No,wyoming,1
+1821241565897458,Meta ad,Data center industry and allies,Wyoming Driven Innovation,Energy,Not checkable,No,wyoming,2
 1821241565897458,Meta ad,Data center industry and allies,Wyoming Driven Innovation,Energy,Not checkable,No,powered,1
 1821241565897458,Meta ad,Data center industry and allies,Wyoming Driven Innovation,Energy,Not checkable,No,america,1
 1821241565897458,Meta ad,Data center industry and allies,Wyoming Driven Innovation,Energy,Not checkable,No,generations,1
+1821241565897458,Meta ad,Data center industry and allies,Wyoming Driven Innovation,Energy,Not checkable,No,cloud,1
+1821241565897458,Meta ad,Data center industry and allies,Wyoming Driven Innovation,Energy,Not checkable,No,computing,1
+1821241565897458,Meta ad,Data center industry and allies,Wyoming Driven Innovation,Energy,Not checkable,No,require,1
+1821241565897458,Meta ad,Data center industry and allies,Wyoming Driven Innovation,Energy,Not checkable,No,reliable,1
+1821241565897458,Meta ad,Data center industry and allies,Wyoming Driven Innovation,Energy,Not checkable,No,energy,1
+1821241565897458,Meta ad,Data center industry and allies,Wyoming Driven Innovation,Energy,Not checkable,No,ready,1
+1821241565897458,Meta ad,Data center industry and allies,Wyoming Driven Innovation,Energy,Not checkable,No,help,1
+1821241565897458,Meta ad,Data center industry and allies,Wyoming Driven Innovation,Energy,Not checkable,No,power,1
+1821241565897458,Meta ad,Data center industry and allies,Wyoming Driven Innovation,Energy,Not checkable,No,comes,1
+1821241565897458,Meta ad,Data center industry and allies,Wyoming Driven Innovation,Energy,Not checkable,No,next,1
 1118435840747957,Meta ad,Opposition and counter-ads,Friends of Tina Kotek,Energy (counter-claim),Counter-ad (not rated),No,power,1
 1118435840747957,Meta ad,Opposition and counter-ads,Friends of Tina Kotek,Energy (counter-claim),Counter-ad (not rated),No,act,1
 1118435840747957,Meta ad,Opposition and counter-ads,Friends of Tina Kotek,Energy (counter-claim),Counter-ad (not rated),No,stops,1
@@ -1768,14 +2032,14 @@ HpDH_znD6DE,YouTube ad,Data center industry and allies,Virginia Connects,Water,M
 703723472302769,Meta ad,Other industries riding the boom,American Energy Institute,Energy,Not checkable,No,natural,1
 703723472302769,Meta ad,Other industries riding the boom,American Energy Institute,Energy,Not checkable,No,gas,1
 703723472302769,Meta ad,Other industries riding the boom,American Energy Institute,Energy,Not checkable,No,nuclear,1
-1441711237344326,Meta ad,Other industries riding the boom,Brian Helton for West Virginia,Energy,Not yet checked,No,coal,2
-1441711237344326,Meta ad,Other industries riding the boom,Brian Helton for West Virginia,Energy,Not yet checked,No,keeps,1
-1441711237344326,Meta ad,Other industries riding the boom,Brian Helton for West Virginia,Energy,Not yet checked,No,utility,1
-1441711237344326,Meta ad,Other industries riding the boom,Brian Helton for West Virginia,Energy,Not yet checked,No,bills,1
-1441711237344326,Meta ad,Other industries riding the boom,Brian Helton for West Virginia,Energy,Not yet checked,No,calls,1
-1441711237344326,Meta ad,Other industries riding the boom,Brian Helton for West Virginia,Energy,Not yet checked,No,fire,1
-1441711237344326,Meta ad,Other industries riding the boom,Brian Helton for West Virginia,Energy,Not yet checked,No,plants,1
-1441711237344326,Meta ad,Other industries riding the boom,Brian Helton for West Virginia,Energy,Not yet checked,No,back,1
+1441711237344326,Meta ad,Other industries riding the boom,Brian Helton for West Virginia,Energy,Disputed,No,coal,2
+1441711237344326,Meta ad,Other industries riding the boom,Brian Helton for West Virginia,Energy,Disputed,No,keeps,1
+1441711237344326,Meta ad,Other industries riding the boom,Brian Helton for West Virginia,Energy,Disputed,No,utility,1
+1441711237344326,Meta ad,Other industries riding the boom,Brian Helton for West Virginia,Energy,Disputed,No,bills,1
+1441711237344326,Meta ad,Other industries riding the boom,Brian Helton for West Virginia,Energy,Disputed,No,calls,1
+1441711237344326,Meta ad,Other industries riding the boom,Brian Helton for West Virginia,Energy,Disputed,No,fire,1
+1441711237344326,Meta ad,Other industries riding the boom,Brian Helton for West Virginia,Energy,Disputed,No,plants,1
+1441711237344326,Meta ad,Other industries riding the boom,Brian Helton for West Virginia,Energy,Disputed,No,back,1
 39910901075163809,Meta ad,Other industries riding the boom,Entergy Louisiana,Energy,Missing context,No,creating,1
 39910901075163809,Meta ad,Other industries riding the boom,Entergy Louisiana,Energy,Missing context,No,jobs,1
 39910901075163809,Meta ad,Other industries riding the boom,Entergy Louisiana,Energy,Missing context,No,delivering,1
@@ -1816,17 +2080,16 @@ HpDH_znD6DE,YouTube ad,Data center industry and allies,Virginia Connects,Water,M
 1602684917471991,Meta ad,Data center industry and allies,NetChoice,National security,No public data,No,strengthen,1
 1602684917471991,Meta ad,Data center industry and allies,NetChoice,National security,No public data,No,national,1
 1602684917471991,Meta ad,Data center industry and allies,NetChoice,National security,No public data,No,security,1
-1160273426235067,Meta ad,Data center industry and allies,NetChoice,Jobs,Not checkable,No,dynamic,1
-1160273426235067,Meta ad,Data center industry and allies,NetChoice,Jobs,Not checkable,No,linking,1
+1160273426235067,Meta ad,Data center industry and allies,NetChoice,Jobs,Not checkable,No,bring,1
+1160273426235067,Meta ad,Data center industry and allies,NetChoice,Jobs,Not checkable,No,good,1
+1160273426235067,Meta ad,Data center industry and allies,NetChoice,Jobs,Not checkable,No,jobs,1
+1160273426235067,Meta ad,Data center industry and allies,NetChoice,Jobs,Not checkable,No,property,1
+1160273426235067,Meta ad,Data center industry and allies,NetChoice,Jobs,Not checkable,No,tax,1
+1160273426235067,Meta ad,Data center industry and allies,NetChoice,Jobs,Not checkable,No,relief,1
+1160273426235067,Meta ad,Data center industry and allies,NetChoice,Jobs,Not checkable,No,energy,1
+1160273426235067,Meta ad,Data center industry and allies,NetChoice,Jobs,Not checkable,No,investment,1
 1160273426235067,Meta ad,Data center industry and allies,NetChoice,Jobs,Not checkable,No,south,1
 1160273426235067,Meta ad,Data center industry and allies,NetChoice,Jobs,Not checkable,No,dakota,1
-1160273426235067,Meta ad,Data center industry and allies,NetChoice,Jobs,Not checkable,No,help,1
-1160273426235067,Meta ad,Data center industry and allies,NetChoice,Jobs,Not checkable,No,drive,1
-1160273426235067,Meta ad,Data center industry and allies,NetChoice,Jobs,Not checkable,No,tech,1
-1160273426235067,Meta ad,Data center industry and allies,NetChoice,Jobs,Not checkable,No,golden,1
-1160273426235067,Meta ad,Data center industry and allies,NetChoice,Jobs,Not checkable,No,age,1
-1160273426235067,Meta ad,Data center industry and allies,NetChoice,Jobs,Not checkable,No,text,1
-1160273426235067,Meta ad,Data center industry and allies,NetChoice,Jobs,Not checkable,No,varies,1
 1649238866660651,Meta ad,Data center industry and allies,American Edge Project,Jobs,Not checkable,No,create,1
 1649238866660651,Meta ad,Data center industry and allies,American Edge Project,Jobs,Not checkable,No,jobs,1
 1649238866660651,Meta ad,Data center industry and allies,American Edge Project,Jobs,Not checkable,No,benefit,1
@@ -1854,14 +2117,13 @@ HpDH_znD6DE,YouTube ad,Data center industry and allies,Virginia Connects,Water,M
 2124533385058477,Meta ad,Data center industry and allies,Oregon Connects,Jobs,Missing context,No,jobs,1
 2124533385058477,Meta ad,Data center industry and allies,Oregon Connects,Jobs,Missing context,No,supported,1
 2124533385058477,Meta ad,Data center industry and allies,Oregon Connects,Jobs,Missing context,No,statewide,1
-4266661140310707,Meta ad,Data center industry and allies,Pennsylvania Connects,Jobs,Missing context,No,dynamic,1
-4266661140310707,Meta ad,Data center industry and allies,Pennsylvania Connects,Jobs,Missing context,No,support,1
+4266661140310707,Meta ad,Data center industry and allies,Pennsylvania Connects,Jobs,Missing context,No,supporting,1
 4266661140310707,Meta ad,Data center industry and allies,Pennsylvania Connects,Jobs,Missing context,No,almost,1
-4266661140310707,Meta ad,Data center industry and allies,Pennsylvania Connects,Jobs,Missing context,No,pennsylvania,1
 4266661140310707,Meta ad,Data center industry and allies,Pennsylvania Connects,Jobs,Missing context,No,jobs,1
-4266661140310707,Meta ad,Data center industry and allies,Pennsylvania Connects,Jobs,Missing context,No,text,1
-4266661140310707,Meta ad,Data center industry and allies,Pennsylvania Connects,Jobs,Missing context,No,varies,1
-4266661140310707,Meta ad,Data center industry and allies,Pennsylvania Connects,Jobs,Missing context,No,version,1
+4266661140310707,Meta ad,Data center industry and allies,Pennsylvania Connects,Jobs,Missing context,No,thousands,1
+4266661140310707,Meta ad,Data center industry and allies,Pennsylvania Connects,Jobs,Missing context,No,high-wage,1
+4266661140310707,Meta ad,Data center industry and allies,Pennsylvania Connects,Jobs,Missing context,No,construction,1
+4266661140310707,Meta ad,Data center industry and allies,Pennsylvania Connects,Jobs,Missing context,No,roles,1
 26196583389979722,Meta ad,Data center industry and allies,Virginia Connects,Jobs,Missing context,Yes,job,1
 26196583389979722,Meta ad,Data center industry and allies,Virginia Connects,Jobs,Missing context,Yes,inside,1
 26196583389979722,Meta ad,Data center industry and allies,Virginia Connects,Jobs,Missing context,Yes,virginia,1
@@ -1874,26 +2136,39 @@ HpDH_znD6DE,YouTube ad,Data center industry and allies,Virginia Connects,Water,M
 1387462419212521,Meta ad,Opposition and counter-ads,NRDC,Energy (counter-claim),Counter-ad (not rated),No,coal,1
 1387462419212521,Meta ad,Opposition and counter-ads,NRDC,Energy (counter-claim),Counter-ad (not rated),No,gas,1
 1387462419212521,Meta ad,Opposition and counter-ads,NRDC,Energy (counter-claim),Counter-ad (not rated),No,plants,1
-1467768011311573,Meta ad,Opposition and counter-ads,Illinois Clean Jobs Coalition,Energy (counter-claim),Counter-ad (not rated),No,action,1
-1467768011311573,Meta ad,Opposition and counter-ads,Illinois Clean Jobs Coalition,Energy (counter-claim),Counter-ad (not rated),No,against,1
-1467768011311573,Meta ad,Opposition and counter-ads,Illinois Clean Jobs Coalition,Energy (counter-claim),Counter-ad (not rated),No,fossil,1
-1467768011311573,Meta ad,Opposition and counter-ads,Illinois Clean Jobs Coalition,Energy (counter-claim),Counter-ad (not rated),No,power,1
-1467768011311573,Meta ad,Opposition and counter-ads,Illinois Clean Jobs Coalition,Energy (counter-claim),Counter-ad (not rated),No,dynamic,1
-1467768011311573,Meta ad,Opposition and counter-ads,Illinois Clean Jobs Coalition,Energy (counter-claim),Counter-ad (not rated),No,text,1
-1467768011311573,Meta ad,Opposition and counter-ads,Illinois Clean Jobs Coalition,Energy (counter-claim),Counter-ad (not rated),No,varies,1
-1384001292758929,Meta ad,Opposition and counter-ads,SELC,Energy (counter-claim),Counter-ad (not rated),No,action,1
-1384001292758929,Meta ad,Opposition and counter-ads,SELC,Energy (counter-claim),Counter-ad (not rated),No,against,1
-1384001292758929,Meta ad,Opposition and counter-ads,SELC,Energy (counter-claim),Counter-ad (not rated),No,gas,1
+1467768011311573,Meta ad,Opposition and counter-ads,Illinois Clean Jobs Coalition,Energy (counter-claim),Counter-ad (not rated),No,coal,1
+1467768011311573,Meta ad,Opposition and counter-ads,Illinois Clean Jobs Coalition,Energy (counter-claim),Counter-ad (not rated),No,mandate,1
+1467768011311573,Meta ad,Opposition and counter-ads,Illinois Clean Jobs Coalition,Energy (counter-claim),Counter-ad (not rated),No,rise,1
+1467768011311573,Meta ad,Opposition and counter-ads,Illinois Clean Jobs Coalition,Energy (counter-claim),Counter-ad (not rated),No,slow,1
+1467768011311573,Meta ad,Opposition and counter-ads,Illinois Clean Jobs Coalition,Energy (counter-claim),Counter-ad (not rated),No,clean-energy,1
+1467768011311573,Meta ad,Opposition and counter-ads,Illinois Clean Jobs Coalition,Energy (counter-claim),Counter-ad (not rated),No,hookups,1
+1467768011311573,Meta ad,Opposition and counter-ads,Illinois Clean Jobs Coalition,Energy (counter-claim),Counter-ad (not rated),No,causing,1
+1467768011311573,Meta ad,Opposition and counter-ads,Illinois Clean Jobs Coalition,Energy (counter-claim),Counter-ad (not rated),No,electric,1
+1467768011311573,Meta ad,Opposition and counter-ads,Illinois Clean Jobs Coalition,Energy (counter-claim),Counter-ad (not rated),No,bills,1
+1467768011311573,Meta ad,Opposition and counter-ads,Illinois Clean Jobs Coalition,Energy (counter-claim),Counter-ad (not rated),No,skyrocket,1
+1384001292758929,Meta ad,Opposition and counter-ads,SELC,Energy (counter-claim),Counter-ad (not rated),No,stop,1
+1384001292758929,Meta ad,Opposition and counter-ads,SELC,Energy (counter-claim),Counter-ad (not rated),No,burning,1
+1384001292758929,Meta ad,Opposition and counter-ads,SELC,Energy (counter-claim),Counter-ad (not rated),No,fossil,1
+1384001292758929,Meta ad,Opposition and counter-ads,SELC,Energy (counter-claim),Counter-ad (not rated),No,fuels,1
+1384001292758929,Meta ad,Opposition and counter-ads,SELC,Energy (counter-claim),Counter-ad (not rated),No,georgia,1
+1384001292758929,Meta ad,Opposition and counter-ads,SELC,Energy (counter-claim),Counter-ad (not rated),No,power,1
+1384001292758929,Meta ad,Opposition and counter-ads,SELC,Energy (counter-claim),Counter-ad (not rated),No,breaking,1
+1384001292758929,Meta ad,Opposition and counter-ads,SELC,Energy (counter-claim),Counter-ad (not rated),No,promises,1
+1384001292758929,Meta ad,Opposition and counter-ads,SELC,Energy (counter-claim),Counter-ad (not rated),No,retire,1
+1384001292758929,Meta ad,Opposition and counter-ads,SELC,Energy (counter-claim),Counter-ad (not rated),No,coal,1
 1384001292758929,Meta ad,Opposition and counter-ads,SELC,Energy (counter-claim),Counter-ad (not rated),No,plants,1
-1384001292758929,Meta ad,Opposition and counter-ads,SELC,Energy (counter-claim),Counter-ad (not rated),No,dynamic,1
-1384001292758929,Meta ad,Opposition and counter-ads,SELC,Energy (counter-claim),Counter-ad (not rated),No,text,1
-1384001292758929,Meta ad,Opposition and counter-ads,SELC,Energy (counter-claim),Counter-ad (not rated),No,varies,1
-1434338615267432,Meta ad,Opposition and counter-ads,Southern Alliance for Clean Energy,Energy (counter-claim),Counter-ad (not rated),No,energy-affordability,1
-1434338615267432,Meta ad,Opposition and counter-ads,Southern Alliance for Clean Energy,Energy (counter-claim),Counter-ad (not rated),No,demand,1
 1434338615267432,Meta ad,Opposition and counter-ads,Southern Alliance for Clean Energy,Energy (counter-claim),Counter-ad (not rated),No,georgia,1
-1434338615267432,Meta ad,Opposition and counter-ads,Southern Alliance for Clean Energy,Energy (counter-claim),Counter-ad (not rated),No,dynamic,1
-1434338615267432,Meta ad,Opposition and counter-ads,Southern Alliance for Clean Energy,Energy (counter-claim),Counter-ad (not rated),No,text,1
-1434338615267432,Meta ad,Opposition and counter-ads,Southern Alliance for Clean Energy,Energy (counter-claim),Counter-ad (not rated),No,varies,1
+1434338615267432,Meta ad,Opposition and counter-ads,Southern Alliance for Clean Energy,Energy (counter-claim),Counter-ad (not rated),No,power,2
+1434338615267432,Meta ad,Opposition and counter-ads,Southern Alliance for Clean Energy,Energy (counter-claim),Counter-ad (not rated),No,raising,1
+1434338615267432,Meta ad,Opposition and counter-ads,Southern Alliance for Clean Energy,Energy (counter-claim),Counter-ad (not rated),No,bills,1
+1434338615267432,Meta ad,Opposition and counter-ads,Southern Alliance for Clean Energy,Energy (counter-claim),Counter-ad (not rated),No,prop,1
+1434338615267432,Meta ad,Opposition and counter-ads,Southern Alliance for Clean Energy,Energy (counter-claim),Counter-ad (not rated),No,old,1
+1434338615267432,Meta ad,Opposition and counter-ads,Southern Alliance for Clean Energy,Energy (counter-claim),Counter-ad (not rated),No,coal,1
+1434338615267432,Meta ad,Opposition and counter-ads,Southern Alliance for Clean Energy,Energy (counter-claim),Counter-ad (not rated),No,plants,2
+1434338615267432,Meta ad,Opposition and counter-ads,Southern Alliance for Clean Energy,Energy (counter-claim),Counter-ad (not rated),No,overbuild,1
+1434338615267432,Meta ad,Opposition and counter-ads,Southern Alliance for Clean Energy,Energy (counter-claim),Counter-ad (not rated),No,expensive,1
+1434338615267432,Meta ad,Opposition and counter-ads,Southern Alliance for Clean Energy,Energy (counter-claim),Counter-ad (not rated),No,gas,1
+1434338615267432,Meta ad,Opposition and counter-ads,Southern Alliance for Clean Energy,Energy (counter-claim),Counter-ad (not rated),No,largely,1
 916891040834509,Meta ad,Opposition and counter-ads,The Years Project,Energy (counter-claim),Counter-ad (not rated),No,footing,1
 916891040834509,Meta ad,Opposition and counter-ads,The Years Project,Energy (counter-claim),Counter-ad (not rated),No,bill,1
 916891040834509,Meta ad,Opposition and counter-ads,The Years Project,Energy (counter-claim),Counter-ad (not rated),No,run,1
@@ -1936,3 +2211,556 @@ HpDH_znD6DE,YouTube ad,Data center industry and allies,Virginia Connects,Water,M
 1412016047783375,Meta ad,Opposition and counter-ads,WinSenate,Jobs (counter-claim),Counter-ad (not rated),No,welcoming,1
 1412016047783375,Meta ad,Opposition and counter-ads,WinSenate,Jobs (counter-claim),Counter-ad (not rated),No,job,1
 1412016047783375,Meta ad,Opposition and counter-ads,WinSenate,Jobs (counter-claim),Counter-ad (not rated),No,losses,1
+2354723418684252,Meta ad,Data center industry and allies,Texans for Economic Liberty,Jobs,Not checkable,No,groundbreaking,1
+2354723418684252,Meta ad,Data center industry and allies,Texans for Economic Liberty,Jobs,Not checkable,No,means,1
+2354723418684252,Meta ad,Data center industry and allies,Texans for Economic Liberty,Jobs,Not checkable,No,good-paying,1
+2354723418684252,Meta ad,Data center industry and allies,Texans for Economic Liberty,Jobs,Not checkable,No,work,1
+2354723418684252,Meta ad,Data center industry and allies,Texans for Economic Liberty,Jobs,Not checkable,No,texas,1
+2354723418684252,Meta ad,Data center industry and allies,Texans for Economic Liberty,Jobs,Not checkable,No,trades,1
+1094460799605149,Meta ad,Data center industry and allies,Texans for Economic Liberty,Jobs,Not checkable,No,built,2
+1094460799605149,Meta ad,Data center industry and allies,Texans for Economic Liberty,Jobs,Not checkable,No,texas,1
+1094460799605149,Meta ad,Data center industry and allies,Texans for Economic Liberty,Jobs,Not checkable,No,texans,1
+1097501102754397,Meta ad,Data center industry and allies,Texans for Economic Liberty,Jobs,Not checkable,No,text,1
+1097501102754397,Meta ad,Data center industry and allies,Texans for Economic Liberty,Jobs,Not checkable,No,second,1
+1097501102754397,Meta ad,Data center industry and allies,Texans for Economic Liberty,Jobs,Not checkable,No,placement,1
+2547339009120724,Meta ad,Data center industry and allies,Texans for Economic Liberty,Jobs,Not checkable,No,trades-jobs,1
+2547339009120724,Meta ad,Data center industry and allies,Texans for Economic Liberty,Jobs,Not checkable,No,text,1
+2547339009120724,Meta ad,Data center industry and allies,Texans for Economic Liberty,Jobs,Not checkable,No,second,1
+2547339009120724,Meta ad,Data center industry and allies,Texans for Economic Liberty,Jobs,Not checkable,No,placement,1
+1550680310423772,Meta ad,Data center industry and allies,Texans for Economic Liberty,Jobs,Not checkable,No,behind,1
+1550680310423772,Meta ad,Data center industry and allies,Texans for Economic Liberty,Jobs,Not checkable,No,texas,1
+1550680310423772,Meta ad,Data center industry and allies,Texans for Economic Liberty,Jobs,Not checkable,No,welder,1
+1550680310423772,Meta ad,Data center industry and allies,Texans for Economic Liberty,Jobs,Not checkable,No,electrician,1
+1550680310423772,Meta ad,Data center industry and allies,Texans for Economic Liberty,Jobs,Not checkable,No,pipefitter,1
+1550680310423772,Meta ad,Data center industry and allies,Texans for Economic Liberty,Jobs,Not checkable,No,earning,1
+1550680310423772,Meta ad,Data center industry and allies,Texans for Economic Liberty,Jobs,Not checkable,No,good,1
+1550680310423772,Meta ad,Data center industry and allies,Texans for Economic Liberty,Jobs,Not checkable,No,living,1
+2862833327433517,Meta ad,Data center industry and allies,Texans for Economic Liberty,National security,Missing context,No,trust,1
+2862833327433517,Meta ad,Data center industry and allies,Texans for Economic Liberty,National security,Missing context,No,china,1
+2862833327433517,Meta ad,Data center industry and allies,Texans for Economic Liberty,National security,Missing context,No,second,1
+2862833327433517,Meta ad,Data center industry and allies,Texans for Economic Liberty,National security,Missing context,No,placement,1
+951757917360097,Meta ad,Data center industry and allies,Texans for Economic Liberty,National security,Missing context,No,hands,1
+951757917360097,Meta ad,Data center industry and allies,Texans for Economic Liberty,National security,Missing context,No,hostile,1
+951757917360097,Meta ad,Data center industry and allies,Texans for Economic Liberty,National security,Missing context,No,foreign,1
+951757917360097,Meta ad,Data center industry and allies,Texans for Economic Liberty,National security,Missing context,No,nations,1
+951757917360097,Meta ad,Data center industry and allies,Texans for Economic Liberty,National security,Missing context,No,china,1
+951757917360097,Meta ad,Data center industry and allies,Texans for Economic Liberty,National security,Missing context,No,second,1
+951757917360097,Meta ad,Data center industry and allies,Texans for Economic Liberty,National security,Missing context,No,placement,1
+2063664707611988,Meta ad,Data center industry and allies,Texans for Economic Liberty,National security,Missing context,No,american,1
+2063664707611988,Meta ad,Data center industry and allies,Texans for Economic Liberty,National security,Missing context,No,hands,1
+2063664707611988,Meta ad,Data center industry and allies,Texans for Economic Liberty,National security,Missing context,No,hostile,1
+2063664707611988,Meta ad,Data center industry and allies,Texans for Economic Liberty,National security,Missing context,No,nations,1
+1090651106914529,Meta ad,Data center industry and allies,Texans for Economic Liberty,National security,Missing context,No,american,1
+1090651106914529,Meta ad,Data center industry and allies,Texans for Economic Liberty,National security,Missing context,No,chinese,1
+1090651106914529,Meta ad,Data center industry and allies,Texans for Economic Liberty,National security,Missing context,No,communist,1
+1090651106914529,Meta ad,Data center industry and allies,Texans for Economic Liberty,National security,Missing context,No,party,1
+3386975414803944,Meta ad,Data center industry and allies,NetChoice,National security,No public data,No,china,1
+3386975414803944,Meta ad,Data center industry and allies,NetChoice,National security,No public data,No,investing,1
+3386975414803944,Meta ad,Data center industry and allies,NetChoice,National security,No public data,No,trillions,1
+3386975414803944,Meta ad,Data center industry and allies,NetChoice,National security,No public data,No,text,1
+3386975414803944,Meta ad,Data center industry and allies,NetChoice,National security,No public data,No,second,1
+3386975414803944,Meta ad,Data center industry and allies,NetChoice,National security,No public data,No,placement,1
+1076917745072871,Meta ad,Data center industry and allies,American Edge Project,Jobs,Not checkable,No,create,1
+1076917745072871,Meta ad,Data center industry and allies,American Edge Project,Jobs,Not checkable,No,jobs,1
+1076917745072871,Meta ad,Data center industry and allies,American Edge Project,Jobs,Not checkable,No,benefit,1
+1076917745072871,Meta ad,Data center industry and allies,American Edge Project,Jobs,Not checkable,No,local,1
+1076917745072871,Meta ad,Data center industry and allies,American Edge Project,Jobs,Not checkable,No,communities,1
+1076917745072871,Meta ad,Data center industry and allies,American Edge Project,Jobs,Not checkable,No,ensure,1
+1076917745072871,Meta ad,Data center industry and allies,American Edge Project,Jobs,Not checkable,No,america,1
+1076917745072871,Meta ad,Data center industry and allies,American Edge Project,Jobs,Not checkable,No,wins,1
+1600467024909948,Meta ad,Data center industry and allies,American Edge Project,Jobs,Not checkable,No,text,1
+1744760690072742,Meta ad,Data center industry and allies,American Edge Project,Jobs,Not checkable,No,buildout,1
+1744760690072742,Meta ad,Data center industry and allies,American Edge Project,Jobs,Not checkable,No,strengthening,1
+1744760690072742,Meta ad,Data center industry and allies,American Edge Project,Jobs,Not checkable,No,local,1
+1744760690072742,Meta ad,Data center industry and allies,American Edge Project,Jobs,Not checkable,No,communities,1
+2182059112743694,Meta ad,Data center industry and allies,American Edge Project,Jobs,Not checkable,No,text,1
+1742995237835583,Meta ad,Data center industry and allies,American Edge Project,Jobs,Not checkable,No,text,1
+1272138085104271,Meta ad,Data center industry and allies,Virginia Connects,Jobs,Missing context,Yes,job,1
+1272138085104271,Meta ad,Data center industry and allies,Virginia Connects,Jobs,Missing context,Yes,inside,1
+1272138085104271,Meta ad,Data center industry and allies,Virginia Connects,Jobs,Missing context,Yes,virginia,1
+1272138085104271,Meta ad,Data center industry and allies,Virginia Connects,Jobs,Missing context,Yes,supports,1
+1272138085104271,Meta ad,Data center industry and allies,Virginia Connects,Jobs,Missing context,Yes,additional,1
+1272138085104271,Meta ad,Data center industry and allies,Virginia Connects,Jobs,Missing context,Yes,jobs,1
+825735950567625,Meta ad,Data center industry and allies,Virginia Connects,Jobs,Missing context,Yes,text,1
+825735950567625,Meta ad,Data center industry and allies,Virginia Connects,Jobs,Missing context,Yes,second,1
+825735950567625,Meta ad,Data center industry and allies,Virginia Connects,Jobs,Missing context,Yes,placement,1
+1333681062048725,Meta ad,Data center industry and allies,Virginia Connects,Taxes,Not checkable,Yes,engine,1
+1333681062048725,Meta ad,Data center industry and allies,Virginia Connects,Taxes,Not checkable,Yes,behind,1
+1333681062048725,Meta ad,Data center industry and allies,Virginia Connects,Taxes,Not checkable,Yes,economy,1
+1303405985187214,Meta ad,Data center industry and allies,Virginia Connects,Taxes,Missing context,Yes,generate,1
+1303405985187214,Meta ad,Data center industry and allies,Virginia Connects,Taxes,Missing context,Yes,billions,1
+1303405985187214,Meta ad,Data center industry and allies,Virginia Connects,Taxes,Missing context,Yes,dollars,1
+1303405985187214,Meta ad,Data center industry and allies,Virginia Connects,Taxes,Missing context,Yes,tax,1
+1303405985187214,Meta ad,Data center industry and allies,Virginia Connects,Taxes,Missing context,Yes,revenue,1
+1303405985187214,Meta ad,Data center industry and allies,Virginia Connects,Taxes,Missing context,Yes,year,1
+1303405985187214,Meta ad,Data center industry and allies,Virginia Connects,Taxes,Missing context,Yes,issue-ad,1
+1303405985187214,Meta ad,Data center industry and allies,Virginia Connects,Taxes,Missing context,Yes,label,1
+1059638200321804,Meta ad,Data center industry and allies,Connected Ohio,Taxes,Missing context,No,ohio,1
+1059638200321804,Meta ad,Data center industry and allies,Connected Ohio,Taxes,Missing context,No,generate,1
+1059638200321804,Meta ad,Data center industry and allies,Connected Ohio,Taxes,Missing context,No,nearly,1
+1059638200321804,Meta ad,Data center industry and allies,Connected Ohio,Taxes,Missing context,No,billion,1
+1059638200321804,Meta ad,Data center industry and allies,Connected Ohio,Taxes,Missing context,No,tax,1
+1059638200321804,Meta ad,Data center industry and allies,Connected Ohio,Taxes,Missing context,No,revenue,1
+1059638200321804,Meta ad,Data center industry and allies,Connected Ohio,Taxes,Missing context,No,issue-ad,1
+1059638200321804,Meta ad,Data center industry and allies,Connected Ohio,Taxes,Missing context,No,label,1
+2591474914616984,Meta ad,Data center industry and allies,Oregon Connects,Taxes,Missing context,No,oregon,1
+2591474914616984,Meta ad,Data center industry and allies,Oregon Connects,Taxes,Missing context,No,generate,1
+2591474914616984,Meta ad,Data center industry and allies,Oregon Connects,Taxes,Missing context,No,billion,1
+2591474914616984,Meta ad,Data center industry and allies,Oregon Connects,Taxes,Missing context,No,tax,1
+2591474914616984,Meta ad,Data center industry and allies,Oregon Connects,Taxes,Missing context,No,revenue,1
+2591474914616984,Meta ad,Data center industry and allies,Oregon Connects,Taxes,Missing context,No,issue-ad,1
+2591474914616984,Meta ad,Data center industry and allies,Oregon Connects,Taxes,Missing context,No,label,1
+1760680921635866,Meta ad,Data center industry and allies,Connected Georgia,Taxes,Missing context,No,georgia,1
+1760680921635866,Meta ad,Data center industry and allies,Connected Georgia,Taxes,Missing context,No,generate,1
+1760680921635866,Meta ad,Data center industry and allies,Connected Georgia,Taxes,Missing context,No,billion,1
+1760680921635866,Meta ad,Data center industry and allies,Connected Georgia,Taxes,Missing context,No,tax,1
+1760680921635866,Meta ad,Data center industry and allies,Connected Georgia,Taxes,Missing context,No,revenue,1
+1760680921635866,Meta ad,Data center industry and allies,Connected Georgia,Taxes,Missing context,No,issue-ad,1
+1760680921635866,Meta ad,Data center industry and allies,Connected Georgia,Taxes,Missing context,No,label,1
+994343963380862,Meta ad,Data center industry and allies,Connected Georgia,Taxes,Not checkable,No,contribute,1
+994343963380862,Meta ad,Data center industry and allies,Connected Georgia,Taxes,Not checkable,No,critical,1
+994343963380862,Meta ad,Data center industry and allies,Connected Georgia,Taxes,Not checkable,No,tax,1
+994343963380862,Meta ad,Data center industry and allies,Connected Georgia,Taxes,Not checkable,No,revenue,1
+994343963380862,Meta ad,Data center industry and allies,Connected Georgia,Taxes,Not checkable,No,support,1
+994343963380862,Meta ad,Data center industry and allies,Connected Georgia,Taxes,Not checkable,No,high-skilled,1
+994343963380862,Meta ad,Data center industry and allies,Connected Georgia,Taxes,Not checkable,No,jobs,1
+994343963380862,Meta ad,Data center industry and allies,Connected Georgia,Taxes,Not checkable,No,disclaimer,1
+994343963380862,Meta ad,Data center industry and allies,Connected Georgia,Taxes,Not checkable,No,connected,1
+994343963380862,Meta ad,Data center industry and allies,Connected Georgia,Taxes,Not checkable,No,georgia,1
+994343963380862,Meta ad,Data center industry and allies,Connected Georgia,Taxes,Not checkable,No,project,1
+994343963380862,Meta ad,Data center industry and allies,Connected Georgia,Taxes,Not checkable,No,america,1
+994343963380862,Meta ad,Data center industry and allies,Connected Georgia,Taxes,Not checkable,No,connects,1
+1089916010172765,Meta ad,Data center industry and allies,Louisiana Connects,Taxes,Missing context,No,louisiana,1
+1089916010172765,Meta ad,Data center industry and allies,Louisiana Connects,Taxes,Missing context,No,generate,1
+1089916010172765,Meta ad,Data center industry and allies,Louisiana Connects,Taxes,Missing context,No,million,1
+1089916010172765,Meta ad,Data center industry and allies,Louisiana Connects,Taxes,Missing context,No,tax,1
+1089916010172765,Meta ad,Data center industry and allies,Louisiana Connects,Taxes,Missing context,No,revenue,1
+1089916010172765,Meta ad,Data center industry and allies,Louisiana Connects,Taxes,Missing context,No,issue-ad,1
+1089916010172765,Meta ad,Data center industry and allies,Louisiana Connects,Taxes,Missing context,No,label,1
+2104731653767779,Meta ad,Data center industry and allies,Pennsylvania Connects,Taxes,Missing context,No,pennsylvania,1
+2104731653767779,Meta ad,Data center industry and allies,Pennsylvania Connects,Taxes,Missing context,No,generate,1
+2104731653767779,Meta ad,Data center industry and allies,Pennsylvania Connects,Taxes,Missing context,No,billion,1
+2104731653767779,Meta ad,Data center industry and allies,Pennsylvania Connects,Taxes,Missing context,No,tax,1
+2104731653767779,Meta ad,Data center industry and allies,Pennsylvania Connects,Taxes,Missing context,No,revenue,1
+2104731653767779,Meta ad,Data center industry and allies,Pennsylvania Connects,Taxes,Missing context,No,year,1
+2104731653767779,Meta ad,Data center industry and allies,Pennsylvania Connects,Taxes,Missing context,No,issue-ad,1
+2104731653767779,Meta ad,Data center industry and allies,Pennsylvania Connects,Taxes,Missing context,No,label,1
+1108461391525372,Meta ad,Data center industry and allies,Indiana Connects,Taxes,Missing context,No,indiana,1
+1108461391525372,Meta ad,Data center industry and allies,Indiana Connects,Taxes,Missing context,No,generate,1
+1108461391525372,Meta ad,Data center industry and allies,Indiana Connects,Taxes,Missing context,No,nearly,1
+1108461391525372,Meta ad,Data center industry and allies,Indiana Connects,Taxes,Missing context,No,billion,1
+1108461391525372,Meta ad,Data center industry and allies,Indiana Connects,Taxes,Missing context,No,tax,1
+1108461391525372,Meta ad,Data center industry and allies,Indiana Connects,Taxes,Missing context,No,revenue,1
+1108461391525372,Meta ad,Data center industry and allies,Indiana Connects,Taxes,Missing context,No,issue-ad,1
+1108461391525372,Meta ad,Data center industry and allies,Indiana Connects,Taxes,Missing context,No,label,1
+1639529273807981,Meta ad,Data center industry and allies,North Carolina Connects,Taxes,Not checkable,No,contribute,1
+1639529273807981,Meta ad,Data center industry and allies,North Carolina Connects,Taxes,Not checkable,No,critical,1
+1639529273807981,Meta ad,Data center industry and allies,North Carolina Connects,Taxes,Not checkable,No,tax,1
+1639529273807981,Meta ad,Data center industry and allies,North Carolina Connects,Taxes,Not checkable,No,revenue,1
+1639529273807981,Meta ad,Data center industry and allies,North Carolina Connects,Taxes,Not checkable,No,support,1
+1639529273807981,Meta ad,Data center industry and allies,North Carolina Connects,Taxes,Not checkable,No,high-skilled,1
+1639529273807981,Meta ad,Data center industry and allies,North Carolina Connects,Taxes,Not checkable,No,jobs,1
+1107646538861160,Meta ad,Other industries riding the boom,Entergy Louisiana,Energy,Missing context,No,customer,1
+1107646538861160,Meta ad,Other industries riding the boom,Entergy Louisiana,Energy,Missing context,No,bill,1
+1107646538861160,Meta ad,Other industries riding the boom,Entergy Louisiana,Energy,Missing context,No,savings,1
+1107646538861160,Meta ad,Other industries riding the boom,Entergy Louisiana,Energy,Missing context,No,text,1
+1107646538861160,Meta ad,Other industries riding the boom,Entergy Louisiana,Energy,Missing context,No,second,1
+1107646538861160,Meta ad,Other industries riding the boom,Entergy Louisiana,Energy,Missing context,No,version,1
+1055641820404525,Meta ad,Other industries riding the boom,Williams Companies,Energy,Not checkable,No,cato,1
+1055641820404525,Meta ad,Other industries riding the boom,Williams Companies,Energy,Not checkable,No,institute,1
+1055641820404525,Meta ad,Other industries riding the boom,Williams Companies,Energy,Not checkable,No,analysis,1
+1055641820404525,Meta ad,Other industries riding the boom,Williams Companies,Energy,Not checkable,No,on-site,1
+1055641820404525,Meta ad,Other industries riding the boom,Williams Companies,Energy,Not checkable,No,power,1
+1055641820404525,Meta ad,Other industries riding the boom,Williams Companies,Energy,Not checkable,No,serve,1
+1055641820404525,Meta ad,Other industries riding the boom,Williams Companies,Energy,Not checkable,No,without,1
+1055641820404525,Meta ad,Other industries riding the boom,Williams Companies,Energy,Not checkable,No,shifting,1
+1055641820404525,Meta ad,Other industries riding the boom,Williams Companies,Energy,Not checkable,No,costs,1
+1055641820404525,Meta ad,Other industries riding the boom,Williams Companies,Energy,Not checkable,No,ohio,1
+1055641820404525,Meta ad,Other industries riding the boom,Williams Companies,Energy,Not checkable,No,families,1
+1055641820404525,Meta ad,Other industries riding the boom,Williams Companies,Energy,Not checkable,No,socrates,1
+1055641820404525,Meta ad,Other industries riding the boom,Williams Companies,Energy,Not checkable,No,project,1
+1055641820404525,Meta ad,Other industries riding the boom,Williams Companies,Energy,Not checkable,No,issue-ad,1
+1055641820404525,Meta ad,Other industries riding the boom,Williams Companies,Energy,Not checkable,No,label,1
+1791895145337885,Meta ad,Data center industry and allies,Wyoming Driven Innovation,Jobs,Not checkable,No,create,1
+1791895145337885,Meta ad,Data center industry and allies,Wyoming Driven Innovation,Jobs,Not checkable,No,demand,1
+1791895145337885,Meta ad,Data center industry and allies,Wyoming Driven Innovation,Jobs,Not checkable,No,energy,1
+1791895145337885,Meta ad,Data center industry and allies,Wyoming Driven Innovation,Jobs,Not checkable,No,bring,1
+1791895145337885,Meta ad,Data center industry and allies,Wyoming Driven Innovation,Jobs,Not checkable,No,jobs,1
+1791895145337885,Meta ad,Data center industry and allies,Wyoming Driven Innovation,Jobs,Not checkable,No,tax,1
+1791895145337885,Meta ad,Data center industry and allies,Wyoming Driven Innovation,Jobs,Not checkable,No,revenue,1
+2250211189162737,Meta ad,Data center industry and allies,Wyoming Driven Innovation,Energy (costs),Not checkable,No,families,1
+2250211189162737,Meta ad,Data center industry and allies,Wyoming Driven Innovation,Energy (costs),Not checkable,No,left,1
+2250211189162737,Meta ad,Data center industry and allies,Wyoming Driven Innovation,Energy (costs),Not checkable,No,holding,1
+2250211189162737,Meta ad,Data center industry and allies,Wyoming Driven Innovation,Energy (costs),Not checkable,No,bill,1
+2250211189162737,Meta ad,Data center industry and allies,Wyoming Driven Innovation,Energy (costs),Not checkable,No,meta,1
+2250211189162737,Meta ad,Data center industry and allies,Wyoming Driven Innovation,Energy (costs),Not checkable,No,ran,1
+2250211189162737,Meta ad,Data center industry and allies,Wyoming Driven Innovation,Energy (costs),Not checkable,No,without,1
+2250211189162737,Meta ad,Data center industry and allies,Wyoming Driven Innovation,Energy (costs),Not checkable,No,required,1
+2250211189162737,Meta ad,Data center industry and allies,Wyoming Driven Innovation,Energy (costs),Not checkable,No,disclaimer,1
+1272981641648678,Meta ad,Data center industry and allies,Related Companies,Energy (costs),Missing context,No,saline,1
+1272981641648678,Meta ad,Data center industry and allies,Related Companies,Energy (costs),Missing context,No,township,1
+1272981641648678,Meta ad,Data center industry and allies,Related Companies,Energy (costs),Missing context,No,pay,1
+1272981641648678,Meta ad,Data center industry and allies,Related Companies,Energy (costs),Missing context,No,energy,1
+1272981641648678,Meta ad,Data center industry and allies,Related Companies,Energy (costs),Missing context,No,costs,1
+1272981641648678,Meta ad,Data center industry and allies,Related Companies,Energy (costs),Missing context,No,grid,1
+1272981641648678,Meta ad,Data center industry and allies,Related Companies,Energy (costs),Missing context,No,investments,1
+1272981641648678,Meta ad,Data center industry and allies,Related Companies,Energy (costs),Missing context,No,result,1
+1272981641648678,Meta ad,Data center industry and allies,Related Companies,Energy (costs),Missing context,No,million,1
+1272981641648678,Meta ad,Data center industry and allies,Related Companies,Energy (costs),Missing context,No,annual,1
+1272981641648678,Meta ad,Data center industry and allies,Related Companies,Energy (costs),Missing context,No,savings,1
+1272981641648678,Meta ad,Data center industry and allies,Related Companies,Energy (costs),Missing context,No,customers,1
+2785184291821003,Meta ad,Data center industry and allies,Related Companies,Energy (costs),Missing context,No,text,1
+2785184291821003,Meta ad,Data center industry and allies,Related Companies,Energy (costs),Missing context,No,second,1
+2785184291821003,Meta ad,Data center industry and allies,Related Companies,Energy (costs),Missing context,No,placement,1
+1272495225070609,Meta ad,Data center industry and allies,Related Companies,Water,Not checkable,No,project,1
+1272495225070609,Meta ad,Data center industry and allies,Related Companies,Water,Not checkable,No,protects,1
+1272495225070609,Meta ad,Data center industry and allies,Related Companies,Water,Not checkable,No,water,1
+1272495225070609,Meta ad,Data center industry and allies,Related Companies,Water,Not checkable,No,preserves,1
+1272495225070609,Meta ad,Data center industry and allies,Related Companies,Water,Not checkable,No,acres,1
+1272495225070609,Meta ad,Data center industry and allies,Related Companies,Water,Not checkable,No,land,1
+1982285979053620,Meta ad,Data center industry and allies,Related Companies,Water,No public data,No,closed-loop,1
+1982285979053620,Meta ad,Data center industry and allies,Related Companies,Water,No public data,No,air,1
+1982285979053620,Meta ad,Data center industry and allies,Related Companies,Water,No public data,No,cooling,1
+1982285979053620,Meta ad,Data center industry and allies,Related Companies,Water,No public data,No,saves,1
+1982285979053620,Meta ad,Data center industry and allies,Related Companies,Water,No public data,No,hundreds,1
+1982285979053620,Meta ad,Data center industry and allies,Related Companies,Water,No public data,No,millions,1
+1982285979053620,Meta ad,Data center industry and allies,Related Companies,Water,No public data,No,gallons,1
+1982285979053620,Meta ad,Data center industry and allies,Related Companies,Water,No public data,No,water,1
+1982285979053620,Meta ad,Data center industry and allies,Related Companies,Water,No public data,No,compared,1
+862531826652827,Meta ad,Data center industry and allies,Related Digital,Energy (costs),Not checkable,No,ceo,1
+862531826652827,Meta ad,Data center industry and allies,Related Digital,Energy (costs),Not checkable,No,cnbc,1
+862531826652827,Meta ad,Data center industry and allies,Related Digital,Energy (costs),Not checkable,No,related,1
+862531826652827,Meta ad,Data center industry and allies,Related Digital,Energy (costs),Not checkable,No,digital,1
+862531826652827,Meta ad,Data center industry and allies,Related Digital,Energy (costs),Not checkable,No,paying,1
+862531826652827,Meta ad,Data center industry and allies,Related Digital,Energy (costs),Not checkable,No,energy,1
+862531826652827,Meta ad,Data center industry and allies,Related Digital,Energy (costs),Not checkable,No,protecting,1
+862531826652827,Meta ad,Data center industry and allies,Related Digital,Energy (costs),Not checkable,No,local,1
+862531826652827,Meta ad,Data center industry and allies,Related Digital,Energy (costs),Not checkable,No,resources,1
+1351760670154303,Meta ad,Data center industry and allies,Springfield Sangamon Growth Alliance,Water,Missing context,No,water,2
+1351760670154303,Meta ad,Data center industry and allies,Springfield Sangamon Growth Alliance,Water,Missing context,No,use,1
+1351760670154303,Meta ad,Data center industry and allies,Springfield Sangamon Growth Alliance,Water,Missing context,No,comparable,1
+1351760670154303,Meta ad,Data center industry and allies,Springfield Sangamon Growth Alliance,Water,Missing context,No,homes,1
+1351760670154303,Meta ad,Data center industry and allies,Springfield Sangamon Growth Alliance,Water,Missing context,No,closed,1
+1351760670154303,Meta ad,Data center industry and allies,Springfield Sangamon Growth Alliance,Water,Missing context,No,loop,1
+1351760670154303,Meta ad,Data center industry and allies,Springfield Sangamon Growth Alliance,Water,Missing context,No,won't,1
+1351760670154303,Meta ad,Data center industry and allies,Springfield Sangamon Growth Alliance,Water,Missing context,No,require,1
+1351760670154303,Meta ad,Data center industry and allies,Springfield Sangamon Growth Alliance,Water,Missing context,No,ongoing,1
+1351760670154303,Meta ad,Data center industry and allies,Springfield Sangamon Growth Alliance,Water,Missing context,No,consumption,1
+1351760670154303,Meta ad,Data center industry and allies,Springfield Sangamon Growth Alliance,Water,Missing context,No,issue-ad,1
+1351760670154303,Meta ad,Data center industry and allies,Springfield Sangamon Growth Alliance,Water,Missing context,No,label,1
+2160503341546394,Meta ad,Data center industry and allies,Springfield Sangamon Growth Alliance,Taxes,Supported,No,nearly,1
+2160503341546394,Meta ad,Data center industry and allies,Springfield Sangamon Growth Alliance,Taxes,Supported,No,million,1
+2160503341546394,Meta ad,Data center industry and allies,Springfield Sangamon Growth Alliance,Taxes,Supported,No,annually,1
+2160503341546394,Meta ad,Data center industry and allies,Springfield Sangamon Growth Alliance,Taxes,Supported,No,local,2
+2160503341546394,Meta ad,Data center industry and allies,Springfield Sangamon Growth Alliance,Taxes,Supported,No,property,1
+2160503341546394,Meta ad,Data center industry and allies,Springfield Sangamon Growth Alliance,Taxes,Supported,No,taxes,1
+2160503341546394,Meta ad,Data center industry and allies,Springfield Sangamon Growth Alliance,Taxes,Supported,No,cyrusone,1
+2160503341546394,Meta ad,Data center industry and allies,Springfield Sangamon Growth Alliance,Taxes,Supported,No,gets,1
+2160503341546394,Meta ad,Data center industry and allies,Springfield Sangamon Growth Alliance,Taxes,Supported,No,tax,1
+2160503341546394,Meta ad,Data center industry and allies,Springfield Sangamon Growth Alliance,Taxes,Supported,No,breaks,1
+2031856607408530,Meta ad,Data center industry and allies,Southwestern Illinois Coalition for Job Growth,Water,Missing context,No,nationally,1
+2031856607408530,Meta ad,Data center industry and allies,Southwestern Illinois Coalition for Job Growth,Water,Missing context,No,golf,1
+2031856607408530,Meta ad,Data center industry and allies,Southwestern Illinois Coalition for Job Growth,Water,Missing context,No,courses,1
+2031856607408530,Meta ad,Data center industry and allies,Southwestern Illinois Coalition for Job Growth,Water,Missing context,No,use,1
+2031856607408530,Meta ad,Data center industry and allies,Southwestern Illinois Coalition for Job Growth,Water,Missing context,No,water,1
+2031856607408530,Meta ad,Data center industry and allies,Southwestern Illinois Coalition for Job Growth,Water,Missing context,No,site,1
+2076591636312533,Meta ad,Data center industry and allies,Southwestern Illinois Coalition for Job Growth,Water,Missing context,No,myth,1
+2076591636312533,Meta ad,Data center industry and allies,Southwestern Illinois Coalition for Job Growth,Water,Missing context,No,use,1
+2076591636312533,Meta ad,Data center industry and allies,Southwestern Illinois Coalition for Job Growth,Water,Missing context,No,massive,1
+2076591636312533,Meta ad,Data center industry and allies,Southwestern Illinois Coalition for Job Growth,Water,Missing context,No,amounts,1
+2076591636312533,Meta ad,Data center industry and allies,Southwestern Illinois Coalition for Job Growth,Water,Missing context,No,water,1
+2076591636312533,Meta ad,Data center industry and allies,Southwestern Illinois Coalition for Job Growth,Water,Missing context,No,fact,1
+2076591636312533,Meta ad,Data center industry and allies,Southwestern Illinois Coalition for Job Growth,Water,Missing context,No,older,1
+1120497433890697,Meta ad,Data center industry and allies,Southwestern Illinois Coalition for Job Growth,Jobs,Missing context,No,large,1
+1120497433890697,Meta ad,Data center industry and allies,Southwestern Illinois Coalition for Job Growth,Jobs,Missing context,No,employs,1
+1120497433890697,Meta ad,Data center industry and allies,Southwestern Illinois Coalition for Job Growth,Jobs,Missing context,No,full-time,1
+1120497433890697,Meta ad,Data center industry and allies,Southwestern Illinois Coalition for Job Growth,Jobs,Missing context,No,workers,1
+1120497433890697,Meta ad,Data center industry and allies,Southwestern Illinois Coalition for Job Growth,Jobs,Missing context,No,supports,1
+1120497433890697,Meta ad,Data center industry and allies,Southwestern Illinois Coalition for Job Growth,Jobs,Missing context,No,jobs,1
+1590508512808580,Meta ad,Data center industry and allies,Future Ready Frederick,Water,Not checkable,No,misinformation,1
+1590508512808580,Meta ad,Data center industry and allies,Future Ready Frederick,Water,Not checkable,No,spreading,1
+1590508512808580,Meta ad,Data center industry and allies,Future Ready Frederick,Water,Not checkable,No,use,1
+1590508512808580,Meta ad,Data center industry and allies,Future Ready Frederick,Water,Not checkable,No,advanced,1
+1590508512808580,Meta ad,Data center industry and allies,Future Ready Frederick,Water,Not checkable,No,technology,1
+1590508512808580,Meta ad,Data center industry and allies,Future Ready Frederick,Water,Not checkable,No,reduce,1
+1590508512808580,Meta ad,Data center industry and allies,Future Ready Frederick,Water,Not checkable,No,water,1
+1590508512808580,Meta ad,Data center industry and allies,Future Ready Frederick,Water,Not checkable,No,consumption,1
+1754136019201009,Meta ad,Data center industry and allies,Built Here Oklahoma,Energy (costs),Missing context,No,law,1
+1754136019201009,Meta ad,Data center industry and allies,Built Here Oklahoma,Energy (costs),Missing context,No,ensures,1
+1754136019201009,Meta ad,Data center industry and allies,Built Here Oklahoma,Energy (costs),Missing context,No,won't,1
+1754136019201009,Meta ad,Data center industry and allies,Built Here Oklahoma,Energy (costs),Missing context,No,impact,1
+1754136019201009,Meta ad,Data center industry and allies,Built Here Oklahoma,Energy (costs),Missing context,No,ratepayers,1
+1754136019201009,Meta ad,Data center industry and allies,Built Here Oklahoma,Energy (costs),Missing context,No,issue-ad,1
+1754136019201009,Meta ad,Data center industry and allies,Built Here Oklahoma,Energy (costs),Missing context,No,label,1
+2372537626883774,Meta ad,Data center industry and allies,Built Here Oklahoma,Energy (costs),Missing context,No,state,1
+2372537626883774,Meta ad,Data center industry and allies,Built Here Oklahoma,Energy (costs),Missing context,No,law,1
+2372537626883774,Meta ad,Data center industry and allies,Built Here Oklahoma,Energy (costs),Missing context,No,prohibits,1
+2372537626883774,Meta ad,Data center industry and allies,Built Here Oklahoma,Energy (costs),Missing context,No,passing,1
+2372537626883774,Meta ad,Data center industry and allies,Built Here Oklahoma,Energy (costs),Missing context,No,costs,1
+2372537626883774,Meta ad,Data center industry and allies,Built Here Oklahoma,Energy (costs),Missing context,No,residents,1
+2372537626883774,Meta ad,Data center industry and allies,Built Here Oklahoma,Energy (costs),Missing context,No,issue-ad,1
+2372537626883774,Meta ad,Data center industry and allies,Built Here Oklahoma,Energy (costs),Missing context,No,label,1
+1146371605015712,Meta ad,Data center industry and allies,NWI Data Facts,Taxes,Not checkable,No,michigan,1
+1146371605015712,Meta ad,Data center industry and allies,NWI Data Facts,Taxes,Not checkable,No,city,1
+1146371605015712,Meta ad,Data center industry and allies,NWI Data Facts,Taxes,Not checkable,No,site,1
+1146371605015712,Meta ad,Data center industry and allies,NWI Data Facts,Taxes,Not checkable,No,generating,1
+1146371605015712,Meta ad,Data center industry and allies,NWI Data Facts,Taxes,Not checkable,No,millions,1
+1146371605015712,Meta ad,Data center industry and allies,NWI Data Facts,Taxes,Not checkable,No,fund,1
+1146371605015712,Meta ad,Data center industry and allies,NWI Data Facts,Taxes,Not checkable,No,housing,1
+1146371605015712,Meta ad,Data center industry and allies,NWI Data Facts,Taxes,Not checkable,No,projects,1
+1401579901604310,Meta ad,Data center industry and allies,NWI Data Facts,Jobs,Not checkable,No,northwest,1
+1401579901604310,Meta ad,Data center industry and allies,NWI Data Facts,Jobs,Not checkable,No,indiana,1
+1401579901604310,Meta ad,Data center industry and allies,NWI Data Facts,Jobs,Not checkable,No,create,1
+1401579901604310,Meta ad,Data center industry and allies,NWI Data Facts,Jobs,Not checkable,No,jobs,1
+1401579901604310,Meta ad,Data center industry and allies,NWI Data Facts,Jobs,Not checkable,No,next,1
+1401579901604310,Meta ad,Data center industry and allies,NWI Data Facts,Jobs,Not checkable,No,generation,1
+1401579901604310,Meta ad,Data center industry and allies,NWI Data Facts,Jobs,Not checkable,No,issue-ad,1
+1401579901604310,Meta ad,Data center industry and allies,NWI Data Facts,Jobs,Not checkable,No,label,1
+28792759310375561,Meta ad,Data center industry and allies,"Power Connection, IBEW Local 364",Taxes,Missing context,No,dekalb,1
+28792759310375561,Meta ad,Data center industry and allies,"Power Connection, IBEW Local 364",Taxes,Missing context,No,paid,1
+28792759310375561,Meta ad,Data center industry and allies,"Power Connection, IBEW Local 364",Taxes,Missing context,No,million,1
+28792759310375561,Meta ad,Data center industry and allies,"Power Connection, IBEW Local 364",Taxes,Missing context,No,property,1
+28792759310375561,Meta ad,Data center industry and allies,"Power Connection, IBEW Local 364",Taxes,Missing context,No,taxes,1
+28792759310375561,Meta ad,Data center industry and allies,"Power Connection, IBEW Local 364",Taxes,Missing context,No,issue-ad,1
+28792759310375561,Meta ad,Data center industry and allies,"Power Connection, IBEW Local 364",Taxes,Missing context,No,label,1
+2358942264597308,Meta ad,Other industries riding the boom,Edison Electric Institute,Energy (costs),Missing context,No,large,1
+2358942264597308,Meta ad,Other industries riding the boom,Edison Electric Institute,Energy (costs),Missing context,No,help,1
+2358942264597308,Meta ad,Other industries riding the boom,Edison Electric Institute,Energy (costs),Missing context,No,put,1
+2358942264597308,Meta ad,Other industries riding the boom,Edison Electric Institute,Energy (costs),Missing context,No,downward,1
+2358942264597308,Meta ad,Other industries riding the boom,Edison Electric Institute,Energy (costs),Missing context,No,pressure,1
+2358942264597308,Meta ad,Other industries riding the boom,Edison Electric Institute,Energy (costs),Missing context,No,electric,1
+2358942264597308,Meta ad,Other industries riding the boom,Edison Electric Institute,Energy (costs),Missing context,No,rates,1
+2358942264597308,Meta ad,Other industries riding the boom,Edison Electric Institute,Energy (costs),Missing context,No,spreading,1
+2358942264597308,Meta ad,Other industries riding the boom,Edison Electric Institute,Energy (costs),Missing context,No,system,1
+2358942264597308,Meta ad,Other industries riding the boom,Edison Electric Institute,Energy (costs),Missing context,No,costs,1
+2236644027133626,Meta ad,Other industries riding the boom,Edison Electric Institute,Energy (costs),Missing context,No,senate,1
+2236644027133626,Meta ad,Other industries riding the boom,Edison Electric Institute,Energy (costs),Missing context,No,bill,1
+2236644027133626,Meta ad,Other industries riding the boom,Edison Electric Institute,Energy (costs),Missing context,No,requires,1
+2236644027133626,Meta ad,Other industries riding the boom,Edison Electric Institute,Energy (costs),Missing context,No,pay,1
+2236644027133626,Meta ad,Other industries riding the boom,Edison Electric Institute,Energy (costs),Missing context,No,fair,1
+2236644027133626,Meta ad,Other industries riding the boom,Edison Electric Institute,Energy (costs),Missing context,No,share,1
+2236644027133626,Meta ad,Other industries riding the boom,Edison Electric Institute,Energy (costs),Missing context,No,costs,1
+912252061727422,Meta ad,Opposition and counter-ads,Conservation Voters of Michigan,Energy (counter-claim),Counter-ad (not rated),No,john,1
+912252061727422,Meta ad,Opposition and counter-ads,Conservation Voters of Michigan,Energy (counter-claim),Counter-ad (not rated),No,james,1
+912252061727422,Meta ad,Opposition and counter-ads,Conservation Voters of Michigan,Energy (counter-claim),Counter-ad (not rated),No,cashed,1
+912252061727422,Meta ad,Opposition and counter-ads,Conservation Voters of Michigan,Energy (counter-claim),Counter-ad (not rated),No,donors,1
+912252061727422,Meta ad,Opposition and counter-ads,Conservation Voters of Michigan,Energy (counter-claim),Counter-ad (not rated),No,families,1
+912252061727422,Meta ad,Opposition and counter-ads,Conservation Voters of Michigan,Energy (counter-claim),Counter-ad (not rated),No,stuck,1
+912252061727422,Meta ad,Opposition and counter-ads,Conservation Voters of Michigan,Energy (counter-claim),Counter-ad (not rated),No,paying,1
+912252061727422,Meta ad,Opposition and counter-ads,Conservation Voters of Michigan,Energy (counter-claim),Counter-ad (not rated),No,bill,1
+1638176964326002,Meta ad,Opposition and counter-ads,DAGA People's Lawyer Project NV,Water + energy (counter-claim),Counter-ad (not rated),No,attacks,1
+1638176964326002,Meta ad,Opposition and counter-ads,DAGA People's Lawyer Project NV,Water + energy (counter-claim),Counter-ad (not rated),No,candidate,1
+1638176964326002,Meta ad,Opposition and counter-ads,DAGA People's Lawyer Project NV,Water + energy (counter-claim),Counter-ad (not rated),No,driving,1
+1638176964326002,Meta ad,Opposition and counter-ads,DAGA People's Lawyer Project NV,Water + energy (counter-claim),Counter-ad (not rated),No,costs,1
+1638176964326002,Meta ad,Opposition and counter-ads,DAGA People's Lawyer Project NV,Water + energy (counter-claim),Counter-ad (not rated),No,draining,1
+1638176964326002,Meta ad,Opposition and counter-ads,DAGA People's Lawyer Project NV,Water + energy (counter-claim),Counter-ad (not rated),No,water,1
+1091363737137522,Meta ad,Opposition and counter-ads,Half Court Political Fund,Water (counter-claim),Counter-ad (not rated),No,state,1
+1091363737137522,Meta ad,Opposition and counter-ads,Half Court Political Fund,Water (counter-claim),Counter-ad (not rated),No,senate,1
+1091363737137522,Meta ad,Opposition and counter-ads,Half Court Political Fund,Water (counter-claim),Counter-ad (not rated),No,candidate,1
+1091363737137522,Meta ad,Opposition and counter-ads,Half Court Political Fund,Water (counter-claim),Counter-ad (not rated),No,clean,1
+1091363737137522,Meta ad,Opposition and counter-ads,Half Court Political Fund,Water (counter-claim),Counter-ad (not rated),No,water,1
+1091363737137522,Meta ad,Opposition and counter-ads,Half Court Political Fund,Water (counter-claim),Counter-ad (not rated),No,hand,1
+1091363737137522,Meta ad,Opposition and counter-ads,Half Court Political Fund,Water (counter-claim),Counter-ad (not rated),No,outs,1
+1120874683614951,Meta ad,Opposition and counter-ads,Sierra Club Florida,Energy (counter-claim),Counter-ad (not rated),No,donalds,2
+1120874683614951,Meta ad,Opposition and counter-ads,Sierra Club Florida,Energy (counter-claim),Counter-ad (not rated),No,attack,1
+1120874683614951,Meta ad,Opposition and counter-ads,Sierra Club Florida,Energy (counter-claim),Counter-ad (not rated),No,byron,1
+1120874683614951,Meta ad,Opposition and counter-ads,Sierra Club Florida,Energy (counter-claim),Counter-ad (not rated),No,support,1
+2060421341232960,Meta ad,Opposition and counter-ads,Friends of Tina Kotek / The Choice 2026,Energy (counter-claim),Counter-ad (not rated),No,push,1
+2060421341232960,Meta ad,Opposition and counter-ads,Friends of Tina Kotek / The Choice 2026,Energy (counter-claim),Counter-ad (not rated),No,energy,1
+2060421341232960,Meta ad,Opposition and counter-ads,Friends of Tina Kotek / The Choice 2026,Energy (counter-claim),Counter-ad (not rated),No,bills,1
+2060421341232960,Meta ad,Opposition and counter-ads,Friends of Tina Kotek / The Choice 2026,Energy (counter-claim),Counter-ad (not rated),No,higher,1
+2060421341232960,Meta ad,Opposition and counter-ads,Friends of Tina Kotek / The Choice 2026,Energy (counter-claim),Counter-ad (not rated),No,drazan,1
+2060421341232960,Meta ad,Opposition and counter-ads,Friends of Tina Kotek / The Choice 2026,Energy (counter-claim),Counter-ad (not rated),No,voted,1
+2060421341232960,Meta ad,Opposition and counter-ads,Friends of Tina Kotek / The Choice 2026,Energy (counter-claim),Counter-ad (not rated),No,against,1
+2060421341232960,Meta ad,Opposition and counter-ads,Friends of Tina Kotek / The Choice 2026,Energy (counter-claim),Counter-ad (not rated),No,requiring,1
+2060421341232960,Meta ad,Opposition and counter-ads,Friends of Tina Kotek / The Choice 2026,Energy (counter-claim),Counter-ad (not rated),No,pay,1
+2060421341232960,Meta ad,Opposition and counter-ads,Friends of Tina Kotek / The Choice 2026,Energy (counter-claim),Counter-ad (not rated),No,fair,1
+2060421341232960,Meta ad,Opposition and counter-ads,Friends of Tina Kotek / The Choice 2026,Energy (counter-claim),Counter-ad (not rated),No,share,1
+2228839401023928,Meta ad,Opposition and counter-ads,Dr Theresa Brooks for State Senate,Energy (counter-claim),Counter-ad (not rated),No,patients,1
+2228839401023928,Meta ad,Opposition and counter-ads,Dr Theresa Brooks for State Senate,Energy (counter-claim),Counter-ad (not rated),No,shouldn't,1
+2228839401023928,Meta ad,Opposition and counter-ads,Dr Theresa Brooks for State Senate,Energy (counter-claim),Counter-ad (not rated),No,pay,1
+2228839401023928,Meta ad,Opposition and counter-ads,Dr Theresa Brooks for State Senate,Energy (counter-claim),Counter-ad (not rated),No,higher,1
+2228839401023928,Meta ad,Opposition and counter-ads,Dr Theresa Brooks for State Senate,Energy (counter-claim),Counter-ad (not rated),No,energy,1
+2228839401023928,Meta ad,Opposition and counter-ads,Dr Theresa Brooks for State Senate,Energy (counter-claim),Counter-ad (not rated),No,bills,1
+2228839401023928,Meta ad,Opposition and counter-ads,Dr Theresa Brooks for State Senate,Energy (counter-claim),Counter-ad (not rated),No,subsidize,1
+1787510099256086,Meta ad,Opposition and counter-ads,The Wisco Project,Energy (counter-claim),Counter-ad (not rated),No,backs,1
+1787510099256086,Meta ad,Opposition and counter-ads,The Wisco Project,Energy (counter-claim),Counter-ad (not rated),No,house,1
+1787510099256086,Meta ad,Opposition and counter-ads,The Wisco Project,Energy (counter-claim),Counter-ad (not rated),No,candidate,1
+1787510099256086,Meta ad,Opposition and counter-ads,The Wisco Project,Energy (counter-claim),Counter-ad (not rated),No,supports,1
+1787510099256086,Meta ad,Opposition and counter-ads,The Wisco Project,Energy (counter-claim),Counter-ad (not rated),No,moratorium,1
+2784983821860945,Meta ad,Opposition and counter-ads,WorkMoney,Energy (counter-claim),Counter-ad (not rated),No,already,1
+2784983821860945,Meta ad,Opposition and counter-ads,WorkMoney,Energy (counter-claim),Counter-ad (not rated),No,consume,1
+2784983821860945,Meta ad,Opposition and counter-ads,WorkMoney,Energy (counter-claim),Counter-ad (not rated),No,electricity,1
+2784983821860945,Meta ad,Opposition and counter-ads,WorkMoney,Energy (counter-claim),Counter-ad (not rated),No,supply,1
+2026394025414584,Meta ad,Opposition and counter-ads,Texans for Henry Cuellar,Energy (counter-claim),Counter-ad (not rated),No,tano,1
+2026394025414584,Meta ad,Opposition and counter-ads,Texans for Henry Cuellar,Energy (counter-claim),Counter-ad (not rated),No,tijerina,1
+2026394025414584,Meta ad,Opposition and counter-ads,Texans for Henry Cuellar,Energy (counter-claim),Counter-ad (not rated),No,wants,1
+2026394025414584,Meta ad,Opposition and counter-ads,Texans for Henry Cuellar,Energy (counter-claim),Counter-ad (not rated),No,move,1
+2026394025414584,Meta ad,Opposition and counter-ads,Texans for Henry Cuellar,Energy (counter-claim),Counter-ad (not rated),No,next,1
+2026394025414584,Meta ad,Opposition and counter-ads,Texans for Henry Cuellar,Energy (counter-claim),Counter-ad (not rated),No,door,1
+1221109883504437,Meta ad,Opposition and counter-ads,Tiffany for Wisconsin,Water + energy (counter-claim),Counter-ad (not rated),No,republican,1
+1221109883504437,Meta ad,Opposition and counter-ads,Tiffany for Wisconsin,Water + energy (counter-claim),Counter-ad (not rated),No,attack,1
+1221109883504437,Meta ad,Opposition and counter-ads,Tiffany for Wisconsin,Water + energy (counter-claim),Counter-ad (not rated),No,plan,1
+1221109883504437,Meta ad,Opposition and counter-ads,Tiffany for Wisconsin,Water + energy (counter-claim),Counter-ad (not rated),No,leaves,1
+1221109883504437,Meta ad,Opposition and counter-ads,Tiffany for Wisconsin,Water + energy (counter-claim),Counter-ad (not rated),No,community,1
+1221109883504437,Meta ad,Opposition and counter-ads,Tiffany for Wisconsin,Water + energy (counter-claim),Counter-ad (not rated),No,water,1
+1221109883504437,Meta ad,Opposition and counter-ads,Tiffany for Wisconsin,Water + energy (counter-claim),Counter-ad (not rated),No,supplies,1
+1221109883504437,Meta ad,Opposition and counter-ads,Tiffany for Wisconsin,Water + energy (counter-claim),Counter-ad (not rated),No,drained,1
+1221109883504437,Meta ad,Opposition and counter-ads,Tiffany for Wisconsin,Water + energy (counter-claim),Counter-ad (not rated),No,sky-high,1
+1221109883504437,Meta ad,Opposition and counter-ads,Tiffany for Wisconsin,Water + energy (counter-claim),Counter-ad (not rated),No,electric,1
+1221109883504437,Meta ad,Opposition and counter-ads,Tiffany for Wisconsin,Water + energy (counter-claim),Counter-ad (not rated),No,bills,1
+1119207593924689,Meta ad,Opposition and counter-ads,Maine Conservation Voters Action Fund,Energy (counter-claim),Counter-ad (not rated),No,backs,1
+1119207593924689,Meta ad,Opposition and counter-ads,Maine Conservation Voters Action Fund,Energy (counter-claim),Counter-ad (not rated),No,candidate,1
+1119207593924689,Meta ad,Opposition and counter-ads,Maine Conservation Voters Action Fund,Energy (counter-claim),Counter-ad (not rated),No,push,1
+1119207593924689,Meta ad,Opposition and counter-ads,Maine Conservation Voters Action Fund,Energy (counter-claim),Counter-ad (not rated),No,pause,1
+1119207593924689,Meta ad,Opposition and counter-ads,Maine Conservation Voters Action Fund,Energy (counter-claim),Counter-ad (not rated),No,large,1
+1119207593924689,Meta ad,Opposition and counter-ads,Maine Conservation Voters Action Fund,Energy (counter-claim),Counter-ad (not rated),No,scale,1
+1815074113136528,Meta ad,Opposition and counter-ads,Citizens for Common Sense Michigan,Taxes (counter-claim),Counter-ad (not rated),No,attacks,1
+1815074113136528,Meta ad,Opposition and counter-ads,Citizens for Common Sense Michigan,Taxes (counter-claim),Counter-ad (not rated),No,bill,1
+1815074113136528,Meta ad,Opposition and counter-ads,Citizens for Common Sense Michigan,Taxes (counter-claim),Counter-ad (not rated),No,giving,1
+1815074113136528,Meta ad,Opposition and counter-ads,Citizens for Common Sense Michigan,Taxes (counter-claim),Counter-ad (not rated),No,million,1
+1815074113136528,Meta ad,Opposition and counter-ads,Citizens for Common Sense Michigan,Taxes (counter-claim),Counter-ad (not rated),No,tax,1
+1815074113136528,Meta ad,Opposition and counter-ads,Citizens for Common Sense Michigan,Taxes (counter-claim),Counter-ad (not rated),No,breaks,1
+1375768711074811,Meta ad,Opposition and counter-ads,Government That Works PAC,Water + energy (counter-claim),Counter-ad (not rated),No,sioux,1
+1375768711074811,Meta ad,Opposition and counter-ads,Government That Works PAC,Water + energy (counter-claim),Counter-ad (not rated),No,falls,1
+1375768711074811,Meta ad,Opposition and counter-ads,Government That Works PAC,Water + energy (counter-claim),Counter-ad (not rated),No,mayoral,1
+1375768711074811,Meta ad,Opposition and counter-ads,Government That Works PAC,Water + energy (counter-claim),Counter-ad (not rated),No,attack,1
+1375768711074811,Meta ad,Opposition and counter-ads,Government That Works PAC,Water + energy (counter-claim),Counter-ad (not rated),No,bigger,1
+1375768711074811,Meta ad,Opposition and counter-ads,Government That Works PAC,Water + energy (counter-claim),Counter-ad (not rated),No,bills,1
+1375768711074811,Meta ad,Opposition and counter-ads,Government That Works PAC,Water + energy (counter-claim),Counter-ad (not rated),No,electricity,1
+1375768711074811,Meta ad,Opposition and counter-ads,Government That Works PAC,Water + energy (counter-claim),Counter-ad (not rated),No,endangering,1
+1375768711074811,Meta ad,Opposition and counter-ads,Government That Works PAC,Water + energy (counter-claim),Counter-ad (not rated),No,water,1
+1375768711074811,Meta ad,Opposition and counter-ads,Government That Works PAC,Water + energy (counter-claim),Counter-ad (not rated),No,supply,1
+28194997226868784,Meta ad,Opposition and counter-ads,Innovation Ohio,Energy (counter-claim),Counter-ad (not rated),No,ohio,1
+28194997226868784,Meta ad,Opposition and counter-ads,Innovation Ohio,Energy (counter-claim),Counter-ad (not rated),No,increase,1
+28194997226868784,Meta ad,Opposition and counter-ads,Innovation Ohio,Energy (counter-claim),Counter-ad (not rated),No,bills,1
+28194997226868784,Meta ad,Opposition and counter-ads,Innovation Ohio,Energy (counter-claim),Counter-ad (not rated),No,monthly,1
+28194997226868784,Meta ad,Opposition and counter-ads,Innovation Ohio,Energy (counter-claim),Counter-ad (not rated),No,report,1
+28194997226868784,Meta ad,Opposition and counter-ads,Innovation Ohio,Energy (counter-claim),Counter-ad (not rated),No,finds,1
+2167025290881029,Meta ad,Opposition and counter-ads,Friends for Kathy Hochul,Energy (counter-claim),Counter-ad (not rated),No,opponent,1
+2167025290881029,Meta ad,Opposition and counter-ads,Friends for Kathy Hochul,Energy (counter-claim),Counter-ad (not rated),No,opposes,1
+2167025290881029,Meta ad,Opposition and counter-ads,Friends for Kathy Hochul,Energy (counter-claim),Counter-ad (not rated),No,governor,1
+2167025290881029,Meta ad,Opposition and counter-ads,Friends for Kathy Hochul,Energy (counter-claim),Counter-ad (not rated),No,moratorium,1
+2167025290881029,Meta ad,Opposition and counter-ads,Friends for Kathy Hochul,Energy (counter-claim),Counter-ad (not rated),No,he'll,1
+2167025290881029,Meta ad,Opposition and counter-ads,Friends for Kathy Hochul,Energy (counter-claim),Counter-ad (not rated),No,raise,1
+2167025290881029,Meta ad,Opposition and counter-ads,Friends for Kathy Hochul,Energy (counter-claim),Counter-ad (not rated),No,electric,1
+2167025290881029,Meta ad,Opposition and counter-ads,Friends for Kathy Hochul,Energy (counter-claim),Counter-ad (not rated),No,bills,1
+1751481502753963,Meta ad,Opposition and counter-ads,Utility Information Alliance,Energy (counter-claim),Counter-ad (not rated),No,drive,1
+1751481502753963,Meta ad,Opposition and counter-ads,Utility Information Alliance,Energy (counter-claim),Counter-ad (not rated),No,demand,1
+1751481502753963,Meta ad,Opposition and counter-ads,Utility Information Alliance,Energy (counter-claim),Counter-ad (not rated),No,energy,1
+1751481502753963,Meta ad,Opposition and counter-ads,Utility Information Alliance,Energy (counter-claim),Counter-ad (not rated),No,bills,1
+1751481502753963,Meta ad,Opposition and counter-ads,Utility Information Alliance,Energy (counter-claim),Counter-ad (not rated),No,risks,1
+1751481502753963,Meta ad,Opposition and counter-ads,Utility Information Alliance,Energy (counter-claim),Counter-ad (not rated),No,fall,1
+1751481502753963,Meta ad,Opposition and counter-ads,Utility Information Alliance,Energy (counter-claim),Counter-ad (not rated),No,everyday,1
+1751481502753963,Meta ad,Opposition and counter-ads,Utility Information Alliance,Energy (counter-claim),Counter-ad (not rated),No,families,1
+1730516554619571,Meta ad,Opposition and counter-ads,Earthjustice,Energy (counter-claim),Counter-ad (not rated),No,xai,1
+1730516554619571,Meta ad,Opposition and counter-ads,Earthjustice,Energy (counter-claim),Counter-ad (not rated),No,illegally,1
+1730516554619571,Meta ad,Opposition and counter-ads,Earthjustice,Energy (counter-claim),Counter-ad (not rated),No,polluting,1
+1730516554619571,Meta ad,Opposition and counter-ads,Earthjustice,Energy (counter-claim),Counter-ad (not rated),No,nearby,1
+1730516554619571,Meta ad,Opposition and counter-ads,Earthjustice,Energy (counter-claim),Counter-ad (not rated),No,communities,1
+1730516554619571,Meta ad,Opposition and counter-ads,Earthjustice,Energy (counter-claim),Counter-ad (not rated),No,southaven,1
+1730516554619571,Meta ad,Opposition and counter-ads,Earthjustice,Energy (counter-claim),Counter-ad (not rated),No,mississippi,1
+1730516554619571,Meta ad,Opposition and counter-ads,Earthjustice,Energy (counter-claim),Counter-ad (not rated),No,power,1
+1730516554619571,Meta ad,Opposition and counter-ads,Earthjustice,Energy (counter-claim),Counter-ad (not rated),No,grok,1
+4301839766740670,Meta ad,Opposition and counter-ads,Earthjustice,Energy (counter-claim),Counter-ad (not rated),No,suing,1
+4301839766740670,Meta ad,Opposition and counter-ads,Earthjustice,Energy (counter-claim),Counter-ad (not rated),No,xai,1
+4301839766740670,Meta ad,Opposition and counter-ads,Earthjustice,Energy (counter-claim),Counter-ad (not rated),No,building,1
+4301839766740670,Meta ad,Opposition and counter-ads,Earthjustice,Energy (counter-claim),Counter-ad (not rated),No,illegal,1
+4301839766740670,Meta ad,Opposition and counter-ads,Earthjustice,Energy (counter-claim),Counter-ad (not rated),No,power,1
+4301839766740670,Meta ad,Opposition and counter-ads,Earthjustice,Energy (counter-claim),Counter-ad (not rated),No,plant,1
+4301839766740670,Meta ad,Opposition and counter-ads,Earthjustice,Energy (counter-claim),Counter-ad (not rated),No,mississippi,1
+4301839766740670,Meta ad,Opposition and counter-ads,Earthjustice,Energy (counter-claim),Counter-ad (not rated),No,fuel,1
+1511733583996891,Meta ad,Opposition and counter-ads,Earthjustice,Energy (counter-claim),Counter-ad (not rated),No,xai,1
+1511733583996891,Meta ad,Opposition and counter-ads,Earthjustice,Energy (counter-claim),Counter-ad (not rated),No,southaven,1
+1511733583996891,Meta ad,Opposition and counter-ads,Earthjustice,Energy (counter-claim),Counter-ad (not rated),No,message,1
+1511733583996891,Meta ad,Opposition and counter-ads,Earthjustice,Energy (counter-claim),Counter-ad (not rated),No,third,1
+1511733583996891,Meta ad,Opposition and counter-ads,Earthjustice,Energy (counter-claim),Counter-ad (not rated),No,dozen,1
+1511733583996891,Meta ad,Opposition and counter-ads,Earthjustice,Energy (counter-claim),Counter-ad (not rated),No,placements,1
+1641018310411783,Meta ad,Opposition and counter-ads,NRDC,Energy (counter-claim),Counter-ad (not rated),No,creator,1
+1641018310411783,Meta ad,Opposition and counter-ads,NRDC,Energy (counter-claim),Counter-ad (not rated),No,video,1
+1641018310411783,Meta ad,Opposition and counter-ads,NRDC,Energy (counter-claim),Counter-ad (not rated),No,frying,1
+1641018310411783,Meta ad,Opposition and counter-ads,NRDC,Energy (counter-claim),Counter-ad (not rated),No,planet,1
+1048346007649229,Meta ad,Opposition and counter-ads,Montana Conservation Voters,Energy (counter-claim),Counter-ad (not rated),No,acre,1
+1048346007649229,Meta ad,Opposition and counter-ads,Montana Conservation Voters,Energy (counter-claim),Counter-ad (not rated),No,near,1
+1048346007649229,Meta ad,Opposition and counter-ads,Montana Conservation Voters,Energy (counter-claim),Counter-ad (not rated),No,broadview,1
+1048346007649229,Meta ad,Opposition and counter-ads,Montana Conservation Voters,Energy (counter-claim),Counter-ad (not rated),No,demand,1
+1048346007649229,Meta ad,Opposition and counter-ads,Montana Conservation Voters,Energy (counter-claim),Counter-ad (not rated),No,times,1
+1048346007649229,Meta ad,Opposition and counter-ads,Montana Conservation Voters,Energy (counter-claim),Counter-ad (not rated),No,power,1
+1048346007649229,Meta ad,Opposition and counter-ads,Montana Conservation Voters,Energy (counter-claim),Counter-ad (not rated),No,current,1
+1048346007649229,Meta ad,Opposition and counter-ads,Montana Conservation Voters,Energy (counter-claim),Counter-ad (not rated),No,county,1
+1048346007649229,Meta ad,Opposition and counter-ads,Montana Conservation Voters,Energy (counter-claim),Counter-ad (not rated),No,use,1
+1400627271367785,Meta ad,Other industries riding the boom,Williams Companies,Energy,Not checkable,No,ceo,1
+1400627271367785,Meta ad,Other industries riding the boom,Williams Companies,Energy,Not checkable,No,fox,1
+1400627271367785,Meta ad,Other industries riding the boom,Williams Companies,Energy,Not checkable,No,business,1
+1400627271367785,Meta ad,Other industries riding the boom,Williams Companies,Energy,Not checkable,No,powering,1
+1400627271367785,Meta ad,Other industries riding the boom,Williams Companies,Energy,Not checkable,No,ai-driven,1
+1400627271367785,Meta ad,Other industries riding the boom,Williams Companies,Energy,Not checkable,No,economy,1
+1400627271367785,Meta ad,Other industries riding the boom,Williams Companies,Energy,Not checkable,No,gas,1
+1400627271367785,Meta ad,Other industries riding the boom,Williams Companies,Energy,Not checkable,No,infrastructure,1
+1810827893585871,Meta ad,Data center industry and allies,AirTrunk,Water,Missing context,No,dry,1
+1810827893585871,Meta ad,Data center industry and allies,AirTrunk,Water,Missing context,No,air,1
+1810827893585871,Meta ad,Data center industry and allies,AirTrunk,Water,Missing context,No,cooling,1
+1810827893585871,Meta ad,Data center industry and allies,AirTrunk,Water,Missing context,No,closed,1
+1810827893585871,Meta ad,Data center industry and allies,AirTrunk,Water,Missing context,No,loop,1
+1810827893585871,Meta ad,Data center industry and allies,AirTrunk,Water,Missing context,No,added,1
+1810827893585871,Meta ad,Data center industry and allies,AirTrunk,Water,Missing context,No,pressure,1
+1810827893585871,Meta ad,Data center industry and allies,AirTrunk,Water,Missing context,No,local,1
+1810827893585871,Meta ad,Data center industry and allies,AirTrunk,Water,Missing context,No,water,1
+1810827893585871,Meta ad,Data center industry and allies,AirTrunk,Water,Missing context,No,resources,1
+1810827893585871,Meta ad,Data center industry and allies,AirTrunk,Water,Missing context,No,issue-ad,1
+1810827893585871,Meta ad,Data center industry and allies,AirTrunk,Water,Missing context,No,label,1
+1601780274686250,Meta ad,Data center industry and allies,Government of Alberta,Energy + Water,Missing context,No,centres,1
+1601780274686250,Meta ad,Data center industry and allies,Government of Alberta,Energy + Water,Missing context,No,limited,1
+1601780274686250,Meta ad,Data center industry and allies,Government of Alberta,Energy + Water,Missing context,No,industrial,1
+1601780274686250,Meta ad,Data center industry and allies,Government of Alberta,Energy + Water,Missing context,No,zones,1
+1601780274686250,Meta ad,Data center industry and allies,Government of Alberta,Energy + Water,Missing context,No,last,1
+1601780274686250,Meta ad,Data center industry and allies,Government of Alberta,Energy + Water,Missing context,No,water,1
+1601780274686250,Meta ad,Data center industry and allies,Government of Alberta,Energy + Water,Missing context,No,must,1
+1601780274686250,Meta ad,Data center industry and allies,Government of Alberta,Energy + Water,Missing context,No,supply,1
+1601780274686250,Meta ad,Data center industry and allies,Government of Alberta,Energy + Water,Missing context,No,power,1
+1071752032382332,Meta ad,Data center industry and allies,Saskatchewan Party Caucus,National security,Not checkable,No,bell,1
+1071752032382332,Meta ad,Data center industry and allies,Saskatchewan Party Caucus,National security,Not checkable,No,centre,1
+1071752032382332,Meta ad,Data center industry and allies,Saskatchewan Party Caucus,National security,Not checkable,No,thousands,1
+1071752032382332,Meta ad,Data center industry and allies,Saskatchewan Party Caucus,National security,Not checkable,No,good,1
+1071752032382332,Meta ad,Data center industry and allies,Saskatchewan Party Caucus,National security,Not checkable,No,paying,1
+1071752032382332,Meta ad,Data center industry and allies,Saskatchewan Party Caucus,National security,Not checkable,No,jobs,1
+1071752032382332,Meta ad,Data center industry and allies,Saskatchewan Party Caucus,National security,Not checkable,No,protect,1
+1071752032382332,Meta ad,Data center industry and allies,Saskatchewan Party Caucus,National security,Not checkable,No,sovereignty,1
+2172889726617169,Meta ad,Opposition and counter-ads,Friends of the Earth,Water + energy (counter-claim),Counter-ad (not rated),No,centres,1
+2172889726617169,Meta ad,Opposition and counter-ads,Friends of the Earth,Water + energy (counter-claim),Counter-ad (not rated),No,competing,1
+2172889726617169,Meta ad,Opposition and counter-ads,Friends of the Earth,Water + energy (counter-claim),Counter-ad (not rated),No,communities,1
+2172889726617169,Meta ad,Opposition and counter-ads,Friends of the Earth,Water + energy (counter-claim),Counter-ad (not rated),No,limited,1
+2172889726617169,Meta ad,Opposition and counter-ads,Friends of the Earth,Water + energy (counter-claim),Counter-ad (not rated),No,water,1
+2172889726617169,Meta ad,Opposition and counter-ads,Friends of the Earth,Water + energy (counter-claim),Counter-ad (not rated),No,energy,1
+2172889726617169,Meta ad,Opposition and counter-ads,Friends of the Earth,Water + energy (counter-claim),Counter-ad (not rated),No,supplies,1
+2172889726617169,Meta ad,Opposition and counter-ads,Friends of the Earth,Water + energy (counter-claim),Counter-ad (not rated),No,petition,1
+2172889726617169,Meta ad,Opposition and counter-ads,Friends of the Earth,Water + energy (counter-claim),Counter-ad (not rated),No,pause,1
+2172889726617169,Meta ad,Opposition and counter-ads,Friends of the Earth,Water + energy (counter-claim),Counter-ad (not rated),No,expansion,1
+2012700756027978,Meta ad,Opposition and counter-ads,Environment Centre NT,Water (counter-claim),Counter-ad (not rated),No,centres,1
+2012700756027978,Meta ad,Opposition and counter-ads,Environment Centre NT,Water (counter-claim),Counter-ad (not rated),No,guzzle,1
+2012700756027978,Meta ad,Opposition and counter-ads,Environment Centre NT,Water (counter-claim),Counter-ad (not rated),No,water,1
+2012700756027978,Meta ad,Opposition and counter-ads,Environment Centre NT,Water (counter-claim),Counter-ad (not rated),No,fast-track,1
+2012700756027978,Meta ad,Opposition and counter-ads,Environment Centre NT,Water (counter-claim),Counter-ad (not rated),No,fracking,1
+2012700756027978,Meta ad,Opposition and counter-ads,Environment Centre NT,Water (counter-claim),Counter-ad (not rated),No,underground,1
+2012700756027978,Meta ad,Opposition and counter-ads,Environment Centre NT,Water (counter-claim),Counter-ad (not rated),No,reservoirs,1
+1617839936414098,Meta ad,Opposition and counter-ads,"Katherine Copsey, Greens",Water + energy (counter-claim),Counter-ad (not rated),No,centres,1
+1617839936414098,Meta ad,Opposition and counter-ads,"Katherine Copsey, Greens",Water + energy (counter-claim),Counter-ad (not rated),No,use,1
+1617839936414098,Meta ad,Opposition and counter-ads,"Katherine Copsey, Greens",Water + energy (counter-claim),Counter-ad (not rated),No,massive,1
+1617839936414098,Meta ad,Opposition and counter-ads,"Katherine Copsey, Greens",Water + energy (counter-claim),Counter-ad (not rated),No,amounts,1
+1617839936414098,Meta ad,Opposition and counter-ads,"Katherine Copsey, Greens",Water + energy (counter-claim),Counter-ad (not rated),No,water,1
+1617839936414098,Meta ad,Opposition and counter-ads,"Katherine Copsey, Greens",Water + energy (counter-claim),Counter-ad (not rated),No,energy,1
+1617839936414098,Meta ad,Opposition and counter-ads,"Katherine Copsey, Greens",Water + energy (counter-claim),Counter-ad (not rated),No,need,1
+1617839936414098,Meta ad,Opposition and counter-ads,"Katherine Copsey, Greens",Water + energy (counter-claim),Counter-ad (not rated),No,pause,1
+3082818265257315,Meta ad,Opposition and counter-ads,Nova Scotia NDP,Energy (counter-claim),Counter-ad (not rated),No,big,2
+3082818265257315,Meta ad,Opposition and counter-ads,Nova Scotia NDP,Energy (counter-claim),Counter-ad (not rated),No,centres,1
+3082818265257315,Meta ad,Opposition and counter-ads,Nova Scotia NDP,Energy (counter-claim),Counter-ad (not rated),No,mean,1
+3082818265257315,Meta ad,Opposition and counter-ads,Nova Scotia NDP,Energy (counter-claim),Counter-ad (not rated),No,power,1
+3082818265257315,Meta ad,Opposition and counter-ads,Nova Scotia NDP,Energy (counter-claim),Counter-ad (not rated),No,bill,1
+3082818265257315,Meta ad,Opposition and counter-ads,Nova Scotia NDP,Energy (counter-claim),Counter-ad (not rated),No,hikes,1
+3082818265257315,Meta ad,Opposition and counter-ads,Nova Scotia NDP,Energy (counter-claim),Counter-ad (not rated),No,nova,1
+3082818265257315,Meta ad,Opposition and counter-ads,Nova Scotia NDP,Energy (counter-claim),Counter-ad (not rated),No,scotians,1
+1790561518818248,Meta ad,Opposition and counter-ads,Olivia Chow for Mayor,Energy (counter-claim),Counter-ad (not rated),No,brad,1
+1790561518818248,Meta ad,Opposition and counter-ads,Olivia Chow for Mayor,Energy (counter-claim),Counter-ad (not rated),No,bradford,1
+1790561518818248,Meta ad,Opposition and counter-ads,Olivia Chow for Mayor,Energy (counter-claim),Counter-ad (not rated),No,wants,1
+1790561518818248,Meta ad,Opposition and counter-ads,Olivia Chow for Mayor,Energy (counter-claim),Counter-ad (not rated),No,centres,1
+1790561518818248,Meta ad,Opposition and counter-ads,Olivia Chow for Mayor,Energy (counter-claim),Counter-ad (not rated),No,toronto,1

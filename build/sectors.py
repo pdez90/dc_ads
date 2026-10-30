@@ -24,7 +24,7 @@ ads.extend([
       claim="\"Texas data centers keep American data in American hands\"; keep data \"out of the hands of hostile foreign nations like China\"",
       verbatim="Verbatim (Meta Ad Library)", url_primary="https://www.facebook.com/ads/library/?id=1058363043622922", url_source="",
       evidence="Primary (Meta Ad Library + YouTube)",
-      notes="Three China-themed Meta ads, each $50K–$125K, plus a 'Stand with the trades' jobs ad ($150K–$175K). Earlier YouTube spots were titled 'Data Centers Protect America's National Security'."),
+      notes="China-themed and trades-jobs Meta ads since Sep 2026. Earlier YouTube spots were titled 'Data Centers Protect America's National Security'."),
  dict(id="US-39", region="US", place="National; South Dakota", sponsor="NetChoice", sponsor_type="Tech industry group",
       format="Facebook/Instagram video ads", title="'China Is Investing Trillions'", date="Dec 2025 – Jun 2026", claim_type="National security",
       claim="\"China is investing trillions to win the tech race\"; building data centers will \"strengthen national security\"",
@@ -102,7 +102,7 @@ for (sp,st,lid,dt,spend,ct,tx) in new_meta4:
         meta.append(dict(sponsor=sp,state=st,library_id=lid,dates=dt,spend=spend,claim_type=ct,text=tx,url=f"https://www.facebook.com/ads/library/?id={lid}"))
 meta_counts += [("Williams Companies","4 data-center/gas Meta issue ads (2025); 100+ Google ads (Feb 2025 – Feb 2026)"),
                 ("Entergy Louisiana","Data-center savings ads running Oct 2026 (unlabeled)"),
-                ("Texans for Economic Liberty (China, jobs)","4 large Meta ads since Sep 2026, $400K–$485K combined"),
+                ("Texans for Economic Liberty (China, jobs)","14 Meta ads since Sep 9, 2026, about $970K–$1.16M combined"),
                 ("NetChoice","2 data-center Meta ads (China; South Dakota)"),
                 ("American Edge Project","3 data-center Meta ads (Sep – Oct 2026); 55 Google ads"),
                 ("Bloom Energy / IonQ (checked)","Google advertisers (36 and 55 ads); ad text not yet reviewed. IonQ's top YouTube ad does not mention data centers. Not added yet")]
