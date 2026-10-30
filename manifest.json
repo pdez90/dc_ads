@@ -1298,40 +1298,34 @@
   },
   "files": {
     "app.R": {
-      "checksum": "b2bee6c2cbb0c20da945e8a44b6420fb"
+      "checksum": "19420adc21b40efd4819ae87720393ee"
     },
     "data/ads_all.csv": {
-      "checksum": "56c6186326e66b42d7804c91ff1b16fa"
+      "checksum": "56ad000e1147a927eeeb222d4df82154"
     },
     "data/campaigns.csv": {
-      "checksum": "505abc4a3fd05707a84cfd340284a25a"
-    },
-    "data/internal_docs.csv": {
-      "checksum": "5ccba38e2dacc0e3121712d7ff2ad15d"
+      "checksum": "b5b051c82ce90d13066f4026585924e2"
     },
     "data/lawsuits.csv": {
       "checksum": "c5420d54b07dab5e582ff9d509c2f68c"
     },
     "data/meta_ads.csv": {
-      "checksum": "5739610cf8ca550e6332fd3fb88cede6"
+      "checksum": "eb78f43afa17e081470d890f4445efbd"
     },
     "data/meta_audience.csv": {
       "checksum": "f3ada1ba73620376629b710b84b21d7e"
     },
     "data/meta_counts.csv": {
-      "checksum": "db13aa4db10ce106cc9e52531b0ec3ad"
-    },
-    "data/search_log.csv": {
-      "checksum": "ffd97148a562e0b8bd4e97a6d1f3b556"
+      "checksum": "cfa1687af99285816447d8735ff25b34"
     },
     "data/template_by_state.csv": {
       "checksum": "767f8c8fa2f9dc146ada70cc677bcef5"
     },
     "data/word_freq.csv": {
-      "checksum": "5fbe19f3605f60f84a919d15aba9fe57"
+      "checksum": "6cec23596003d7a234e280101947b839"
     },
     "data/youtube_ads.csv": {
-      "checksum": "ba5b39faa743e09e7b0f7a302bb74dcf"
+      "checksum": "f8075444cd94e01255b9f7a1e56050f3"
     }
   },
   "users": null
