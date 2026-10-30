@@ -107,3 +107,7 @@ meta_counts += [("QTS Data Centers","~10 on Meta; ~95 on Google"),("Texans for E
 law.append(dict(id="L-09", type="Regulatory disclosure (lobbying)", title="NM State Ethics Commission: Project Jupiter ad campaign", jurisdiction="New Mexico", filed="2026",
     parties="Project Jupiter (Oracle/Stargate partners)", claims_challenged="The $3.4M ad campaign (water, energy and economic claims) was classified as lobbying activity and disclosed.",
     status="Commission calls it likely the largest lobbying advertising campaign ever disclosed in New Mexico.", url="https://www.abqjournal.com/news/project-jupiter-files-disclosures-over-34m-ad-campaign/3122758", links_to="US-25"))
+
+exec(open(os.path.join(B, "additions2.py")).read())
+
+exec(open(os.path.join(B, "fixes_audit.py")).read())

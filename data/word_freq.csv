@@ -6,33 +6,33 @@ US-01,Campaign entry,Virginia Connects,Energy,Missing context,Yes,energy,2
 US-01,Campaign entry,Virginia Connects,Energy,Missing context,Yes,frames,1
 US-01,Campaign entry,Virginia Connects,Energy,Missing context,Yes,paying,1
 US-01,Campaign entry,Virginia Connects,Energy,Missing context,Yes,costs,1
-US-03,Campaign entry,Virginia Connects,Water,Disputed,Yes,use,2
-US-03,Campaign entry,Virginia Connects,Water,Disputed,Yes,water,2
-US-03,Campaign entry,Virginia Connects,Water,Disputed,Yes,time,1
-US-03,Campaign entry,Virginia Connects,Water,Disputed,Yes,billboard,1
-US-03,Campaign entry,Virginia Connects,Water,Disputed,Yes,print,1
-US-03,Campaign entry,Virginia Connects,Water,Disputed,Yes,building,1
-US-03,Campaign entry,Virginia Connects,Water,Disputed,Yes,responsibly,1
-US-09,Campaign entry,Meta,"None in spot (jobs, taxes)",Disputed,Yes,spot,1
-US-09,Campaign entry,Meta,"None in spot (jobs, taxes)",Disputed,Yes,jobs,1
-US-09,Campaign entry,Meta,"None in spot (jobs, taxes)",Disputed,Yes,companion,1
-US-09,Campaign entry,Meta,"None in spot (jobs, taxes)",Disputed,Yes,altoona,1
-US-09,Campaign entry,Meta,"None in spot (jobs, taxes)",Disputed,Yes,fact,1
-US-09,Campaign entry,Meta,"None in spot (jobs, taxes)",Disputed,Yes,sheet,1
-US-09,Campaign entry,Meta,"None in spot (jobs, taxes)",Disputed,Yes,claims,1
-US-09,Campaign entry,Meta,"None in spot (jobs, taxes)",Disputed,Yes,renewable,1
-US-09,Campaign entry,Meta,"None in spot (jobs, taxes)",Disputed,Yes,energy,1
-US-09,Campaign entry,Meta,"None in spot (jobs, taxes)",Disputed,Yes,water,1
-US-09,Campaign entry,Meta,"None in spot (jobs, taxes)",Disputed,Yes,reuse,1
-US-10,Campaign entry,Meta,Energy + Water,Disputed,Yes,fact,1
-US-10,Campaign entry,Meta,Energy + Water,Disputed,Yes,sheet,1
-US-10,Campaign entry,Meta,Energy + Water,Disputed,Yes,meta,1
-US-10,Campaign entry,Meta,Energy + Water,Disputed,Yes,water,1
-US-10,Campaign entry,Meta,Energy + Water,Disputed,Yes,positive,1
-US-10,Campaign entry,Meta,Energy + Water,Disputed,Yes,operations,1
-US-10,Campaign entry,Meta,Energy + Water,Disputed,Yes,supported,1
-US-10,Campaign entry,Meta,Energy + Water,Disputed,Yes,renewable,1
-US-10,Campaign entry,Meta,Energy + Water,Disputed,Yes,energy,1
+US-03,Campaign entry,Virginia Connects,Water,Missing context,Yes,use,2
+US-03,Campaign entry,Virginia Connects,Water,Missing context,Yes,water,2
+US-03,Campaign entry,Virginia Connects,Water,Missing context,Yes,time,1
+US-03,Campaign entry,Virginia Connects,Water,Missing context,Yes,billboard,1
+US-03,Campaign entry,Virginia Connects,Water,Missing context,Yes,print,1
+US-03,Campaign entry,Virginia Connects,Water,Missing context,Yes,building,1
+US-03,Campaign entry,Virginia Connects,Water,Missing context,Yes,responsibly,1
+US-09,Campaign entry,Meta,"None in spot (jobs, taxes)",Missing context,Yes,spot,1
+US-09,Campaign entry,Meta,"None in spot (jobs, taxes)",Missing context,Yes,jobs,1
+US-09,Campaign entry,Meta,"None in spot (jobs, taxes)",Missing context,Yes,companion,1
+US-09,Campaign entry,Meta,"None in spot (jobs, taxes)",Missing context,Yes,altoona,1
+US-09,Campaign entry,Meta,"None in spot (jobs, taxes)",Missing context,Yes,fact,1
+US-09,Campaign entry,Meta,"None in spot (jobs, taxes)",Missing context,Yes,sheet,1
+US-09,Campaign entry,Meta,"None in spot (jobs, taxes)",Missing context,Yes,claims,1
+US-09,Campaign entry,Meta,"None in spot (jobs, taxes)",Missing context,Yes,renewable,1
+US-09,Campaign entry,Meta,"None in spot (jobs, taxes)",Missing context,Yes,energy,1
+US-09,Campaign entry,Meta,"None in spot (jobs, taxes)",Missing context,Yes,water,1
+US-09,Campaign entry,Meta,"None in spot (jobs, taxes)",Missing context,Yes,reuse,1
+US-10,Campaign entry,Meta,Energy + Water,Missing context,Yes,fact,1
+US-10,Campaign entry,Meta,Energy + Water,Missing context,Yes,sheet,1
+US-10,Campaign entry,Meta,Energy + Water,Missing context,Yes,meta,1
+US-10,Campaign entry,Meta,Energy + Water,Missing context,Yes,water,1
+US-10,Campaign entry,Meta,Energy + Water,Missing context,Yes,positive,1
+US-10,Campaign entry,Meta,Energy + Water,Missing context,Yes,operations,1
+US-10,Campaign entry,Meta,Energy + Water,Missing context,Yes,supported,1
+US-10,Campaign entry,Meta,Energy + Water,Missing context,Yes,renewable,1
+US-10,Campaign entry,Meta,Energy + Water,Missing context,Yes,energy,1
 US-11,Campaign entry,Amazon / AWS,To capture,Disputed,Yes,aws-branded,1
 US-11,Campaign entry,Amazon / AWS,To capture,Disputed,Yes,spot,1
 US-11,Campaign entry,Amazon / AWS,To capture,Disputed,Yes,found,1
@@ -81,11 +81,11 @@ US-16,Campaign entry,Starwood Digital Ventures,Environment (wetlands),Not checka
 US-16,Campaign entry,Starwood Digital Ventures,Environment (wetlands),Not checkable,No,nearby,1
 US-16,Campaign entry,Starwood Digital Ventures,Environment (wetlands),Not checkable,No,wetlands,1
 US-17,Campaign entry,Sherrod Brown for Senate,Energy (counter-claim),Not checkable,No,pledges,1
-US-17,Campaign entry,Sherrod Brown for Senate,Energy (counter-claim),Not checkable,No,require,1
 US-17,Campaign entry,Sherrod Brown for Senate,Energy (counter-claim),Not checkable,No,pay,1
 US-17,Campaign entry,Sherrod Brown for Senate,Energy (counter-claim),Not checkable,No,full,1
 US-17,Campaign entry,Sherrod Brown for Senate,Energy (counter-claim),Not checkable,No,cost,1
 US-17,Campaign entry,Sherrod Brown for Senate,Energy (counter-claim),Not checkable,No,electricity,1
+US-17,Campaign entry,Sherrod Brown for Senate,Energy (counter-claim),Not checkable,No,use,1
 GL-01,Campaign entry,Polaroid,Water (counter-claim),Counter-ad (not rated),No,attacks,1
 GL-01,Campaign entry,Polaroid,Water (counter-claim),Counter-ad (not rated),No,water,1
 GL-01,Campaign entry,Polaroid,Water (counter-claim),Counter-ad (not rated),No,use,1
@@ -95,18 +95,22 @@ GL-02,Campaign entry,Avaada Group,Energy,Not checkable,No,intelligence,2
 GL-02,Campaign entry,Avaada Group,Energy,Not checkable,No,must,1
 GL-02,Campaign entry,Avaada Group,Energy,Not checkable,No,run,1
 GL-02,Campaign entry,Avaada Group,Energy,Not checkable,No,clean,2
-GL-02,Campaign entry,Avaada Group,Energy,Not checkable,No,power,2
+GL-02,Campaign entry,Avaada Group,Energy,Not checkable,No,power,1
 GL-02,Campaign entry,Avaada Group,Energy,Not checkable,No,chairman,1
-GL-02,Campaign entry,Avaada Group,Energy,Not checkable,No,centres,1
+GL-02,Campaign entry,Avaada Group,Energy,Not checkable,No,campaign,1
+GL-02,Campaign entry,Avaada Group,Energy,Not checkable,No,stresses,1
+GL-02,Campaign entry,Avaada Group,Energy,Not checkable,No,energy,1
+GL-02,Campaign entry,Avaada Group,Energy,Not checkable,No,mission-critical,1
 GL-03,Campaign entry,Microsoft,Water + Energy,Missing context,No,effectively,1
 GL-03,Campaign entry,Microsoft,Water + Energy,Missing context,No,zero,1
 GL-03,Campaign entry,Microsoft,Water + Energy,Missing context,No,water,1
 GL-03,Campaign entry,Microsoft,Water + Energy,Missing context,No,use,1
 GL-03,Campaign entry,Microsoft,Water + Energy,Missing context,No,cooling,1
-GL-03,Campaign entry,Microsoft,Water + Energy,Missing context,No,renewable,1
+GL-03,Campaign entry,Microsoft,Water + Energy,Missing context,No,region,1
+GL-03,Campaign entry,Microsoft,Water + Energy,Missing context,No,fully,1
+GL-03,Campaign entry,Microsoft,Water + Energy,Missing context,No,powered,1
+GL-03,Campaign entry,Microsoft,Water + Energy,Missing context,No,green,1
 GL-03,Campaign entry,Microsoft,Water + Energy,Missing context,No,energy,1
-GL-03,Campaign entry,Microsoft,Water + Energy,Missing context,No,contracted,1
-GL-03,Campaign entry,Microsoft,Water + Energy,Missing context,No,india,1
 GL-04,Campaign entry,Amazon,Water,No public data,Yes,currently,1
 GL-04,Campaign entry,Amazon,Water,No public data,Yes,use,1
 GL-04,Campaign entry,Amazon,Water,No public data,Yes,water,2
@@ -115,9 +119,9 @@ GL-04,Campaign entry,Amazon,Water,No public data,Yes,centres,1
 GL-04,Campaign entry,Amazon,Water,No public data,Yes,india,1
 GL-04,Campaign entry,Amazon,Water,No public data,Yes,returned,1
 GL-04,Campaign entry,Amazon,Water,No public data,Yes,used,1
-GL-05,Campaign entry,AdaniConneX,Energy,No public data,No,powered,1
-GL-05,Campaign entry,AdaniConneX,Energy,No public data,No,renewable,1
-GL-05,Campaign entry,AdaniConneX,Energy,No public data,No,energy,1
+GL-05,Campaign entry,AdaniConneX,Energy,Missing context,No,powered,1
+GL-05,Campaign entry,AdaniConneX,Energy,Missing context,No,renewable,1
+GL-05,Campaign entry,AdaniConneX,Energy,Missing context,No,energy,1
 GL-06,Campaign entry,CtrlS Datacenters,Energy,Not checkable,No,power,1
 GL-06,Campaign entry,CtrlS Datacenters,Energy,Not checkable,No,green,1
 GL-06,Campaign entry,CtrlS Datacenters,Energy,Not checkable,No,energy,1
@@ -159,35 +163,42 @@ GL-12,Campaign entry,Google + AdaniConneX + Airtel,Energy,Not checkable,No,clean
 GL-12,Campaign entry,Google + AdaniConneX + Airtel,Energy,Not checkable,No,energy,1
 GL-12,Campaign entry,Google + AdaniConneX + Airtel,Energy,Not checkable,No,transmission,1
 GL-12,Campaign entry,Google + AdaniConneX + Airtel,Energy,Not checkable,No,storage,1
-US-18,Campaign entry,Virginia Connects,Energy + Water,Disputed,Yes,least,1
-US-18,Campaign entry,Virginia Connects,Energy + Water,Disputed,Yes,time,1
-US-18,Campaign entry,Virginia Connects,Energy + Water,Disputed,Yes,since,1
-US-18,Campaign entry,Virginia Connects,Energy + Water,Disputed,Yes,june,1
-US-18,Campaign entry,Virginia Connects,Energy + Water,Disputed,Yes,spots,1
-US-18,Campaign entry,Virginia Connects,Energy + Water,Disputed,Yes,downplaying,1
-US-18,Campaign entry,Virginia Connects,Energy + Water,Disputed,Yes,water,1
-US-18,Campaign entry,Virginia Connects,Energy + Water,Disputed,Yes,cost,1
-US-18,Campaign entry,Virginia Connects,Energy + Water,Disputed,Yes,concerns,1
+US-18,Campaign entry,Virginia Connects,Energy + Water,Missing context,Yes,least,1
+US-18,Campaign entry,Virginia Connects,Energy + Water,Missing context,Yes,time,1
+US-18,Campaign entry,Virginia Connects,Energy + Water,Missing context,Yes,since,1
+US-18,Campaign entry,Virginia Connects,Energy + Water,Missing context,Yes,june,1
+US-18,Campaign entry,Virginia Connects,Energy + Water,Missing context,Yes,spots,1
+US-18,Campaign entry,Virginia Connects,Energy + Water,Missing context,Yes,downplaying,1
+US-18,Campaign entry,Virginia Connects,Energy + Water,Missing context,Yes,water-use,1
+US-18,Campaign entry,Virginia Connects,Energy + Water,Missing context,Yes,concerns,1
 US-25,Campaign entry,Project Jupiter,Energy + Water,Missing context,Yes,spotlights,1
 US-25,Campaign entry,Project Jupiter,Energy + Water,Missing context,Yes,cleaner,1
-US-25,Campaign entry,Project Jupiter,Energy + Water,Missing context,Yes,energy,1
-US-25,Campaign entry,Project Jupiter,Energy + Water,Missing context,Yes,plan,1
-US-25,Campaign entry,Project Jupiter,Energy + Water,Missing context,Yes,bloom,1
 US-25,Campaign entry,Project Jupiter,Energy + Water,Missing context,Yes,fuel,1
-US-25,Campaign entry,Project Jupiter,Energy + Water,Missing context,Yes,cells,1
-US-25,Campaign entry,Project Jupiter,Energy + Water,Missing context,Yes,lower,1
-US-25,Campaign entry,Project Jupiter,Energy + Water,Missing context,Yes,water,2
+US-25,Campaign entry,Project Jupiter,Energy + Water,Missing context,Yes,cell,1
+US-25,Campaign entry,Project Jupiter,Energy + Water,Missing context,Yes,power,1
+US-25,Campaign entry,Project Jupiter,Energy + Water,Missing context,Yes,solution,1
+US-25,Campaign entry,Project Jupiter,Energy + Water,Missing context,Yes,significantly,1
+US-25,Campaign entry,Project Jupiter,Energy + Water,Missing context,Yes,reduces,1
+US-25,Campaign entry,Project Jupiter,Energy + Water,Missing context,Yes,water,3
 US-25,Campaign entry,Project Jupiter,Energy + Water,Missing context,Yes,usage,1
-US-25,Campaign entry,Project Jupiter,Energy + Water,Missing context,Yes,closed-loop,1
-US-25,Campaign entry,Project Jupiter,Energy + Water,Missing context,Yes,non-evaporative,1
 US-25,Campaign entry,Project Jupiter,Energy + Water,Missing context,Yes,cooling,1
+US-25,Campaign entry,Project Jupiter,Energy + Water,Missing context,Yes,needs,1
+US-25,Campaign entry,Project Jupiter,Energy + Water,Missing context,Yes,one-time,1
+US-25,Campaign entry,Project Jupiter,Energy + Water,Missing context,Yes,startup,1
+US-25,Campaign entry,Project Jupiter,Energy + Water,Missing context,Yes,fill,1
+US-25,Campaign entry,Project Jupiter,Energy + Water,Missing context,Yes,non-potable,1
 US-25,Campaign entry,Project Jupiter,Energy + Water,Missing context,Yes,local,1
 US-25,Campaign entry,Project Jupiter,Energy + Water,Missing context,Yes,systems,1
 US-26,Campaign entry,Project 48 Arizona,Water + Energy,Supported,No,account,1
 US-26,Campaign entry,Project 48 Arizona,Water + Energy,Supported,No,annual,1
 US-26,Campaign entry,Project 48 Arizona,Water + Energy,Supported,No,water,1
 US-26,Campaign entry,Project 48 Arizona,Water + Energy,Supported,No,use,1
-US-26,Campaign entry,Project 48 Arizona,Water + Energy,Supported,No,founder,1
+US-26,Campaign entry,Project 48 Arizona,Water + Energy,Supported,No,co-founder,1
+US-26,Campaign entry,Project 48 Arizona,Water + Energy,Supported,No,josh,1
+US-26,Campaign entry,Project 48 Arizona,Water + Energy,Supported,No,heywood,1
+US-26,Campaign entry,Project 48 Arizona,Water + Energy,Supported,No,citing,1
+US-26,Campaign entry,Project 48 Arizona,Water + Energy,Supported,No,bluefield,1
+US-26,Campaign entry,Project 48 Arizona,Water + Energy,Supported,No,research,1
 US-26,Campaign entry,Project 48 Arizona,Water + Energy,Supported,No,nearby,1
 US-26,Campaign entry,Project 48 Arizona,Water + Energy,Supported,No,site,1
 US-26,Campaign entry,Project 48 Arizona,Water + Energy,Supported,No,uses,1
@@ -202,19 +213,20 @@ US-27,Campaign entry,Meta,"None (investment, community)",No energy/water claim,N
 US-27,Campaign entry,Meta,"None (investment, community)",No energy/water claim,No,water,1
 US-27,Campaign entry,Meta,"None (investment, community)",No energy/water claim,No,claim,1
 US-27,Campaign entry,Meta,"None (investment, community)",No energy/water claim,No,text,1
-US-28,Campaign entry,Microsoft,Energy + Water,No public data,Yes,closed-loop,1
-US-28,Campaign entry,Microsoft,Energy + Water,No public data,Yes,liquid,1
-US-28,Campaign entry,Microsoft,Energy + Water,No public data,Yes,cooling,1
-US-28,Campaign entry,Microsoft,Energy + Water,No public data,Yes,site,1
-US-28,Campaign entry,Microsoft,Energy + Water,No public data,Yes,zero,1
-US-28,Campaign entry,Microsoft,Energy + Water,No public data,Yes,water,2
-US-28,Campaign entry,Microsoft,Energy + Water,No public data,Yes,waste,1
-US-28,Campaign entry,Microsoft,Energy + Water,No public data,Yes,use,1
-US-28,Campaign entry,Microsoft,Energy + Water,No public data,Yes,typical,1
-US-28,Campaign entry,Microsoft,Energy + Water,No public data,Yes,year,1
-US-28,Campaign entry,Microsoft,Energy + Water,No public data,Yes,pre-paying,1
-US-28,Campaign entry,Microsoft,Energy + Water,No public data,Yes,energy,1
-US-28,Campaign entry,Microsoft,Energy + Water,No public data,Yes,infrastructure,1
+US-28,Campaign entry,Microsoft,Energy + Water,Missing context,Yes,closed-loop,1
+US-28,Campaign entry,Microsoft,Energy + Water,Missing context,Yes,liquid,1
+US-28,Campaign entry,Microsoft,Energy + Water,Missing context,Yes,cooling,1
+US-28,Campaign entry,Microsoft,Energy + Water,Missing context,Yes,nearly,1
+US-28,Campaign entry,Microsoft,Energy + Water,Missing context,Yes,site,1
+US-28,Campaign entry,Microsoft,Energy + Water,Missing context,Yes,zero,1
+US-28,Campaign entry,Microsoft,Energy + Water,Missing context,Yes,water,2
+US-28,Campaign entry,Microsoft,Energy + Water,Missing context,Yes,waste,1
+US-28,Campaign entry,Microsoft,Energy + Water,Missing context,Yes,use,1
+US-28,Campaign entry,Microsoft,Energy + Water,Missing context,Yes,typical,1
+US-28,Campaign entry,Microsoft,Energy + Water,Missing context,Yes,year,1
+US-28,Campaign entry,Microsoft,Energy + Water,Missing context,Yes,pre-paying,1
+US-28,Campaign entry,Microsoft,Energy + Water,Missing context,Yes,energy,1
+US-28,Campaign entry,Microsoft,Energy + Water,Missing context,Yes,infrastructure,1
 US-29,Campaign entry,xAI / Greater Memphis Chamber,Water,Not checkable,No,plant,1
 US-29,Campaign entry,xAI / Greater Memphis Chamber,Water,Not checkable,No,recycle,1
 US-29,Campaign entry,xAI / Greater Memphis Chamber,Water,Not checkable,No,gallons,1
@@ -237,6 +249,76 @@ US-31,Campaign entry,Planet Water Foundation,Water (counter-claim),Counter-ad (n
 US-31,Campaign entry,Planet Water Foundation,Water (counter-claim),Counter-ad (not rated),No,converts,1
 US-31,Campaign entry,Planet Water Foundation,Water (counter-claim),Counter-ad (not rated),No,use,1
 US-31,Campaign entry,Planet Water Foundation,Water (counter-claim),Counter-ad (not rated),No,donations,1
+US-32,Campaign entry,Texas Connects,Energy + Water,Missing context,No,technology,1
+US-32,Campaign entry,Texas Connects,Energy + Water,Missing context,No,means,1
+US-32,Campaign entry,Texas Connects,Energy + Water,Missing context,No,consume,1
+US-32,Campaign entry,Texas Connects,Energy + Water,Missing context,No,minimal,1
+US-32,Campaign entry,Texas Connects,Energy + Water,Missing context,No,water,1
+US-32,Campaign entry,Texas Connects,Energy + Water,Missing context,No,funding,1
+US-32,Campaign entry,Texas Connects,Energy + Water,Missing context,No,power,1
+US-32,Campaign entry,Texas Connects,Energy + Water,Missing context,No,generation,1
+US-32,Campaign entry,Texas Connects,Energy + Water,Missing context,No,everyone,1
+US-32,Campaign entry,Texas Connects,Energy + Water,Missing context,No,taxes,1
+US-32,Campaign entry,Texas Connects,Energy + Water,Missing context,No,lower,1
+US-32,Campaign entry,Texas Connects,Energy + Water,Missing context,No,bills,1
+US-33,Campaign entry,Oregon Connects,Energy,Missing context,No,independent,1
+US-33,Campaign entry,Oregon Connects,Energy,Missing context,No,study,1
+US-33,Campaign entry,Oregon Connects,Energy,Missing context,No,confirmed,1
+US-33,Campaign entry,Oregon Connects,Energy,Missing context,No,nationally,1
+US-33,Campaign entry,Oregon Connects,Energy,Missing context,No,paying,1
+US-33,Campaign entry,Oregon Connects,Energy,Missing context,No,energy,1
+US-33,Campaign entry,Oregon Connects,Energy,Missing context,No,costs,1
+US-33,Campaign entry,Oregon Connects,Energy,Missing context,No,help,1
+US-33,Campaign entry,Oregon Connects,Energy,Missing context,No,lower,1
+US-33,Campaign entry,Oregon Connects,Energy,Missing context,No,rates,1
+US-33,Campaign entry,Oregon Connects,Energy,Missing context,No,everyone,1
+US-34,Campaign entry,Compass Datacenters,Energy + Water,No public data,No,since,1
+US-34,Campaign entry,Compass Datacenters,Energy + Water,No public data,No,compass,3
+US-34,Campaign entry,Compass Datacenters,Energy + Water,No public data,No,used,1
+US-34,Campaign entry,Compass Datacenters,Energy + Water,No public data,No,zero,1
+US-34,Campaign entry,Compass Datacenters,Energy + Water,No public data,No,city,1
+US-34,Campaign entry,Compass Datacenters,Energy + Water,No public data,No,water,2
+US-34,Campaign entry,Compass Datacenters,Energy + Water,No public data,No,cooling,1
+US-34,Campaign entry,Compass Datacenters,Energy + Water,No public data,No,pays,1
+US-34,Campaign entry,Compass Datacenters,Energy + Water,No public data,No,million,1
+US-34,Campaign entry,Compass Datacenters,Energy + Water,No public data,No,substations,1
+US-34,Campaign entry,Compass Datacenters,Energy + Water,No public data,No,transmission,1
+US-34,Campaign entry,Compass Datacenters,Energy + Water,No public data,No,video,1
+US-34,Campaign entry,Compass Datacenters,Energy + Water,No public data,No,community,1
+US-34,Campaign entry,Compass Datacenters,Energy + Water,No public data,No,systems,1
+US-34,Campaign entry,Compass Datacenters,Energy + Water,No public data,No,leak,1
+US-34,Campaign entry,Compass Datacenters,Energy + Water,No public data,No,day,1
+US-34,Campaign entry,Compass Datacenters,Energy + Water,No public data,No,use,1
+US-34,Campaign entry,Compass Datacenters,Energy + Water,No public data,No,year,1
+US-35,Campaign entry,Google,"None (jobs, community grants)",No energy/water claim,No,community,1
+US-35,Campaign entry,Google,"None (jobs, community grants)",No energy/water claim,No,grants,1
+US-35,Campaign entry,Google,"None (jobs, community grants)",No energy/water claim,No,electrician,1
+US-35,Campaign entry,Google,"None (jobs, community grants)",No energy/water claim,No,training,2
+US-35,Campaign entry,Google,"None (jobs, community grants)",No energy/water claim,No,thousands,1
+US-35,Campaign entry,Google,"None (jobs, community grants)",No energy/water claim,No,local,1
+US-35,Campaign entry,Google,"None (jobs, community grants)",No energy/water claim,No,electricians,1
+US-35,Campaign entry,Google,"None (jobs, community grants)",No energy/water claim,No,energy,1
+US-35,Campaign entry,Google,"None (jobs, community grants)",No energy/water claim,No,water,1
+US-35,Campaign entry,Google,"None (jobs, community grants)",No energy/water claim,No,claim,1
+US-36,Campaign entry,Wyoming Driven Innovation,Energy,Not checkable,No,create,1
+US-36,Campaign entry,Wyoming Driven Innovation,Energy,Not checkable,No,demand,1
+US-36,Campaign entry,Wyoming Driven Innovation,Energy,Not checkable,No,energy,2
+US-36,Campaign entry,Wyoming Driven Innovation,Energy,Not checkable,No,leading,1
+US-36,Campaign entry,Wyoming Driven Innovation,Energy,Not checkable,No,innovation,1
+US-36,Campaign entry,Wyoming Driven Innovation,Energy,Not checkable,No,responsible,1
+US-36,Campaign entry,Wyoming Driven Innovation,Energy,Not checkable,No,growth,1
+US-37,Campaign entry,Election ads against data centers,Energy + Water (counter-claim),Counter-ad (not rated),No,push,1
+US-37,Campaign entry,Election ads against data centers,Energy + Water (counter-claim),Counter-ad (not rated),No,energy,2
+US-37,Campaign entry,Election ads against data centers,Energy + Water (counter-claim),Counter-ad (not rated),No,bills,1
+US-37,Campaign entry,Election ads against data centers,Energy + Water (counter-claim),Counter-ad (not rated),No,higher,1
+US-37,Campaign entry,Election ads against data centers,Energy + Water (counter-claim),Counter-ad (not rated),No,taking,1
+US-37,Campaign entry,Election ads against data centers,Energy + Water (counter-claim),Counter-ad (not rated),No,water,1
+US-37,Campaign entry,Election ads against data centers,Energy + Water (counter-claim),Counter-ad (not rated),No,power,1
+US-37,Campaign entry,Election ads against data centers,Energy + Water (counter-claim),Counter-ad (not rated),No,act,1
+US-37,Campaign entry,Election ads against data centers,Energy + Water (counter-claim),Counter-ad (not rated),No,stops,1
+US-37,Campaign entry,Election ads against data centers,Energy + Water (counter-claim),Counter-ad (not rated),No,passing,1
+US-37,Campaign entry,Election ads against data centers,Energy + Water (counter-claim),Counter-ad (not rated),No,costs,1
+US-37,Campaign entry,Election ads against data centers,Energy + Water (counter-claim),Counter-ad (not rated),No,onto,1
 Ns1QMFCUtK8,YouTube ad,Connected Georgia,Energy,Missing context,No,georgia,3
 Ns1QMFCUtK8,YouTube ad,Connected Georgia,Energy,Missing context,No,challenge,1
 Ns1QMFCUtK8,YouTube ad,Connected Georgia,Energy,Missing context,No,roll,1
@@ -667,6 +749,42 @@ zF54V7HB7NU,YouTube ad,Connected Ohio,Water,No public data,No,exceed,1
 zF54V7HB7NU,YouTube ad,Connected Ohio,Water,No public data,No,billion,1
 zF54V7HB7NU,YouTube ad,Connected Ohio,Water,No public data,No,building,1
 zF54V7HB7NU,YouTube ad,Connected Ohio,Water,No public data,No,responsibly,1
+L-g5j8Dah_o,YouTube ad,Oregon Connects,Energy,Missing context,No,homes,1
+L-g5j8Dah_o,YouTube ad,Oregon Connects,Energy,Missing context,No,hospitals,1
+L-g5j8Dah_o,YouTube ad,Oregon Connects,Energy,Missing context,No,businesses,1
+L-g5j8Dah_o,YouTube ad,Oregon Connects,Energy,Missing context,No,unlocking,1
+L-g5j8Dah_o,YouTube ad,Oregon Connects,Energy,Missing context,No,smarter,1
+L-g5j8Dah_o,YouTube ad,Oregon Connects,Energy,Missing context,No,power,1
+L-g5j8Dah_o,YouTube ad,Oregon Connects,Energy,Missing context,No,grid,1
+L-g5j8Dah_o,YouTube ad,Oregon Connects,Energy,Missing context,No,communities,1
+L-g5j8Dah_o,YouTube ad,Oregon Connects,Energy,Missing context,No,investing,1
+L-g5j8Dah_o,YouTube ad,Oregon Connects,Energy,Missing context,No,billions,1
+L-g5j8Dah_o,YouTube ad,Oregon Connects,Energy,Missing context,No,clean,1
+L-g5j8Dah_o,YouTube ad,Oregon Connects,Energy,Missing context,No,energy,3
+L-g5j8Dah_o,YouTube ad,Oregon Connects,Energy,Missing context,No,creating,1
+L-g5j8Dah_o,YouTube ad,Oregon Connects,Energy,Missing context,No,good-paying,1
+L-g5j8Dah_o,YouTube ad,Oregon Connects,Energy,Missing context,No,jobs,1
+L-g5j8Dah_o,YouTube ad,Oregon Connects,Energy,Missing context,No,driving,1
+L-g5j8Dah_o,YouTube ad,Oregon Connects,Energy,Missing context,No,innovation,1
+L-g5j8Dah_o,YouTube ad,Oregon Connects,Energy,Missing context,No,building,1
+L-g5j8Dah_o,YouTube ad,Oregon Connects,Energy,Missing context,No,better,1
+L-g5j8Dah_o,YouTube ad,Oregon Connects,Energy,Missing context,No,future,1
+L-g5j8Dah_o,YouTube ad,Oregon Connects,Energy,Missing context,No,independent,1
+L-g5j8Dah_o,YouTube ad,Oregon Connects,Energy,Missing context,No,study,1
+L-g5j8Dah_o,YouTube ad,Oregon Connects,Energy,Missing context,No,confirmed,1
+L-g5j8Dah_o,YouTube ad,Oregon Connects,Energy,Missing context,No,across,1
+L-g5j8Dah_o,YouTube ad,Oregon Connects,Energy,Missing context,No,nation,1
+L-g5j8Dah_o,YouTube ad,Oregon Connects,Energy,Missing context,No,paying,2
+L-g5j8Dah_o,YouTube ad,Oregon Connects,Energy,Missing context,No,costs,2
+L-g5j8Dah_o,YouTube ad,Oregon Connects,Energy,Missing context,No,research,1
+L-g5j8Dah_o,YouTube ad,Oregon Connects,Energy,Missing context,No,shows,1
+L-g5j8Dah_o,YouTube ad,Oregon Connects,Energy,Missing context,No,help,1
+L-g5j8Dah_o,YouTube ad,Oregon Connects,Energy,Missing context,No,lower,1
+L-g5j8Dah_o,YouTube ad,Oregon Connects,Energy,Missing context,No,rates,1
+L-g5j8Dah_o,YouTube ad,Oregon Connects,Energy,Missing context,No,everyone,1
+L-g5j8Dah_o,YouTube ad,Oregon Connects,Energy,Missing context,No,committed,1
+L-g5j8Dah_o,YouTube ad,Oregon Connects,Energy,Missing context,No,oregon,1
+L-g5j8Dah_o,YouTube ad,Oregon Connects,Energy,Missing context,No,families,1
 UatW5tVYF64,YouTube ad,Oregon Connects,Energy,Missing context,No,oregon,3
 UatW5tVYF64,YouTube ad,Oregon Connects,Energy,Missing context,No,challenge,1
 UatW5tVYF64,YouTube ad,Oregon Connects,Energy,Missing context,No,work,1
@@ -861,6 +979,38 @@ UKPwuA2hWjk,YouTube ad,Texas Connects,Energy,Missing context,No,responsibly,1
 UKPwuA2hWjk,YouTube ad,Texas Connects,Energy,Missing context,No,facts,1
 UKPwuA2hWjk,YouTube ad,Texas Connects,Energy,Missing context,No,texasconnects,1
 UKPwuA2hWjk,YouTube ad,Texas Connects,Energy,Missing context,No,com,1
+IwQCwpzG_GY,YouTube ad,Texas Connects,Energy + Water,Missing context,No,paychecks,1
+IwQCwpzG_GY,YouTube ad,Texas Connects,Energy + Water,Missing context,No,hospitals,1
+IwQCwpzG_GY,YouTube ad,Texas Connects,Energy + Water,Missing context,No,national,1
+IwQCwpzG_GY,YouTube ad,Texas Connects,Energy + Water,Missing context,No,security,1
+IwQCwpzG_GY,YouTube ad,Texas Connects,Energy + Water,Missing context,No,run,1
+IwQCwpzG_GY,YouTube ad,Texas Connects,Energy + Water,Missing context,No,texas,2
+IwQCwpzG_GY,YouTube ad,Texas Connects,Energy + Water,Missing context,No,keeping,1
+IwQCwpzG_GY,YouTube ad,Texas Connects,Energy + Water,Missing context,No,connected,1
+IwQCwpzG_GY,YouTube ad,Texas Connects,Energy + Water,Missing context,No,support,1
+IwQCwpzG_GY,YouTube ad,Texas Connects,Energy + Water,Missing context,No,high-paying,1
+IwQCwpzG_GY,YouTube ad,Texas Connects,Energy + Water,Missing context,No,jobs,1
+IwQCwpzG_GY,YouTube ad,Texas Connects,Energy + Water,Missing context,No,pay,1
+IwQCwpzG_GY,YouTube ad,Texas Connects,Energy + Water,Missing context,No,billions,1
+IwQCwpzG_GY,YouTube ad,Texas Connects,Energy + Water,Missing context,No,taxes,1
+IwQCwpzG_GY,YouTube ad,Texas Connects,Energy + Water,Missing context,No,money,1
+IwQCwpzG_GY,YouTube ad,Texas Connects,Energy + Water,Missing context,No,lower,1
+IwQCwpzG_GY,YouTube ad,Texas Connects,Energy + Water,Missing context,No,bills,1
+IwQCwpzG_GY,YouTube ad,Texas Connects,Energy + Water,Missing context,No,schools,1
+IwQCwpzG_GY,YouTube ad,Texas Connects,Energy + Water,Missing context,No,roads,1
+IwQCwpzG_GY,YouTube ad,Texas Connects,Energy + Water,Missing context,No,better,1
+IwQCwpzG_GY,YouTube ad,Texas Connects,Energy + Water,Missing context,No,communities,1
+IwQCwpzG_GY,YouTube ad,Texas Connects,Energy + Water,Missing context,No,safer,1
+IwQCwpzG_GY,YouTube ad,Texas Connects,Energy + Water,Missing context,No,technology,1
+IwQCwpzG_GY,YouTube ad,Texas Connects,Energy + Water,Missing context,No,means,1
+IwQCwpzG_GY,YouTube ad,Texas Connects,Energy + Water,Missing context,No,consume,1
+IwQCwpzG_GY,YouTube ad,Texas Connects,Energy + Water,Missing context,No,minimal,1
+IwQCwpzG_GY,YouTube ad,Texas Connects,Energy + Water,Missing context,No,water,1
+IwQCwpzG_GY,YouTube ad,Texas Connects,Energy + Water,Missing context,No,funding,1
+IwQCwpzG_GY,YouTube ad,Texas Connects,Energy + Water,Missing context,No,power,1
+IwQCwpzG_GY,YouTube ad,Texas Connects,Energy + Water,Missing context,No,generation,1
+IwQCwpzG_GY,YouTube ad,Texas Connects,Energy + Water,Missing context,No,everyone,1
+IwQCwpzG_GY,YouTube ad,Texas Connects,Energy + Water,Missing context,No,built,1
 qJohMKs6c5M,YouTube ad,Texas Connects,Water,Supported,No,left,1
 qJohMKs6c5M,YouTube ad,Texas Connects,Water,Supported,No,water,5
 qJohMKs6c5M,YouTube ad,Texas Connects,Water,Supported,No,running,1
@@ -895,6 +1045,23 @@ cmzzf9zActQ,YouTube ad,Texas Connects,Water,Supported,No,invest,1
 cmzzf9zActQ,YouTube ad,Texas Connects,Water,Supported,No,technologies,1
 cmzzf9zActQ,YouTube ad,Texas Connects,Water,Supported,No,reduce,1
 cmzzf9zActQ,YouTube ad,Texas Connects,Water,Supported,No,recycle,1
+Cwh4o5H-rtU,YouTube ad,Compass Datacenters,Energy,No public data,No,agree,1
+Cwh4o5H-rtU,YouTube ad,Compass Datacenters,Energy,No public data,No,rates,1
+Cwh4o5H-rtU,YouTube ad,Compass Datacenters,Energy,No public data,No,reel,1
+Cwh4o5H-rtU,YouTube ad,Compass Datacenters,Energy,No public data,No,captions,1
+Cwh4o5H-rtU,YouTube ad,Compass Datacenters,Energy,No public data,No,meta,1
+Cwh4o5H-rtU,YouTube ad,Compass Datacenters,Energy,No public data,No,version,1
+Cwh4o5H-rtU,YouTube ad,Compass Datacenters,Energy,No public data,No,compass,1
+Cwh4o5H-rtU,YouTube ad,Compass Datacenters,Energy,No public data,No,pays,1
+XNaTFb_tYXM,YouTube ad,Compass Datacenters,Water,No public data,No,agree,1
+XNaTFb_tYXM,YouTube ad,Compass Datacenters,Water,No public data,No,water,2
+XNaTFb_tYXM,YouTube ad,Compass Datacenters,Water,No public data,No,reel,1
+XNaTFb_tYXM,YouTube ad,Compass Datacenters,Water,No public data,No,captions,1
+XNaTFb_tYXM,YouTube ad,Compass Datacenters,Water,No public data,No,meta,1
+XNaTFb_tYXM,YouTube ad,Compass Datacenters,Water,No public data,No,version,1
+XNaTFb_tYXM,YouTube ad,Compass Datacenters,Water,No public data,No,zero,1
+XNaTFb_tYXM,YouTube ad,Compass Datacenters,Water,No public data,No,city,1
+XNaTFb_tYXM,YouTube ad,Compass Datacenters,Water,No public data,No,cooling,1
 gyZYyQDI2mI,YouTube ad,Virginia Connects,Affordability,Not checkable,Yes,groceries,1
 gyZYyQDI2mI,YouTube ad,Virginia Connects,Affordability,Not checkable,Yes,gas,1
 gyZYyQDI2mI,YouTube ad,Virginia Connects,Affordability,Not checkable,Yes,kids,1
@@ -969,37 +1136,44 @@ S8Xb7YwvIAU,YouTube ad,Virginia Connects,"None (jobs, taxes)",No energy/water cl
 S8Xb7YwvIAU,YouTube ad,Virginia Connects,"None (jobs, taxes)",No energy/water claim,Yes,rate,1
 S8Xb7YwvIAU,YouTube ad,Virginia Connects,"None (jobs, taxes)",No energy/water claim,Yes,good,1
 S8Xb7YwvIAU,YouTube ad,Virginia Connects,"None (jobs, taxes)",No energy/water claim,Yes,neighbor,1
-0rAjHVnkXAA,YouTube ad,Virginia Connects,Water,Disputed,Yes,use,2
-0rAjHVnkXAA,YouTube ad,Virginia Connects,Water,Disputed,Yes,water,3
-0rAjHVnkXAA,YouTube ad,Virginia Connects,Water,Disputed,Yes,time,1
-0rAjHVnkXAA,YouTube ad,Virginia Connects,Water,Disputed,Yes,often,1
-0rAjHVnkXAA,YouTube ad,Virginia Connects,Water,Disputed,Yes,recycled,1
-0rAjHVnkXAA,YouTube ad,Virginia Connects,Water,Disputed,Yes,non-drinking,1
-HpDH_znD6DE,YouTube ad,Virginia Connects,Water,Disputed,Yes,water,4
-HpDH_znD6DE,YouTube ad,Virginia Connects,Water,Disputed,Yes,virginia,3
-HpDH_znD6DE,YouTube ad,Virginia Connects,Water,Disputed,Yes,really,1
-HpDH_znD6DE,YouTube ad,Virginia Connects,Water,Disputed,Yes,use,2
-HpDH_znD6DE,YouTube ad,Virginia Connects,Water,Disputed,Yes,answer,1
-HpDH_znD6DE,YouTube ad,Virginia Connects,Water,Disputed,Yes,surprise,1
-HpDH_znD6DE,YouTube ad,Virginia Connects,Water,Disputed,Yes,cooling,1
-HpDH_znD6DE,YouTube ad,Virginia Connects,Water,Disputed,Yes,time,1
-HpDH_znD6DE,YouTube ad,Virginia Connects,Water,Disputed,Yes,others,1
-HpDH_znD6DE,YouTube ad,Virginia Connects,Water,Disputed,Yes,consume,1
-HpDH_znD6DE,YouTube ad,Virginia Connects,Water,Disputed,Yes,less,1
-HpDH_znD6DE,YouTube ad,Virginia Connects,Water,Disputed,Yes,operational,1
-HpDH_znD6DE,YouTube ad,Virginia Connects,Water,Disputed,Yes,designed,1
-HpDH_znD6DE,YouTube ad,Virginia Connects,Water,Disputed,Yes,run,1
-HpDH_znD6DE,YouTube ad,Virginia Connects,Water,Disputed,Yes,reused,1
-HpDH_znD6DE,YouTube ad,Virginia Connects,Water,Disputed,Yes,recycled,1
-HpDH_znD6DE,YouTube ad,Virginia Connects,Water,Disputed,Yes,investing,1
-HpDH_znD6DE,YouTube ad,Virginia Connects,Water,Disputed,Yes,infrastructure,1
-HpDH_znD6DE,YouTube ad,Virginia Connects,Water,Disputed,Yes,spending,1
-HpDH_znD6DE,YouTube ad,Virginia Connects,Water,Disputed,Yes,exceed,1
-HpDH_znD6DE,YouTube ad,Virginia Connects,Water,Disputed,Yes,billion,1
-HpDH_znD6DE,YouTube ad,Virginia Connects,Water,Disputed,Yes,building,1
-HpDH_znD6DE,YouTube ad,Virginia Connects,Water,Disputed,Yes,responsibly,1
-HpDH_znD6DE,YouTube ad,Virginia Connects,Water,Disputed,Yes,facts,1
-HpDH_znD6DE,YouTube ad,Virginia Connects,Water,Disputed,Yes,com,1
+0rAjHVnkXAA,YouTube ad,Virginia Connects,Water,Missing context,Yes,use,2
+0rAjHVnkXAA,YouTube ad,Virginia Connects,Water,Missing context,Yes,water,3
+0rAjHVnkXAA,YouTube ad,Virginia Connects,Water,Missing context,Yes,time,1
+0rAjHVnkXAA,YouTube ad,Virginia Connects,Water,Missing context,Yes,often,1
+0rAjHVnkXAA,YouTube ad,Virginia Connects,Water,Missing context,Yes,recycled,1
+0rAjHVnkXAA,YouTube ad,Virginia Connects,Water,Missing context,Yes,non-drinking,1
+HpDH_znD6DE,YouTube ad,Virginia Connects,Water,Missing context,Yes,water,4
+HpDH_znD6DE,YouTube ad,Virginia Connects,Water,Missing context,Yes,virginia,3
+HpDH_znD6DE,YouTube ad,Virginia Connects,Water,Missing context,Yes,really,1
+HpDH_znD6DE,YouTube ad,Virginia Connects,Water,Missing context,Yes,use,2
+HpDH_znD6DE,YouTube ad,Virginia Connects,Water,Missing context,Yes,answer,1
+HpDH_znD6DE,YouTube ad,Virginia Connects,Water,Missing context,Yes,surprise,1
+HpDH_znD6DE,YouTube ad,Virginia Connects,Water,Missing context,Yes,cooling,1
+HpDH_znD6DE,YouTube ad,Virginia Connects,Water,Missing context,Yes,time,1
+HpDH_znD6DE,YouTube ad,Virginia Connects,Water,Missing context,Yes,others,1
+HpDH_znD6DE,YouTube ad,Virginia Connects,Water,Missing context,Yes,consume,1
+HpDH_znD6DE,YouTube ad,Virginia Connects,Water,Missing context,Yes,less,1
+HpDH_znD6DE,YouTube ad,Virginia Connects,Water,Missing context,Yes,operational,1
+HpDH_znD6DE,YouTube ad,Virginia Connects,Water,Missing context,Yes,designed,1
+HpDH_znD6DE,YouTube ad,Virginia Connects,Water,Missing context,Yes,run,1
+HpDH_znD6DE,YouTube ad,Virginia Connects,Water,Missing context,Yes,reused,1
+HpDH_znD6DE,YouTube ad,Virginia Connects,Water,Missing context,Yes,recycled,1
+HpDH_znD6DE,YouTube ad,Virginia Connects,Water,Missing context,Yes,investing,1
+HpDH_znD6DE,YouTube ad,Virginia Connects,Water,Missing context,Yes,infrastructure,1
+HpDH_znD6DE,YouTube ad,Virginia Connects,Water,Missing context,Yes,spending,1
+HpDH_znD6DE,YouTube ad,Virginia Connects,Water,Missing context,Yes,exceed,1
+HpDH_znD6DE,YouTube ad,Virginia Connects,Water,Missing context,Yes,billion,1
+HpDH_znD6DE,YouTube ad,Virginia Connects,Water,Missing context,Yes,building,1
+HpDH_znD6DE,YouTube ad,Virginia Connects,Water,Missing context,Yes,responsibly,1
+HpDH_znD6DE,YouTube ad,Virginia Connects,Water,Missing context,Yes,facts,1
+HpDH_znD6DE,YouTube ad,Virginia Connects,Water,Missing context,Yes,com,1
+0JS96iU0k0o,YouTube ad,Compass Datacenters,Water,No public data,No,community,1
+0JS96iU0k0o,YouTube ad,Compass Datacenters,Water,No public data,No,systems,1
+0JS96iU0k0o,YouTube ad,Compass Datacenters,Water,No public data,No,leak,1
+0JS96iU0k0o,YouTube ad,Compass Datacenters,Water,No public data,No,day,1
+0JS96iU0k0o,YouTube ad,Compass Datacenters,Water,No public data,No,compass,1
+0JS96iU0k0o,YouTube ad,Compass Datacenters,Water,No public data,No,use,1
+0JS96iU0k0o,YouTube ad,Compass Datacenters,Water,No public data,No,year,1
 1603022260291240,Meta ad,Virginia Connects,Energy,Not checkable,Yes,supporting,1
 1603022260291240,Meta ad,Virginia Connects,Energy,Not checkable,Yes,innovative,1
 1603022260291240,Meta ad,Virginia Connects,Energy,Not checkable,Yes,st-century,1
@@ -1225,3 +1399,79 @@ HpDH_znD6DE,YouTube ad,Virginia Connects,Water,Disputed,Yes,com,1
 953059753993074,Meta ad,Planet Water Foundation / TBWA\SMP,Water (counter-claim),Counter-ad (not rated),No,converts,1
 953059753993074,Meta ad,Planet Water Foundation / TBWA\SMP,Water (counter-claim),Counter-ad (not rated),No,use,1
 953059753993074,Meta ad,Planet Water Foundation / TBWA\SMP,Water (counter-claim),Counter-ad (not rated),No,donations,1
+1007646302344543,Meta ad,Compass Datacenters,Water,No public data,No,shouldn't,1
+1007646302344543,Meta ad,Compass Datacenters,Water,No public data,No,use,1
+1007646302344543,Meta ad,Compass Datacenters,Water,No public data,No,water,2
+1007646302344543,Meta ad,Compass Datacenters,Water,No public data,No,agree,1
+1007646302344543,Meta ad,Compass Datacenters,Water,No public data,No,claims,1
+1007646302344543,Meta ad,Compass Datacenters,Water,No public data,No,zero,1
+1007646302344543,Meta ad,Compass Datacenters,Water,No public data,No,city,1
+1007646302344543,Meta ad,Compass Datacenters,Water,No public data,No,cooling,1
+1007646302344543,Meta ad,Compass Datacenters,Water,No public data,No,since,1
+1442097564548229,Meta ad,Compass Datacenters,Energy (costs),No public data,No,shouldn't,1
+1442097564548229,Meta ad,Compass Datacenters,Energy (costs),No public data,No,raise,1
+1442097564548229,Meta ad,Compass Datacenters,Energy (costs),No public data,No,electricity,1
+1442097564548229,Meta ad,Compass Datacenters,Energy (costs),No public data,No,rates,1
+1442097564548229,Meta ad,Compass Datacenters,Energy (costs),No public data,No,agree,1
+1442097564548229,Meta ad,Compass Datacenters,Energy (costs),No public data,No,cites,1
+1442097564548229,Meta ad,Compass Datacenters,Energy (costs),No public data,No,million,1
+1442097564548229,Meta ad,Compass Datacenters,Energy (costs),No public data,No,substations,1
+1442097564548229,Meta ad,Compass Datacenters,Energy (costs),No public data,No,lines,1
+1927445971757558,Meta ad,Compass Datacenters,None (jobs),No energy/water claim,No,agree,1
+1927445971757558,Meta ad,Compass Datacenters,None (jobs),No energy/water claim,No,jobs,1
+1927445971757558,Meta ad,Compass Datacenters,None (jobs),No energy/water claim,No,development,1
+1927445971757558,Meta ad,Compass Datacenters,None (jobs),No energy/water claim,No,create,1
+1927445971757558,Meta ad,Compass Datacenters,None (jobs),No energy/water claim,No,lasting,1
+1927445971757558,Meta ad,Compass Datacenters,None (jobs),No energy/water claim,No,careers,1
+1821241565897458,Meta ad,Wyoming Driven Innovation,Energy,Not checkable,No,need,1
+1821241565897458,Meta ad,Wyoming Driven Innovation,Energy,Not checkable,No,reliable,1
+1821241565897458,Meta ad,Wyoming Driven Innovation,Energy,Not checkable,No,energy,1
+1821241565897458,Meta ad,Wyoming Driven Innovation,Energy,Not checkable,No,wyoming,1
+1821241565897458,Meta ad,Wyoming Driven Innovation,Energy,Not checkable,No,powered,1
+1821241565897458,Meta ad,Wyoming Driven Innovation,Energy,Not checkable,No,america,1
+1821241565897458,Meta ad,Wyoming Driven Innovation,Energy,Not checkable,No,generations,1
+1118435840747957,Meta ad,Friends of Tina Kotek,Energy (counter-claim),Counter-ad (not rated),No,power,1
+1118435840747957,Meta ad,Friends of Tina Kotek,Energy (counter-claim),Counter-ad (not rated),No,act,1
+1118435840747957,Meta ad,Friends of Tina Kotek,Energy (counter-claim),Counter-ad (not rated),No,stops,1
+1118435840747957,Meta ad,Friends of Tina Kotek,Energy (counter-claim),Counter-ad (not rated),No,passing,1
+1118435840747957,Meta ad,Friends of Tina Kotek,Energy (counter-claim),Counter-ad (not rated),No,energy,1
+1118435840747957,Meta ad,Friends of Tina Kotek,Energy (counter-claim),Counter-ad (not rated),No,costs,1
+1118435840747957,Meta ad,Friends of Tina Kotek,Energy (counter-claim),Counter-ad (not rated),No,onto,1
+2266859057417720,Meta ad,Evergreen Action,Energy (counter-claim),Counter-ad (not rated),No,use,1
+2266859057417720,Meta ad,Evergreen Action,Energy (counter-claim),Counter-ad (not rated),No,electricity,1
+2266859057417720,Meta ad,Evergreen Action,Energy (counter-claim),Counter-ad (not rated),No,entire,1
+2266859057417720,Meta ad,Evergreen Action,Energy (counter-claim),Counter-ad (not rated),No,cities,1
+2266859057417720,Meta ad,Evergreen Action,Energy (counter-claim),Counter-ad (not rated),No,pay,1
+2266859057417720,Meta ad,Evergreen Action,Energy (counter-claim),Counter-ad (not rated),No,big,1
+2266859057417720,Meta ad,Evergreen Action,Energy (counter-claim),Counter-ad (not rated),No,bill,1
+2082368675714884,Meta ad,Duty and Country,Energy (counter-claim),Counter-ad (not rated),No,attacks,1
+2082368675714884,Meta ad,Duty and Country,Energy (counter-claim),Counter-ad (not rated),No,sen,1
+2082368675714884,Meta ad,Duty and Country,Energy (counter-claim),Counter-ad (not rated),No,husted,1
+2082368675714884,Meta ad,Duty and Country,Energy (counter-claim),Counter-ad (not rated),No,championing,1
+2082368675714884,Meta ad,Duty and Country,Energy (counter-claim),Counter-ad (not rated),No,driving,1
+2082368675714884,Meta ad,Duty and Country,Energy (counter-claim),Counter-ad (not rated),No,electric,1
+2082368675714884,Meta ad,Duty and Country,Energy (counter-claim),Counter-ad (not rated),No,bills,1
+2113109242626847,Meta ad,Georgia Conservation Voters,Energy (counter-claim),Counter-ad (not rated),No,psc,1
+2113109242626847,Meta ad,Georgia Conservation Voters,Energy (counter-claim),Counter-ad (not rated),No,candidates,1
+2113109242626847,Meta ad,Georgia Conservation Voters,Energy (counter-claim),Counter-ad (not rated),No,support,1
+2113109242626847,Meta ad,Georgia Conservation Voters,Energy (counter-claim),Counter-ad (not rated),No,raise,1
+2113109242626847,Meta ad,Georgia Conservation Voters,Energy (counter-claim),Counter-ad (not rated),No,bills,1
+1674139377577442,Meta ad,Tucker for Texas,Water + energy (counter-claim),Counter-ad (not rated),No,taking,1
+1674139377577442,Meta ad,Tucker for Texas,Water + energy (counter-claim),Counter-ad (not rated),No,water,1
+1674139377577442,Meta ad,Tucker for Texas,Water + energy (counter-claim),Counter-ad (not rated),No,jacking,1
+1674139377577442,Meta ad,Tucker for Texas,Water + energy (counter-claim),Counter-ad (not rated),No,power,1
+1674139377577442,Meta ad,Tucker for Texas,Water + energy (counter-claim),Counter-ad (not rated),No,bills,1
+1116433990767657,Meta ad,Run For Something PAC,Energy (counter-claim),Counter-ad (not rated),No,driving,1
+1116433990767657,Meta ad,Run For Something PAC,Energy (counter-claim),Counter-ad (not rated),No,energy,1
+1116433990767657,Meta ad,Run For Something PAC,Energy (counter-claim),Counter-ad (not rated),No,bills,1
+1116433990767657,Meta ad,Run For Something PAC,Energy (counter-claim),Counter-ad (not rated),No,wrecking,1
+1116433990767657,Meta ad,Run For Something PAC,Energy (counter-claim),Counter-ad (not rated),No,environment,1
+1481236440573506,Meta ad,Alaskans for Mary,Water (counter-claim),Counter-ad (not rated),No,quotes,1
+1481236440573506,Meta ad,Alaskans for Mary,Water (counter-claim),Counter-ad (not rated),No,sen,1
+1481236440573506,Meta ad,Alaskans for Mary,Water (counter-claim),Counter-ad (not rated),No,sullivan,1
+1481236440573506,Meta ad,Alaskans for Mary,Water (counter-claim),Counter-ad (not rated),No,inviting,1
+1481236440573506,Meta ad,Alaskans for Mary,Water (counter-claim),Counter-ad (not rated),No,got,1
+1481236440573506,Meta ad,Alaskans for Mary,Water (counter-claim),Counter-ad (not rated),No,water,1
+1481236440573506,Meta ad,Alaskans for Mary,Water (counter-claim),Counter-ad (not rated),No,resources,1
+1481236440573506,Meta ad,Alaskans for Mary,Water (counter-claim),Counter-ad (not rated),No,belong,1
+1481236440573506,Meta ad,Alaskans for Mary,Water (counter-claim),Counter-ad (not rated),No,alaskans,1
