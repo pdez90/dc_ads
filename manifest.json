@@ -1298,34 +1298,37 @@
   },
   "files": {
     "app.R": {
-      "checksum": "19420adc21b40efd4819ae87720393ee"
+      "checksum": "aa9728c5e76d2922cdafda9518d0c6c8"
     },
     "data/ads_all.csv": {
-      "checksum": "56ad000e1147a927eeeb222d4df82154"
+      "checksum": "759ed25398e8a11d4db0adb535c93dca"
     },
     "data/campaigns.csv": {
-      "checksum": "b5b051c82ce90d13066f4026585924e2"
+      "checksum": "9198d388fe563be0e36172553dcb7e17"
+    },
+    "data/internal_docs.csv": {
+      "checksum": "5ccba38e2dacc0e3121712d7ff2ad15d"
     },
     "data/lawsuits.csv": {
       "checksum": "c5420d54b07dab5e582ff9d509c2f68c"
     },
     "data/meta_ads.csv": {
-      "checksum": "eb78f43afa17e081470d890f4445efbd"
+      "checksum": "29ba51b5bc567137a8de6594db65194e"
     },
     "data/meta_audience.csv": {
       "checksum": "f3ada1ba73620376629b710b84b21d7e"
     },
     "data/meta_counts.csv": {
-      "checksum": "cfa1687af99285816447d8735ff25b34"
+      "checksum": "17e07c7c865344f6d295a58cd01546f4"
     },
     "data/template_by_state.csv": {
       "checksum": "767f8c8fa2f9dc146ada70cc677bcef5"
     },
     "data/word_freq.csv": {
-      "checksum": "6cec23596003d7a234e280101947b839"
+      "checksum": "0a5a2e91874fe673d65b4f71d2063f63"
     },
     "data/youtube_ads.csv": {
-      "checksum": "f8075444cd94e01255b9f7a1e56050f3"
+      "checksum": "7dc3e27323dd5b746bc5b51d9cc7526a"
     }
   },
   "users": null

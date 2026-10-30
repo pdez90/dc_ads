@@ -5,6 +5,9 @@ An R Shiny app that archives US and global data center ads (TV, YouTube, Faceboo
 - who saw it (place; age/gender for Meta issue ads)
 - whether the claim can be fact-checked, with sources
 - links to related lawsuits and investigations
+- a category (data center industry and allies; nuclear industry; other industries riding the boom, such as gas, coal and utilities; opposition and counter-ads) and themes (jobs, China / national security, water, energy & rates, taxes & economy)
+
+An **Internal documents** tab lists leaks, court filings, public-records releases, regulatory filings and company reports that complicate the ads' claims (`data/internal_docs.csv`; sourcing notes in `build/internal_docs_notes.md`).
 
 ## Run locally
 ```r

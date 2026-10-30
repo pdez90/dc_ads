@@ -113,3 +113,4 @@ exec(open(os.path.join(B, "additions2.py")).read())
 exec(open(os.path.join(B, "fixes_audit.py")).read())
 
 exec(open(os.path.join(B, "nuclear.py")).read())
+exec(open(os.path.join(B, "sectors.py")).read())

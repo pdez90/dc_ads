@@ -28,6 +28,11 @@ SRC = dict(
   IEA="https://www.artificialintelligence-news.com/news/iea-opportunities-and-challenges-ai-for-global-energy/",
   CEG="https://www.businesswire.com/news/home/20260107185180/en",
   OR="https://opb.org/article/2026/07/07/oregon-data-center-general-electric-rate-hikes",
+  JOBS="https://qz.com/data-center-jobs-employment-investment-economic-development-051326",
+  PWC="https://ppc.land/content/files/2026/05/Data-Center-Economic-Contribution-Study-2026_Final.pdf",
+  UCS="https://www.utilitydive.com/news/gas-power-plants-reliability-winter-union-concerned-scientists/704031/",
+  ENTERGY="https://www.ktbs.com/news/louisiana/entergy-says-meta-will-save-ratepayers-billions-here-s-how/article_0eb5a464-25ef-5c86-a9eb-a6ccbc71904c.html",
+  EPOCH="https://epoch.ai/data-insights/ai-supercomputers-performance-share-by-country",
   AZ="https://www.circleofblue.org/2025/supply/data-centers-a-small-but-growing-factor-in-arizonas-water-budget/",
 )
 L = {l["id"]: l for l in laws}
@@ -62,6 +67,13 @@ FC = {
  "notyet": ("Not yet checked", "This is a specific claim that could be checked against public filings, but we haven't checked it yet.", ""),
  "nodata": ("No public data", "This could be checked, but the company or group hasn't published the underlying data.", ""),
  "fairwater": ("Missing context", "Records released after a public-records suit (L-05) project ~2.8M gal/yr for Phase 1 and up to 8.4M gal/yr later. Actual use isn't published.", "WPR"),
+ "jobsmodel": ("Missing context", "These are modeled totals from PwC's study for the Data Center Coalition: direct jobs plus 'indirect and induced' jobs estimated with an economic multiplier, not jobs inside data centers. Facilities themselves employ few permanent staff (often 30–50, up to a few hundred), and Good Jobs First puts the average subsidy in large deals near $2M per job. Georgia's state auditor cut its own data center job estimate by about two-thirds (see Internal documents, ID-17).", "JOBS"),
+ "jobsvague": ("Not checkable", "Says data centers create jobs without a number, place or time period. Permanent staffing at a data center is usually small; most jobs are temporary construction work.", "JOBS"),
+ "gasreliable": ("Missing context", "Gas plants made up most of the capacity that failed in recent winter storms: 56% in Winter Storm Uri (2021) and 63% in Winter Storm Elliott (2022), per the Union of Concerned Scientists using FERC/NERC data. Gas supply can freeze off when demand peaks.", "UCS"),
+ "coalbills": ("Not yet checked", "A specific claim about coal and utility bills that could be checked against utility cost filings; we haven't checked it yet.", ""),
+ "entergy": ("Missing context", "Entergy's own 20-year projection (about $650M plus $2B from the Meta deals), which depends on Meta's rates exceeding the cost of serving it. Consumer advocates say the savings rest on optimistic assumptions, and gas-plant costs were redacted in the rate case (Internal documents, ID-13).", "ENTERGY"),
+ "chinadata": ("Missing context", "Implies the alternative to building in Texas is data going to China. Epoch AI estimates the US already hosts about three-quarters of global AI computing capacity and China about 15%; where data is stored depends on company and federal rules, not one state's permits.", "EPOCH"),
+ "chinaspend": ("No public data", "No source is given for China 'investing trillions'. Epoch AI estimates the US hosts about three-quarters of global AI computing capacity and China about 15%.", "EPOCH"),
  "counter": ("Counter-ad (not rated)", "Parody or advocacy against data center water use.", ""),
  "none": ("No energy/water claim", "", ""),
 }
@@ -112,6 +124,13 @@ C = {  # id: (appears_as, paid_for_by, funding_disclosed, audience_who, factchec
  "NU-01": ("Nuclear Energy Institute", "Nuclear Energy Institute (verified Google advertiser; Meta disclaimer)", "Yes: trade group named", "National YouTube and Google viewers; Meta audience not published for these ads", "neidemand", ""),
  "NU-02": ("Nuclear Matters", "Nuclear Matters (Meta disclaimer)", "Partly: group named, funders not disclosed", "National (Meta)", "nmpowering", ""),
  "NU-03": ("Constellation", "Constellation Energy Corporation (verified Google advertiser)", "Partly: some spots run on a 'Clean Jobs for Pennsylvania' channel paid for by Constellation", "National; Pennsylvania", "ceglean", ""),
+ "OI-01": ("Williams Companies", "Williams Companies, Inc. (Meta disclaimer; verified Google advertiser)", "Yes: company named", "National (Meta audience data not pulled)", "gasreliable", ""),
+ "OI-02": ("Coal and fossil-fuel advocates", "American Energy Institute; Brian Helton for West Virginia (Meta disclaimers)", "Partly: groups named, funders not disclosed", "National; West Virginia", "coalbills", ""),
+ "OI-03": ("Entergy Louisiana", "Not shown: ran without an issue-ad label, so Meta publishes no payer, spend or audience", "Yes: company brand", "Louisiana", "entergy", ""),
+ "US-38": ("Texans for Economic Liberty", "Texans for Economic Liberty (Meta disclaimer; contact at Harris Media LLC)", "Partly: group named, funders not disclosed", "Texas (Meta)", "chinadata", ""),
+ "US-39": ("NetChoice", "NetChoice (Meta disclaimer)", "Partly: trade group named; member companies not shown in the ad", "National; South Dakota", "chinaspend", ""),
+ "US-40": ("American Edge Project", "American Edge (Meta disclaimer; verified Google advertiser)", "Partly: group named; donors not disclosed, but CNBC reported Facebook (now Meta) gave $34M in 2020–21 after a $4M seed grant", "National", "jobsvague", ""),
+ "US-41": ("Connects state groups", AC_PAID.replace("Google lists the payer as GMMB, Inc.", "Meta disclaimers name each state group"), AC_DISC, "Ohio, Indiana, Oregon, Pennsylvania, Virginia (Meta)", "jobsmodel", ""),
  "GL-01": ("Polaroid", "Polaroid", "Yes: brand", "Coney Island, London Underground, South Korea", "counter", ""),
  "GL-02": ("Avaada Group", "Avaada Group", "Yes: brand", "Indian national TV", "vague", ""),
  "GL-03": ("Microsoft", "Microsoft", "Yes: brand", "Hyderabad launch audience", "zerocool", ""),
@@ -147,7 +166,7 @@ for l in laws:
 # ---------------------------------------------------------------- videos
 STATE_GROUP = {"Oregon Connects": "Oregon Connects", "Connected OH": "Connected Ohio", "ConnectedGA": "Connected Georgia", "IN Connects": "Indiana Connects",
                "NC Connects": "North Carolina Connects", "OR Connects": "Oregon Connects"}
-VID_FC = {"Io7h_19LHWE": "nukeslogan", "ffDG_n1zcis": "nukeslogan", "oThjI485c3U": "nukeslogan", "4GwRC82WLzs": "neidemand",
+VID_FC = {"u-sHlkSxmsw": "notyet", "dyhMX1Gt3OA": "notyet", "Io7h_19LHWE": "nukeslogan", "ffDG_n1zcis": "nukeslogan", "oThjI485c3U": "nukeslogan", "4GwRC82WLzs": "neidemand",
           "TsiNMFTxjF0": "ceglean", "1zTYeqE1VVc": "ceglean", "bj9dZxbgKu0": "none", "zu_AH_cVtLk": "none", "IwQCwpzG_GY": "txbuilt", "L-g5j8Dah_o": "orcosts", "F-lA8tM5ytg": "orcosts", "0JS96iU0k0o": "compasswater",
           "XNaTFb_tYXM": "compasswater", "Cwh4o5H-rtU": "compassrates", "IQqPY39Vpes": "none", "Li0ap16ReOQ": "none"}
 def vid_fc(v):
@@ -203,7 +222,16 @@ M_FC = {"1603022260291240": "vague", "1355279849204870": "vague", "1108111641257
         "1592085222563156": "counter", "3153289668213763": "counter", "953059753993074": "counter"}
 M_FC.update({"1669008000286846": "vague", "374094262207192": "vague", "1628561594449326": "nmpowering", "805063845222669": "none"})
 M_FC.update({"1007646302344543": "compasswater", "1442097564548229": "compassrates", "1927445971757558": "none", "1821241565897458": "vague"})
-UNLABELED = {"1007646302344543", "1442097564548229", "1927445971757558", "1077055241572370", "1913744136701738", "4680740768826912", "1064803106540533", "970055792802575"}
+M_FC.update({"1293519818383322": "gasreliable", "587902634262124": "gasreliable", "717843787472163": "vague", "892580369759098": "vague",
+  "703723472302769": "vague", "1441711237344326": "coalbills", "39910901075163809": "entergy", "1058363043622922": "chinadata",
+  "943500362131502": "chinadata", "3049723345231314": "chinadata", "2755475634846898": "jobsvague", "1602684917471991": "chinaspend",
+  "1160273426235067": "jobsvague", "1649238866660651": "jobsvague", "1651381009885730": "jobsvague", "2630526374051685": "jobsvague",
+  "2206183790208701": "jobsmodel", "1470542390873188": "jobsmodel", "2124533385058477": "jobsmodel", "4266661140310707": "jobsmodel",
+  "26196583389979722": "jobsmodel"})
+import ast
+_s = open(os.path.join(B, "sectors.py"), encoding="utf-8").read()
+M_PAID4 = ast.literal_eval(_s[_s.index("M_PAID4 = ") + 10:_s.index("}", _s.index("M_PAID4 = ")) + 1])
+UNLABELED = {"1007646302344543", "1442097564548229", "1927445971757558", "1077055241572370", "1913744136701738", "4680740768826912", "1064803106540533", "970055792802575", "39910901075163809"}
 for m in meta:
     i = m["library_id"]; s = m["sponsor"]; a = aud.get(i)
     m["appears_as"] = re.sub(r"\s*\(.*?\)", "", s)
@@ -213,8 +241,10 @@ for m in meta:
         m["reach"] = f"{a['spend']} spent; {a['impressions']} impressions"
         for f in ("age_18_34", "age_35_54", "age_55_plus", "women", "men"): m[f] = a[f]
     else:
-        if i in UNLABELED:
-            m["paid_for_by"] = ("Compass Datacenters: " if "Compass" in s else "") + "Not shown: ad ran as 'Sponsored' without an issue-ad label, so Meta publishes no payer, spend or audience"
+        if i in M_PAID4:
+            m["paid_for_by"] = M_PAID4[i] + " (Meta 'Paid for by' disclaimer)"
+        elif i in UNLABELED:
+            m["paid_for_by"] = ("Compass Datacenters: " if "Compass" in s else "Entergy Louisiana: " if "Entergy" in s else "") + "Not shown: ad ran as 'Sponsored' without an issue-ad label, so Meta publishes no payer, spend or audience"
         elif s in ("Nuclear Energy Institute", "Nuclear Matters"):
             m["paid_for_by"] = s + " (Meta disclaimer)"
         elif "Wyoming" in s:
@@ -244,6 +274,7 @@ NUC = {"Nuclear Energy Institute", "Nuclear Matters", "Constellation", "Clean Jo
 def stype(g):
     if "Connect" in g: return "Industry trade group"
     if g in NUC: return "Nuclear industry"
+    if g == "American Energy Institute" or g.startswith("Brian Helton"): return "Coal and fossil advocacy"
     return TYPE.get(g, "")
 allrows = []
 for r in camp:
@@ -262,18 +293,28 @@ for v in vids:
         url=v["youtube_url"]))
 for m in meta:
     allrows.append(dict(uid=m["library_id"], kind="Meta ad", appears_as=m["appears_as"], paid_for_by=m["paid_for_by"],
-        funding_disclosed=m["funding_disclosed"], sponsor_type=stype(m["appears_as"]) or ("Consumer brand (counter-ad)" if "counter" in m["sponsor"] else ""),
+        funding_disclosed=m["funding_disclosed"], sponsor_type=stype(m["appears_as"]) or ("Advocacy group or campaign (counter-ad)" if "counter" in m["sponsor"] else ""),
         platform="Facebook / Instagram", date=m["dates"], claim_type=m["claim_type"], claim=m["text"], factcheck=m["factcheck"],
         factcheck_note=m["factcheck_note"], factcheck_url=m["factcheck_url"], lawsuit_ids=m["lawsuit_ids"], lawsuit_role=m["lawsuit_role"],
         audience_where=m["audience_where"], audience_who=m["audience_who"], reach=m["reach"], url=m["url"],
         age_18_34=m.get("age_18_34", ""), age_55_plus=m.get("age_55_plus", ""), women=m.get("women", "")))
+THEMES = [("Jobs", r"\bjobs?\b|workers|electrician|welder|pipefitter|employ|trades|hiring|careers?"),
+          ("China / national security", r"china|national security|foreign|america wins|ai race|tech race|american hands|american data"),
+          ("Water", r"water|gallon|drought|aquifer"),
+          ("Energy & rates", r"electric|power|energy|\bbills?\b|\brates?\b|grid|gas\b|coal|nuclear|renewable|megawatt|fuel cell"),
+          ("Taxes & economy", r"\btax|revenue|econom|investment|billion")]
+def themes(r):
+    t = " ".join([r.get("claim") or "", r.get("claim_type") or ""]).lower()
+    return "; ".join(n for n, p in THEMES if re.search(p, t))
 def category(r):
     st = (r.get("sponsor_type") or "").lower(); ct = (r.get("claim_type") or "").lower()
     if "nuclear industry" in st: return "Nuclear industry"
+    if st in ("gas industry", "coal and fossil advocacy", "electric utility"): return "Other industries riding the boom"
     if "counter" in ct or "counter" in st or "opposing" in st: return "Opposition and counter-ads"
     return "Data center industry and allies"
 for r in allrows:
     r["category"] = category(r)
+    r["themes"] = themes(r)
     r["in_lawsuit"] = "Yes" if r["lawsuit_ids"] else "No"
     r["checkable"] = "Yes" if r["factcheck"] in ("Supported", "Missing context", "Disputed", "No public data", "Not yet checked") else "No"
 
@@ -312,11 +353,11 @@ for r, text in units:
                          factcheck=r["factcheck"], in_lawsuit=r["in_lawsuit"], word=w, n=n))
 
 wcsv("campaigns.csv", camp); wcsv("youtube_ads.csv", vids); wcsv("meta_ads.csv", meta); wcsv("lawsuits.csv", laws)
-wcsv("ads_all.csv", allrows, ["uid", "kind", "category", "appears_as", "paid_for_by", "funding_disclosed", "sponsor_type", "platform", "date",
+wcsv("ads_all.csv", allrows, ["uid", "kind", "category", "themes", "appears_as", "paid_for_by", "funding_disclosed", "sponsor_type", "platform", "date",
      "claim_type", "claim", "factcheck", "factcheck_note", "factcheck_url", "checkable", "in_lawsuit", "lawsuit_ids", "lawsuit_role",
      "audience_where", "audience_who", "reach", "age_18_34", "age_55_plus", "women", "url"])
 wcsv("word_freq.csv", freq)
 wcsv("meta_audience.csv", list(aud.values()))
 print("ads_all", len(allrows), "| word rows", len(freq), "| units", len(units))
 print(collections.Counter(r["factcheck"] for r in allrows))
-print(collections.Counter(r["in_lawsuit"] for r in allrows)); print(collections.Counter(r["category"] for r in allrows))
+print(collections.Counter(t for r in allrows for t in r["themes"].split("; ") if t));print(collections.Counter(r["in_lawsuit"] for r in allrows)); print(collections.Counter(r["category"] for r in allrows))
