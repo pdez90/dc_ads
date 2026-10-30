@@ -24,6 +24,9 @@ SRC = dict(
   JUP="https://www.abqjournal.com/business/project-jupiter-developers-revise-plan-swapping-gas-turbines-for-fuel-cell-system/3031145",
   WPR="https://www.wpr.org/news/microsoft-data-centers-8-million-gallons-water-each-year",
   ADANI="https://www.adanienterprises.com/digital-reports/enterprises/2026/data-center.html",
+  LBNL="https://www.energy.gov/articles/doe-releases-new-report-evaluating-increase-electricity-demand-data-centers",
+  IEA="https://www.artificialintelligence-news.com/news/iea-opportunities-and-challenges-ai-for-global-energy/",
+  CEG="https://www.businesswire.com/news/home/20260107185180/en",
   OR="https://opb.org/article/2026/07/07/oregon-data-center-general-electric-rate-hikes",
   AZ="https://www.circleofblue.org/2025/supply/data-centers-a-small-but-growing-factor-in-arizonas-water-budget/",
 )
@@ -43,6 +46,10 @@ FC = {
  "compasswater": ("No public data", "'Zero city water for cooling' leaves out other water sources and the water used to generate the electricity it buys. Compass doesn't publish annual water-use figures for its sites.", "PEAK"),
  "compassrates": ("No public data", "The '$300 million' for substations and transmission is self-reported, with no breakdown by site or utility filing in the ad.", ""),
  "adani59": ("Missing context", "Adani's own 2026 report gives 59% renewable energy for Chennai 1; 'up to 100%' is a general offering.", "ADANI"),
+ "neidemand": ("Missing context", "The IEA projects global data-center electricity use to more than double by 2030, which matches the ad. For the US, DOE/LBNL projects use to 'double or triple' by 2028, so 'triple' is the top of the range. 'The only source that's both clean and reliable' leaves out hydro and geothermal.", "LBNL"),
+ "nukeslogan": ("Not checkable", "A slogan ('Only nuclear has the power…'); no figure to test.", ""),
+ "nmpowering": ("Missing context", "Some data centers buy power from existing nuclear plants, but most announced nuclear-for-data-center deals depend on restarts or new reactors not yet online; the IEA expects the first small modular reactors around 2030.", "IEA"),
+ "ceglean": ("Missing context", "Constellation bought Calpine in January 2026, adding over 50 natural-gas plants. 'Emissions free' describes its nuclear fleet, not all of its generation; the spots kept running after the deal.", "CEG"),
  "txwater": ("Supported", "HARC estimates Texas data centers used about 0.4% of state water in 2025, rising to as much as 2.7% by 2030.", "HARC"),
  "azwater": ("Supported", "Published estimates put Arizona data centers' direct water use well under 1% of state use (one estimate is below 0.1%). These figures leave out water used to generate their electricity.", "AZ"),
  "renew100": ("Missing context", "'100% renewable' claims rely partly on unbundled renewable energy certificates (RECs). 16 state attorneys general sent inquiry letters in Sept 2025; no findings have been reported.", "L02"),
@@ -102,6 +109,9 @@ C = {  # id: (appears_as, paid_for_by, funding_disclosed, audience_who, factchec
  "US-35": ("Google", "Google LLC (verified Google advertiser)", "Yes: company brand", "Communities near Google data centers (GA, IN, MO, OH, TX, VA)", "none", ""),
  "US-36": ("Wyoming Driven Innovation", "Wyoming Driven Innovation LLC (Meta disclaimer)", "Partly: LLC named, funders not disclosed", "Wyoming", "vague", ""),
  "US-37": ("Election ads against data centers", "Candidates, PACs and advocacy groups (Meta disclaimers)", "Yes: campaign disclaimers", "Voters in 2026 races (OR, OH, MI, TX, GA, AK and others)", "counter", ""),
+ "NU-01": ("Nuclear Energy Institute", "Nuclear Energy Institute (verified Google advertiser; Meta disclaimer)", "Yes: trade group named", "National YouTube and Google viewers; Meta audience not published for these ads", "neidemand", ""),
+ "NU-02": ("Nuclear Matters", "Nuclear Matters (Meta disclaimer)", "Partly: group named, funders not disclosed", "National (Meta)", "nmpowering", ""),
+ "NU-03": ("Constellation", "Constellation Energy Corporation (verified Google advertiser)", "Partly: some spots run on a 'Clean Jobs for Pennsylvania' channel paid for by Constellation", "National; Pennsylvania", "ceglean", ""),
  "GL-01": ("Polaroid", "Polaroid", "Yes: brand", "Coney Island, London Underground, South Korea", "counter", ""),
  "GL-02": ("Avaada Group", "Avaada Group", "Yes: brand", "Indian national TV", "vague", ""),
  "GL-03": ("Microsoft", "Microsoft", "Yes: brand", "Hyderabad launch audience", "zerocool", ""),
@@ -137,7 +147,8 @@ for l in laws:
 # ---------------------------------------------------------------- videos
 STATE_GROUP = {"Oregon Connects": "Oregon Connects", "Connected OH": "Connected Ohio", "ConnectedGA": "Connected Georgia", "IN Connects": "Indiana Connects",
                "NC Connects": "North Carolina Connects", "OR Connects": "Oregon Connects"}
-VID_FC = {"IwQCwpzG_GY": "txbuilt", "L-g5j8Dah_o": "orcosts", "F-lA8tM5ytg": "orcosts", "0JS96iU0k0o": "compasswater",
+VID_FC = {"Io7h_19LHWE": "nukeslogan", "ffDG_n1zcis": "nukeslogan", "oThjI485c3U": "nukeslogan", "4GwRC82WLzs": "neidemand",
+          "TsiNMFTxjF0": "ceglean", "1zTYeqE1VVc": "ceglean", "bj9dZxbgKu0": "none", "zu_AH_cVtLk": "none", "IwQCwpzG_GY": "txbuilt", "L-g5j8Dah_o": "orcosts", "F-lA8tM5ytg": "orcosts", "0JS96iU0k0o": "compasswater",
           "XNaTFb_tYXM": "compasswater", "Cwh4o5H-rtU": "compassrates", "IQqPY39Vpes": "none", "Li0ap16ReOQ": "none"}
 def vid_fc(v):
     if v["youtube_id"] in VID_FC: return VID_FC[v["youtube_id"]]
@@ -163,6 +174,10 @@ for v in vids:
         v["appears_as"] = ch; v["paid_for_by"] = C["US-15"][1]; v["funding_disclosed"] = C["US-15"][2]; v["audience_where"] = v["state"]
     elif ch == "QTS Data Centers":
         v["appears_as"] = ch; v["paid_for_by"] = C["US-21"][1]; v["funding_disclosed"] = "Yes: company brand"; v["audience_where"] = "US"
+    elif ch in ("Nuclear Energy Institute", "Constellation", "Clean Jobs for Pennsylvania"):
+        v["appears_as"] = ch; v["audience_where"] = v["state"]
+        v["paid_for_by"] = "Nuclear Energy Institute (verified Google advertiser)" if ch.startswith("Nuclear") else "Constellation Energy Corporation (verified Google advertiser)"
+        v["funding_disclosed"] = "Partly: channel name differs from the payer" if ch == "Clean Jobs for Pennsylvania" else "Yes"
     elif ch == "Compass Datacenters":
         v["appears_as"] = ch; v["paid_for_by"] = C["US-34"][1]; v["funding_disclosed"] = "Yes: company brand"; v["audience_where"] = v["state"]
     elif ch in ("Google", "Grow with Google"):
@@ -186,6 +201,7 @@ M_FC = {"1603022260291240": "vague", "1355279849204870": "vague", "1108111641257
         "1086975924010981": "vague", "4395830997313964": "vague", "1077055241572370": "waterpct", "1913744136701738": "waterpct",
         "4680740768826912": "waterpct", "1064803106540533": "waterpct", "970055792802575": "waterpct",
         "1592085222563156": "counter", "3153289668213763": "counter", "953059753993074": "counter"}
+M_FC.update({"1669008000286846": "vague", "374094262207192": "vague", "1628561594449326": "nmpowering", "805063845222669": "none"})
 M_FC.update({"1007646302344543": "compasswater", "1442097564548229": "compassrates", "1927445971757558": "none", "1821241565897458": "vague"})
 UNLABELED = {"1007646302344543", "1442097564548229", "1927445971757558", "1077055241572370", "1913744136701738", "4680740768826912", "1064803106540533", "970055792802575"}
 for m in meta:
@@ -199,6 +215,8 @@ for m in meta:
     else:
         if i in UNLABELED:
             m["paid_for_by"] = ("Compass Datacenters: " if "Compass" in s else "") + "Not shown: ad ran as 'Sponsored' without an issue-ad label, so Meta publishes no payer, spend or audience"
+        elif s in ("Nuclear Energy Institute", "Nuclear Matters"):
+            m["paid_for_by"] = s + " (Meta disclaimer)"
         elif "Wyoming" in s:
             m["paid_for_by"] = "Wyoming Driven Innovation LLC (Meta disclaimer)"
         elif "counter" in s and m["library_id"] not in M_FC:
@@ -222,8 +240,10 @@ for m in meta:
 
 # ---------------------------------------------------------------- unified table
 TYPE = {r["appears_as"]: r["sponsor_type"] for r in camp}
+NUC = {"Nuclear Energy Institute", "Nuclear Matters", "Constellation", "Clean Jobs for Pennsylvania"}
 def stype(g):
     if "Connect" in g: return "Industry trade group"
+    if g in NUC: return "Nuclear industry"
     return TYPE.get(g, "")
 allrows = []
 for r in camp:
@@ -247,7 +267,13 @@ for m in meta:
         factcheck_note=m["factcheck_note"], factcheck_url=m["factcheck_url"], lawsuit_ids=m["lawsuit_ids"], lawsuit_role=m["lawsuit_role"],
         audience_where=m["audience_where"], audience_who=m["audience_who"], reach=m["reach"], url=m["url"],
         age_18_34=m.get("age_18_34", ""), age_55_plus=m.get("age_55_plus", ""), women=m.get("women", "")))
+def category(r):
+    st = (r.get("sponsor_type") or "").lower(); ct = (r.get("claim_type") or "").lower()
+    if "nuclear industry" in st: return "Nuclear industry"
+    if "counter" in ct or "counter" in st or "opposing" in st: return "Opposition and counter-ads"
+    return "Data center industry and allies"
 for r in allrows:
+    r["category"] = category(r)
     r["in_lawsuit"] = "Yes" if r["lawsuit_ids"] else "No"
     r["checkable"] = "Yes" if r["factcheck"] in ("Supported", "Missing context", "Disputed", "No public data", "Not yet checked") else "No"
 
@@ -282,15 +308,15 @@ for r in allrows:
 for r, text in units:
     c = collections.Counter(words(text))
     for w, n in c.items():
-        freq.append(dict(uid=r["uid"], kind=r["kind"], appears_as=r["appears_as"], claim_type=r["claim_type"],
+        freq.append(dict(uid=r["uid"], kind=r["kind"], category=r["category"], appears_as=r["appears_as"], claim_type=r["claim_type"],
                          factcheck=r["factcheck"], in_lawsuit=r["in_lawsuit"], word=w, n=n))
 
 wcsv("campaigns.csv", camp); wcsv("youtube_ads.csv", vids); wcsv("meta_ads.csv", meta); wcsv("lawsuits.csv", laws)
-wcsv("ads_all.csv", allrows, ["uid", "kind", "appears_as", "paid_for_by", "funding_disclosed", "sponsor_type", "platform", "date",
+wcsv("ads_all.csv", allrows, ["uid", "kind", "category", "appears_as", "paid_for_by", "funding_disclosed", "sponsor_type", "platform", "date",
      "claim_type", "claim", "factcheck", "factcheck_note", "factcheck_url", "checkable", "in_lawsuit", "lawsuit_ids", "lawsuit_role",
      "audience_where", "audience_who", "reach", "age_18_34", "age_55_plus", "women", "url"])
 wcsv("word_freq.csv", freq)
 wcsv("meta_audience.csv", list(aud.values()))
 print("ads_all", len(allrows), "| word rows", len(freq), "| units", len(units))
 print(collections.Counter(r["factcheck"] for r in allrows))
-print(collections.Counter(r["in_lawsuit"] for r in allrows))
+print(collections.Counter(r["in_lawsuit"] for r in allrows)); print(collections.Counter(r["category"] for r in allrows))

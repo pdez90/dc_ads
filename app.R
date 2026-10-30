@@ -121,11 +121,12 @@ ui <- page_navbar(
         selectInput("f_area", "Who sees it: where", c("All", sort(unique(ads$area)))),
         selectInput("f_age", "Who sees it: age (Meta)", c("All", "Mostly 55+", "Mostly under 35", "Mixed ages", "Not published"))),
       layout_columns(col_widths = c(3, 3, 3, 3),
+        selectInput("f_cat", "Category", c("All", sort(unique(ads$category)))),
         selectInput("f_kind", "Record type", c("All", sort(unique(ads$kind)))),
         selectInput("f_fc", "Fact-check", c("All", "Checkable claims only", FC_LEVELS)),
         selectInput("f_sort", "Sort by", c("Lawsuit first" = "law", "Group (appears as)" = "group", "Who sees it (place)" = "area",
-                                          "Fact-check (most disputed first)" = "fc", "Date (newest first)" = "date")),
-        div(class = "pt-4", downloadButton("dl_ads", "Download filtered rows (CSV)", class = "btn-sm"))),
+                                          "Fact-check (most disputed first)" = "fc", "Date (newest first)" = "date"))),
+      div(class = "mb-2", downloadButton("dl_ads", "Download filtered rows (CSV)", class = "btn-sm")),
       DTOutput("t_ads"))),
 
   nav_panel("Word cloud",
@@ -134,6 +135,7 @@ ui <- page_navbar(
       p(class = "lede", "Word counts from the ad scripts: YouTube auto-captions, Meta ad text and quoted claims for other ads. Common words and the words \"data\" and \"center(s)\" are dropped. Filter to compare groups, or to compare ads tied to lawsuits with the rest."),
       layout_columns(col_widths = c(3, 9),
         card(
+          selectInput("w_cat", "Category", c("All", sort(unique(wf$category)))),
           selectizeInput("w_group", "Appears as", c("All", sort(unique(wf$appears_as))), multiple = FALSE),
           selectInput("w_law", "Part of a lawsuit?", c("All", "Yes", "No")),
           selectInput("w_kind", "Record type", c("All", sort(unique(wf$kind)))),
@@ -170,6 +172,16 @@ ui <- page_navbar(
       card(card_header("Who saw each ad: share of impressions by age (Meta)"), plotOutput("p_aud", height = "430px")),
       DTOutput("t_meta"), br(),
       h5("Ads found per sponsor (exact-phrase search, US, all dates)"), tableOutput("t_meta_n"))),
+
+  nav_panel("Nuclear industry",
+    div(class = "container-xl py-3",
+      h2("Selling nuclear as the answer to data center demand"),
+      p(class = "lede", HTML("The nuclear industry advertises AI and data center growth as the reason to build and restart reactors. These ads promote a power source rather than data centers themselves, so they are kept as a separate category. They come from the <b>Nuclear Energy Institute</b> (the industry trade group), <b>Nuclear Matters</b> (an advocacy campaign) and <b>Constellation Energy</b>, whose Google account also pays for a 'Clean Jobs for Pennsylvania' channel about the Three Mile Island restart.")),
+      div(class = "d-flex flex-wrap my-3",
+        stat(sum(ads$category == "Nuclear industry"), "nuclear-industry ad records"),
+        stat(format(sum(videos$views[videos$youtube_id %in% ads$uid[ads$category == "Nuclear industry"]], na.rm = TRUE), big.mark = ","), "YouTube views"),
+        stat(sum(ads$category == "Nuclear industry" & ads$checkable == "Yes"), "checkable claims")),
+      DTOutput("t_nuclear"))),
 
   nav_panel("Lawsuits & challenges",
     div(class = "container-xl py-3",
@@ -232,6 +244,7 @@ server <- function(input, output, session) {
     if (input$f_group != "All") d <- d[d$appears_as == input$f_group, ]
     if (input$f_area != "All")  d <- d[d$area == input$f_area, ]
     if (input$f_age != "All")   d <- d[d$age_profile == input$f_age, ]
+    if (input$f_cat != "All")   d <- d[d$category == input$f_cat, ]
     if (input$f_kind != "All")  d <- d[d$kind == input$f_kind, ]
     if (input$f_fc == "Checkable claims only") d <- d[d$checkable == "Yes", ]
     else if (input$f_fc != "All") d <- d[d$factcheck == input$f_fc, ]
@@ -246,7 +259,7 @@ server <- function(input, output, session) {
   output$t_ads <- renderDT({
     d <- ads_f()
     out <- data.frame(
-      `Appears as` = sprintf("<b>%s</b><br><small>%s · %s</small>", esc(d$appears_as), esc(d$kind), esc(d$platform)),
+      `Appears as` = sprintf("<b>%s</b><br><small>%s · %s</small><br><small class='text-muted'>%s</small>", esc(d$appears_as), esc(d$kind), esc(d$platform), esc(d$category)),
       `Paid for by` = sprintf("%s<br><small class='text-muted'>%s</small>", esc(d$paid_for_by), esc(d$funding_disclosed)),
       `Who sees it` = sprintf("<b>%s</b><br><small>%s</small><br><small class='text-muted'>%s</small>", esc(d$area), esc(d$audience_who), esc(d$reach)),
       Claim = sprintf('<span class="claim-chip c-%s">%s</span><br>%s', claim_class(d$claim_type), esc(d$claim_type), esc(d$claim)),
@@ -262,6 +275,7 @@ server <- function(input, output, session) {
   # ---- Word cloud
   wf_f <- reactive({
     d <- wf
+    if (input$w_cat != "All")   d <- d[d$category == input$w_cat, ]
     if (input$w_group != "All") d <- d[d$appears_as == input$w_group, ]
     if (input$w_law != "All")   d <- d[d$in_lawsuit == input$w_law, ]
     if (input$w_kind != "All")  d <- d[d$kind == input$w_kind, ]
@@ -358,6 +372,18 @@ server <- function(input, output, session) {
                       Lawsuit = law_chip(d$lawsuit_ids, d$lawsuit_role),
                       `Ad record` = link(d$url, paste0("ID ", d$library_id, " ↗")), check.names = FALSE)
     datatable(out, escape = FALSE, rownames = FALSE, options = list(pageLength = 15, autoWidth = TRUE))
+  })
+  output$t_nuclear <- renderDT({
+    d <- ads[ads$category == "Nuclear industry", ]
+    d <- d[order(d$appears_as, d$kind), ]
+    out <- data.frame(
+      `Appears as` = sprintf("<b>%s</b><br><small>%s · %s</small>", esc(d$appears_as), esc(d$kind), esc(d$date)),
+      `Paid for by` = sprintf("%s<br><small class='text-muted'>%s</small>", esc(d$paid_for_by), esc(d$funding_disclosed)),
+      Claim = esc(d$claim),
+      `Fact-check` = fc_chip(d$factcheck, d$factcheck_note, d$factcheck_url),
+      Reach = esc(d$reach), Link = link(d$url, "Open ↗"), check.names = FALSE)
+    datatable(out, escape = FALSE, rownames = FALSE, options = list(pageLength = 20, autoWidth = TRUE,
+              columnDefs = list(list(width = "28%", targets = 3))))
   })
   output$t_meta_n <- renderTable(setNames(meta_n, c("Sponsor", "Ads found")))
 

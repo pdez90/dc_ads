@@ -111,3 +111,5 @@ law.append(dict(id="L-09", type="Regulatory disclosure (lobbying)", title="NM St
 exec(open(os.path.join(B, "additions2.py")).read())
 
 exec(open(os.path.join(B, "fixes_audit.py")).read())
+
+exec(open(os.path.join(B, "nuclear.py")).read())
