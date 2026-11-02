@@ -86,3 +86,16 @@ for a in ads:
         a["notes"] = (a.get("notes") or "") + " Earthjustice ran about a dozen Meta ads (Apr–May 2026) on its suit over xAI's Southaven, Mississippi power plant."
 meta_counts += [("Bloom Energy", "36 Google ads (search ads for data-center onsite power); no data-center Meta ads found"),
                 ("Outside the US (sweep, Oct 30, 2026)", "AirTrunk (AU), Government of Alberta, Saskatchewan Party; counter-ads in the UK, Australia and Canada")]
+
+# ---------------------------------------------------------------- v1.2 (Nov 2, 2026): corrections from the independent source check
+LFIX2 = {
+ "L-06": dict(filed="2020 (court ruling Feb 2024)", claims_challenged="Proposed use of about 7.6 million litres (2 million gallons) of potable water a day for cooling; climate impacts on water supply not assessed.",
+              status="In Feb 2024 Chile's environmental court required Google to revise the project's environmental approval to account for climate change; Google dropped the groundwater-cooled design and is redesigning with air cooling."),
+ "L-07": dict(type="Judicial review (Ireland)", title="ClientEarth, FIE & Friends of the Earth Ireland v. CRU (Ireland)", jurisdiction="Ireland (High Court)", filed="Apr 2026",
+              claims_challenged="The energy regulator's data-centre connection policy; the groups say it breaches climate law by locking in fossil-fuel generation.",
+              status="High Court leave to seek judicial review granted Apr 28, 2026; pending."),
+ "L-08": dict(status="In Jan 2026 the government conceded a 'serious logical error' (it had approved the scheme without securing the developer's environmental commitments and wrongly found no environmental impact assessment was needed) and said the permission should be quashed. JR permission granted Jan 22, 2026; the developer still contests; no final order reported."),
+ "L-02": dict(status="Inquiry letters; responses were due Oct 27 (2025). No public findings found as of Oct 30, 2026."),
+}
+for l in law:
+    if l["id"] in LFIX2: l.update(LFIX2[l["id"]])

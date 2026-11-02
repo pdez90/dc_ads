@@ -1252,22 +1252,22 @@
   },
   "files": {
     "app.R": {
-      "checksum": "4741bdfa1c19abe7cbaa51b072d39422"
+      "checksum": "434d64531f8ffc7457a0c9d6d5987606"
     },
     "data/ads_all.csv": {
-      "checksum": "bd3839092560dc0be8b8940239322137"
+      "checksum": "3d791c370fa06c79497393afe2372fa1"
     },
     "data/campaigns.csv": {
-      "checksum": "34c4adc1ca5b4f9a3f76b1a9dd54c4eb"
+      "checksum": "ef5bf974b6b8f57e5718d6267319a70a"
     },
     "data/internal_docs.csv": {
-      "checksum": "5ccba38e2dacc0e3121712d7ff2ad15d"
+      "checksum": "1714b7c477209f3025f7804acc780db0"
     },
     "data/lawsuits.csv": {
-      "checksum": "c5420d54b07dab5e582ff9d509c2f68c"
+      "checksum": "02e52625eae87205b82d98a2280213bf"
     },
     "data/meta_ads.csv": {
-      "checksum": "40c7447531091d4f4f0010394af9ab90"
+      "checksum": "f479d6a5ff677284a20a9cf6490b4c6c"
     },
     "data/meta_audience.csv": {
       "checksum": "f3ada1ba73620376629b710b84b21d7e"
@@ -1285,7 +1285,7 @@
       "checksum": "5f7ae303fc82dcb808a6199a4b8f8417"
     },
     "data/youtube_ads.csv": {
-      "checksum": "909c52c7e79b16ec46c68b4bde794fce"
+      "checksum": "00f845396fcee9ede430e775a2cdfc2e"
     }
   },
   "users": null
