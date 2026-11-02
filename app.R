@@ -4,7 +4,6 @@ library(shiny)
 library(bslib)
 library(DT)
 library(htmltools)
-library(wordcloud)
 
 rd <- function(f) {
   p <- file.path("data", f)
@@ -21,6 +20,8 @@ template  <- rd("template_by_state.csv")
 ads       <- rd("ads_all.csv")
 wf        <- rd("word_freq.csv")
 maud      <- rd("meta_audience.csv")
+idocs     <- rd("internal_docs.csv")
+THEME_LEVELS <- c("Jobs", "China / national security", "Water", "Energy & rates", "Taxes & economy")
 
 esc  <- function(x) htmlEscape(ifelse(is.na(x), "", x))
 nz   <- function(x) ifelse(is.na(x), "", x)
@@ -74,7 +75,7 @@ theme <- bs_theme(version = 5, bg = "#f6f3ec", fg = "#1b1b18", primary = "#1f6f9
                   base_font = font_google("IBM Plex Sans", local = FALSE), heading_font = font_google("Fraunces", local = FALSE),
                   code_font = font_google("IBM Plex Mono", local = FALSE))
 
-css <- "
+css <- "\n.wcloud{display:flex;flex-wrap:wrap;justify-content:center;align-items:center;gap:4px 14px;padding:18px 8px;min-height:420px;line-height:1.05;font-family:Helvetica,Arial,sans-serif}\n.wcloud span{white-space:nowrap}
 .claim-chip,.fc-chip,.law-chip{display:inline-block;padding:1px 9px;border-radius:99px;font-size:.75rem;color:#fff;white-space:nowrap}
 .c-energy{background:#c26a00}.c-water{background:#1f6f9a}.c-both{background:#5b4b9a}.c-counter{background:#a3322a}.c-other{background:#8a8577}
 .fc-dis{background:#a3322a}.fc-mis{background:#b5651d}.fc-sup{background:#2e7d4f}.fc-nod{background:#6b675e}.fc-nc{background:#9a958a}.fc-na{background:#c9c4b8;color:#1b1b18}
@@ -120,8 +121,9 @@ ui <- page_navbar(
         selectizeInput("f_group", "Appears as (group)", c("All", groups_sorted)),
         selectInput("f_area", "Who sees it: where", c("All", sort(unique(ads$area)))),
         selectInput("f_age", "Who sees it: age (Meta)", c("All", "Mostly 55+", "Mostly under 35", "Mixed ages", "Not published"))),
-      layout_columns(col_widths = c(3, 3, 3, 3),
+      layout_columns(col_widths = c(3, 2, 2, 2, 3),
         selectInput("f_cat", "Category", c("All", sort(unique(ads$category)))),
+        selectInput("f_theme", "Theme", c("All", THEME_LEVELS)),
         selectInput("f_kind", "Record type", c("All", sort(unique(ads$kind)))),
         selectInput("f_fc", "Fact-check", c("All", "Checkable claims only", FC_LEVELS)),
         selectInput("f_sort", "Sort by", c("Lawsuit first" = "law", "Group (appears as)" = "group", "Who sees it (place)" = "area",
@@ -142,7 +144,7 @@ ui <- page_navbar(
           selectInput("w_fc", "Fact-check", c("All", FC_LEVELS)),
           sliderInput("w_max", "Words shown", 20, 150, 80, step = 10),
           tableOutput("w_top")),
-        card(plotOutput("w_cloud", height = "620px"), uiOutput("w_n"))))),
+        card(fill = FALSE, card_body(uiOutput("w_cloud"), uiOutput("w_n")))))),
 
   nav_panel("YouTube ads",
     div(class = "container-xl py-3",
@@ -183,6 +185,35 @@ ui <- page_navbar(
         stat(sum(ads$category == "Nuclear industry" & ads$checkable == "Yes"), "checkable claims")),
       DTOutput("t_nuclear"))),
 
+  nav_panel("Other industries",
+    div(class = "container-xl py-3",
+      h2("Other industries riding the data center boom"),
+      p(class = "lede", HTML("Gas pipelines, coal backers and utilities now advertise data center and AI demand as the reason to build more of what they sell. <b>Williams</b> (gas pipelines) says natural gas is 'the most reliable source' for data centers that 'need power 24/7'. The <b>American Energy Institute</b> says the US can't 'win the AI race' on wind and solar. <b>Entergy Louisiana</b>, which is building seven gas plants for Meta's Hyperion campus, advertises '$2.8B in customer bill savings from data centers' without an issue-ad label. The <b>Edison Electric Institute</b>, the investor-owned utilities' trade group, tells Missourians that large data centers 'put downward pressure on electric rates'. Nuclear ads have their own tab. We also checked fuel cells (Bloom Energy), geothermal and quantum computing (IonQ): the only fuel-cell and geothermal ads we found that mention data centers are counter-ads or news boosts, and quantum ads don't mention data centers.")),
+      div(class = "d-flex flex-wrap my-3",
+        stat(sum(ads$category == "Other industries riding the boom"), "ad records"),
+        stat(sum(ads$category == "Other industries riding the boom" & ads$checkable == "Yes"), "checkable claims"),
+        stat(sum(ads$category == "Opposition and counter-ads" & grepl("coal|gas|fuel cell|power plant", tolower(ads$claim))), "counter-ads on gas, coal or fuel cells")),
+      DTOutput("t_other"), br(),
+      h5("Counter-ads aimed at gas, coal and fuel cells for data centers"),
+      DTOutput("t_other_counter"))),
+
+  nav_panel("China & jobs",
+    div(class = "container-xl py-3",
+      h2("Two newer selling points: China and jobs"),
+      p(class = "lede", HTML("As water and power bills drew criticism, ads shifted toward national security and employment. <b>Texans for Economic Liberty</b> has spent about $1 million on 14 Meta ads since September 9, 2026 ($970K–$1.16M in Meta's ranges), asking 'Do you trust China with your data?' and promoting trades jobs. <b>NetChoice</b> (a trade group whose members include Meta, Google and Amazon) and the <b>American Edge Project</b> (which CNBC reported was mainly funded by Facebook, now Meta) frame data centers as how 'America wins'. The state <b>Connects</b> groups cite large 'jobs supported' figures that come from an industry-commissioned model counting indirect and induced jobs, not jobs inside data centers.")),
+      radioButtons("cj_theme", NULL, c("Both", "China / national security", "Jobs"), inline = TRUE),
+      DTOutput("t_cj"))),
+
+  nav_panel("Internal documents",
+    div(class = "container-xl py-3",
+      h2("Behind the scenes: documents that complicate the ads"),
+      p(class = "lede", HTML("In the spirit of Supran & Oreskes' work on ExxonMobil and the Toxic Docs archive, these are leaks, court filings, public-records releases, regulatory filings and company reports that show what companies knew or did, set against what they told the public. <b>Only two are true corporate leaks so far</b>: Amazon's 2022 water-disclosure memo (ID-01) and Microsoft employee memos on AI for oil and gas (ID-10). Most of the rest came out through public-records lawsuits and rate cases. We found no leaked internal documents from Google, Meta, Oracle/OpenAI, xAI, the Data Center Coalition, or nuclear, gas, coal, fuel-cell or quantum companies. Allegations in lawsuits are not court findings.")),
+      layout_columns(col_widths = c(4, 4, 4),
+        selectInput("i_type", "Document type", c("All", sort(unique(idocs$doc_type)))),
+        selectInput("i_topic", "Topic", c("All", sort(unique(trimws(unlist(strsplit(idocs$topic, ";"))))))),
+        selectInput("i_co", "Company", c("All", sort(unique(trimws(unlist(strsplit(gsub("\\(.*?\\)", "", idocs$company), ";")))))))),
+      DTOutput("t_idocs"))),
+
   nav_panel("Lawsuits & challenges",
     div(class = "container-xl py-3",
       h2("Legal and regulatory challenges to the claims"),
@@ -197,7 +228,8 @@ ui <- page_navbar(
         tags$li("YouTube: title, channel, length, views and publish date read from each video page on Oct 29–30, 2026. View counts change over time."),
         tags$li("Meta Ad Library: exact-phrase searches for each sponsor, plus keyword sweeps, US, all ads, read Oct 29–30, 2026. 'Paid for by', spend, impressions, age/gender and location shares come from each ad's 'See ad details' panel, read Oct 30, 2026. Meta publishes these only for ads labeled as social-issue, election or political ads."),
         tags$li("Transcripts are YouTube's auto-generated captions and may contain errors. The archive quotes only short excerpts, and the word cloud shows only word counts. Open the video for the full ad."),
-        tags$li("'Reported' entries rely on news coverage of an ad whose original creative hasn't been archived yet.")),
+        tags$li("'Reported' entries rely on news coverage of an ad whose original creative hasn't been archived yet."),
+        tags$li("Audit, Oct 30, 2026: every Meta ad in the archive was re-read from the Ad Library (dates, spend, impressions, text) and every YouTube video re-read (title, channel, length, date). A fresh sweep of Meta keyword searches and Google advertiser pages added local pro-data-center groups, Related Digital's Saline Township campaign, the Edison Electric Institute, more Connects jobs and tax ads, and the largest 2026 election counter-ads. A log of every search is in data/search_log.csv in the GitHub repository.")),
       h4("Fact-check ratings"),
       p("These are the archive's editorial assessments, made against public sources that are linked on each row. They are not legal findings."),
       tags$table(class = "scale",
@@ -245,6 +277,7 @@ server <- function(input, output, session) {
     if (input$f_area != "All")  d <- d[d$area == input$f_area, ]
     if (input$f_age != "All")   d <- d[d$age_profile == input$f_age, ]
     if (input$f_cat != "All")   d <- d[d$category == input$f_cat, ]
+    if (input$f_theme != "All") d <- d[grepl(input$f_theme, nz(d$themes), fixed = TRUE), ]
     if (input$f_kind != "All")  d <- d[d$kind == input$f_kind, ]
     if (input$f_fc == "Checkable claims only") d <- d[d$checkable == "Yes", ]
     else if (input$f_fc != "All") d <- d[d$factcheck == input$f_fc, ]
@@ -286,14 +319,19 @@ server <- function(input, output, session) {
     d <- wf_f(); if (!nrow(d)) return(data.frame(word = character(), n = numeric()))
     a <- aggregate(n ~ word, d, sum); a[order(-a$n), ]
   })
-  output$w_cloud <- renderPlot({
+  output$w_cloud <- renderUI({
     a <- w_agg()
-    if (nrow(a) < 3) { plot.new(); text(.5, .5, "Too few words for this filter"); return() }
+    if (nrow(a) < 3) return(p(class = "text-muted", "Too few words for this filter."))
     a <- head(a, input$w_max)
-    pal <- c("#9a958a", "#5b4b9a", "#c26a00", "#1f6f9a", "#1b1b18")
-    par(mar = c(0, 0, 0, 0))
-    set.seed(7)
-    wordcloud(a$word, a$n, scale = c(9, 1.1), min.freq = 1, random.order = FALSE, rot.per = 0.12, colors = pal, family = "sans")
+    pal <- c("#1b1b18", "#1f6f9a", "#5b4b9a", "#c26a00", "#9a958a")
+    r <- (a$n - min(a$n)) / max(1, max(a$n) - min(a$n))
+    size <- round(14 + 58 * sqrt(r))
+    col <- pal[pmin(5, ceiling(rank(-a$n, ties.method = "first") / max(1, nrow(a) / 5)))]
+    set.seed(nrow(a) + sum(a$n))
+    o <- sample(seq_len(nrow(a)))
+    div(class = "wcloud",
+      lapply(o, function(i) tags$span(style = sprintf("font-size:%dpx;color:%s", size[i], col[i]),
+                                      title = paste0(a$word[i], ": ", a$n[i]), a$word[i])))
   })
   output$w_top <- renderTable(setNames(head(w_agg(), 12), c("Word", "Count")), digits = 0)
   output$w_n <- renderUI(p(class = "text-muted small", length(unique(wf_f()$uid)), " ads in this selection."))
@@ -384,6 +422,39 @@ server <- function(input, output, session) {
       Reach = esc(d$reach), Link = link(d$url, "Open ↗"), check.names = FALSE)
     datatable(out, escape = FALSE, rownames = FALSE, options = list(pageLength = 20, autoWidth = TRUE,
               columnDefs = list(list(width = "28%", targets = 3))))
+  })
+  cat_table <- function(d, n = 20) {
+    d <- d[order(d$appears_as, d$kind), ]
+    out <- data.frame(
+      `Appears as` = sprintf("<b>%s</b><br><small>%s · %s</small><br><small class='text-muted'>%s</small>", esc(d$appears_as), esc(d$kind), esc(d$date), esc(d$audience_where)),
+      `Paid for by` = sprintf("%s<br><small class='text-muted'>%s</small>", esc(d$paid_for_by), esc(d$funding_disclosed)),
+      Claim = esc(d$claim),
+      `Fact-check` = fc_chip(d$factcheck, d$factcheck_note, d$factcheck_url),
+      Reach = esc(d$reach), Link = link(d$url, "Open ↗"), check.names = FALSE)
+    datatable(out, escape = FALSE, rownames = FALSE, options = list(pageLength = n, autoWidth = TRUE,
+              columnDefs = list(list(width = "28%", targets = 3))))
+  }
+  output$t_other <- renderDT(cat_table(ads[ads$category == "Other industries riding the boom", ]))
+  output$t_other_counter <- renderDT(cat_table(ads[ads$category == "Opposition and counter-ads" & grepl("coal|gas|fuel cell|power plant", tolower(ads$claim)), ], 10))
+  output$t_cj <- renderDT({
+    th <- if (input$cj_theme == "Both") "China / national security|Jobs" else input$cj_theme
+    cat_table(ads[grepl(th, nz(ads$themes)) & ads$category != "Opposition and counter-ads", ], 25)
+  })
+  output$t_idocs <- renderDT({
+    d <- idocs
+    if (input$i_type != "All")  d <- d[d$doc_type == input$i_type, ]
+    if (input$i_topic != "All") d <- d[grepl(input$i_topic, d$topic, fixed = TRUE), ]
+    if (input$i_co != "All")    d <- d[grepl(input$i_co, d$company, fixed = TRUE), ]
+    src <- paste0(link(d$source_url, "Source ↗"), ifelse(is.na(d$second_url) | d$second_url == "", "", paste0("<br>", link(d$second_url, "Second source ↗"))))
+    out <- data.frame(
+      Document = sprintf("<b>%s</b><br><small>%s · %s · %s</small>", esc(d$title), esc(d$id), esc(d$doc_type), esc(d$date)),
+      Company = esc(d$company),
+      `What it shows` = esc(d$what_it_shows),
+      `Public claim it complicates` = esc(d$public_claim_contradicted),
+      `Company response` = esc(d$company_response),
+      `Related ads` = esc(nz(d$related_ads)), Sources = src, check.names = FALSE)
+    datatable(out, escape = FALSE, rownames = FALSE, options = list(pageLength = 10, autoWidth = TRUE,
+              columnDefs = list(list(width = "26%", targets = 2))))
   })
   output$t_meta_n <- renderTable(setNames(meta_n, c("Sponsor", "Ads found")))
 

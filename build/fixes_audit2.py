@@ -57,12 +57,12 @@ ads.extend([
       claim="\"Nationally, golf courses use more water than data centers do on site\"; \"New data centers use closed-loop recycling\"; a large data center \"employs more than 100 full-time workers and supports 150 to 400 more jobs\"",
       verbatim="Verbatim (Meta Ad Library)", url_primary="https://www.facebook.com/ads/library/?id=2031856607408530", url_source="",
       evidence="Primary (Meta Ad Library)", notes="Building-trades group; ads cite Granite City's closed-loop cooling requirement."),
- dict(id="US-45", region="US", place="Maryland (Frederick County)", sponsor="Future Ready Frederick", sponsor_type="Local pro-data-center group",
+ dict(id="US-45", region="US", place="Virginia (Frederick County)", sponsor="Future Ready Frederick", sponsor_type="Local pro-data-center group",
       format="Facebook/Instagram ads + YouTube/Google video ads", title="'Clean Data Centers' support schools and lower taxes", date="Aug – Sep 2026", claim_type="Water + taxes",
       claim="\"Misinformation has been spreading\"; today's data centers \"use advanced technology to reduce water consumption\", \"create high paying local jobs\" and \"generate millions in local tax revenue\"",
       verbatim="Verbatim (Meta Ad Library; YouTube titles)", url_primary="https://www.facebook.com/ads/library/?id=1590508512808580",
       url_source="https://adstransparency.google.com/advertiser/AR11779974830449754113?region=US", evidence="Primary (Meta Ad Library + Google Ads Transparency)",
-      notes="Pro-data-center group active during Frederick County's data center fight. Funders not disclosed."),
+      notes="Pro-data-center group in Frederick County, Virginia. Funders not disclosed."),
  dict(id="US-46", region="US", place="Oklahoma", sponsor="Built Here Oklahoma", sponsor_type="Local pro-data-center group",
       format="Facebook/Instagram ads", title="'Data centers are now required to pay their way'", date="Sep – Oct 2026 (running)", claim_type="Energy (costs)",
       claim="\"Oklahomans wanted assurances data centers wouldn't impact ratepayers - now the law ensures they won't\"",
@@ -133,7 +133,7 @@ new_meta5 = [
  ("Southwestern Illinois Coalition for Job Growth","Illinois","2031856607408530","Started 16 Oct 2026",_m("$400–$499","35K–40K"),"Water","\"Nationally, golf courses use more water than data centers do on site.\""),
  ("Southwestern Illinois Coalition for Job Growth","Illinois","2076591636312533","3 – 16 Oct 2026",_m("$700–$799","60K–70K"),"Water","\"Myth: Data centers use massive amounts of water. Fact: Older data centers did.\""),
  ("Southwestern Illinois Coalition for Job Growth","Illinois","1120497433890697","Started 16 Oct 2026",_m("$400–$499","35K–40K"),"Jobs","A large data center \"employs more than 100 full-time workers and supports 150 to 400 more jobs\"."),
- ("Future Ready Frederick","Maryland","1590508512808580","13 Aug – 5 Sep 2026",_m("$2.5K–$3K","175K–200K"),"Water","\"Misinformation has been spreading\"; data centers \"use advanced technology to reduce water consumption\"."),
+ ("Future Ready Frederick","Virginia","1590508512808580","13 Aug – 5 Sep 2026",_m("$2.5K–$3K","175K–200K"),"Water","\"Misinformation has been spreading\"; data centers \"use advanced technology to reduce water consumption\"."),
  ("Built Here Oklahoma","Oklahoma","1754136019201009","Started 21 Sep 2026","","Energy (costs)","\"Now the law ensures they won't\" impact ratepayers (no issue-ad label)."),
  ("Built Here Oklahoma","Oklahoma","2372537626883774","21 Sep – 25 Oct 2026","","Energy (costs)","\"State law now prohibits passing data center costs to residents\" (no issue-ad label)."),
  ("NWI Data Facts","Indiana","1146371605015712","26 – 29 Oct 2026",_m("$1K–$1.5K","175K–200K"),"Taxes","A Michigan City data center site will be \"generating millions to fund housing projects\"."),
@@ -182,10 +182,10 @@ for (vid,st,t,ln,vw,pub,cl) in [
  ("-AOJOKtomfE","Michigan","Our Commitment to Michigan",30,1844030,"2026-01-27","Description: \"paying our own way for energy and infrastructure, protecting Michigan's water\"")]:
     _v(vid,st,"Related Companies",t,"Energy + Water",ln,vw,pub,cl,RD)
 FR = "FUTURE READY FREDERICK (verified Google advertiser)"
-_v("ma3SBpoNmL8","Maryland","Future Ready Frederick","Clean Data Centers Support Funding for Schools and Help Lower Taxes","Taxes",30,47224,"2026-08-03","Title claim: data centers \"help lower taxes\"",FR)
-_v("Z3RD_ho5Pt8","Maryland","Future Ready Frederick","Clean Data Centers Will Bring High Paying Jobs and Tax Relief to Their Community","Jobs",30,40376,"2026-08-03","Title claim: \"high paying jobs and tax relief\"",FR)
-_v("T0cNo2jAEu0","Maryland","Future Ready Frederick","Clean Data Centers Support Funding for Schools and Help Lower Taxes (5s cut)","Taxes",5,362776,"2026-08-12","",FR)
-_v("jhvGXO2wIGM","Maryland","Future Ready Frederick","Clean Data Centers Support Funding for Schools and Help Lower Taxes (13s cut)","Taxes",13,325727,"2026-08-12","",FR)
+_v("ma3SBpoNmL8","Virginia","Future Ready Frederick","Clean Data Centers Support Funding for Schools and Help Lower Taxes","Taxes",30,47224,"2026-08-03","Title claim: data centers \"help lower taxes\"",FR)
+_v("Z3RD_ho5Pt8","Virginia","Future Ready Frederick","Clean Data Centers Will Bring High Paying Jobs and Tax Relief to Their Community","Jobs",30,40376,"2026-08-03","Title claim: \"high paying jobs and tax relief\"",FR)
+_v("T0cNo2jAEu0","Virginia","Future Ready Frederick","Clean Data Centers Support Funding for Schools and Help Lower Taxes (5s cut)","Taxes",5,362776,"2026-08-12","",FR)
+_v("jhvGXO2wIGM","Virginia","Future Ready Frederick","Clean Data Centers Support Funding for Schools and Help Lower Taxes (13s cut)","Taxes",13,325727,"2026-08-12","",FR)
 _v("jytG-SMKgIo","New Mexico","Project Jupiter Together (STACK Infrastructure)","Project Jupiter Together | Jobs","Jobs",60,14118,"2026-05-29","","STACK Infrastructure, Inc. (verified Google advertiser)")
 _v("EqG8jj64flk","US (national)","Compass Datacenters","WeAgree_Jobs_Reel_Ad_FINAL","Jobs",15,1057,"2026-10-05","'We Agree' jobs spot (no captions)","Compass Datacenters, LLC (verified Google advertiser)")
 videos.sort(key=lambda x: (x['state'], x['topic'], -int(x['views'])))
@@ -211,6 +211,6 @@ for a in ads:
     if a["id"] == "OI-01":
         a["notes"] += " A Sep 2026 Ohio ad cites a Cato Institute analysis of its on-site 'Socrates' power project."
 meta_counts += [("Related Companies / Related Digital", "30 Meta ads (Saline Township, MI); 59 + 43 Google ads"),
-                ("Local pro-data-center coalitions", "Springfield Sangamon Growth Alliance (IL), SW Illinois Coalition for Job Growth, Future Ready Frederick (MD), Built Here Oklahoma, NWI Data Facts (IN), IBEW Local 364"),
+                ("Local pro-data-center coalitions", "Springfield Sangamon Growth Alliance (IL), SW Illinois Coalition for Job Growth, Future Ready Frederick (VA), Built Here Oklahoma, NWI Data Facts (IN), IBEW Local 364"),
                 ("Edison Electric Institute", "2 data-center Meta ads (Missouri, 2026); 63 Google ads, mostly general grid spots"),
                 ("2026 election counter-ads", "Dozens of candidate and PAC ads; the archive lists the largest (over $20K or 1M impressions) found on Oct 30, 2026")]

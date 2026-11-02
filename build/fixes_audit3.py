@@ -58,6 +58,29 @@ TX_NEW = {
 for v in videos:
     if v["youtube_id"] in TX_NEW: v["key_claim"] = TX_NEW[v["youtube_id"]]; v["transcribed"] = "yes"
 
+TX_NEW2 = {
+ "9WjL1mNgkjY": "\"An independent study confirms that across the nation, data centers are paying their own energy costs\"; they \"may even help lower rates for everyone\"",
+ "-qFK2gX70J8": "\"An independent study confirmed data centers are paying their own energy costs, and they may even help lower rates for everyone\"",
+ "dyhMX1Gt3OA": "\"American data belongs on American soil. Texas soil.\" Texas data centers \"keep us safe from China and our adversaries\"",
+ "u-sHlkSxmsw": "Texas data centers \"keep us safe from China\"; \"China is building data centers at a pace America can't afford to ignore\"",
+ "jytG-SMKgIo": "Union workers from Las Cruces area; \"Stack is proud to bring thousands of jobs to the region\"",
+ "1i0K-Ejk6o8": "\"Will pay for 100% of its energy costs, so your bills don't go up\"; grid investments \"will result in up to $300 million in annual savings\"",
+ "zKdCn0Y-MRQ": "Closed-loop air cooling \"saves hundreds of millions of gallons of water\"",
+ "a8A6vcZs194": "\"$14 million in local fire departments and community programs\"; \"$8 million annually for Michigan school systems\"",
+ "aEfo8Wqg8fM": "\"Investing 5 billion in American companies\" and \"creating thousands of American jobs\"",
+ "ma3SBpoNmL8": "Data centers \"reduce water usage\", keep noise \"below local limits\" and \"lower property taxes\"; \"call the board of supervisors\"",
+}
+for v in videos:
+    if v["youtube_id"] in TX_NEW2: v["key_claim"] = TX_NEW2[v["youtube_id"]]; v["transcribed"] = "yes"
+    if v["channel"] == "Future Ready Frederick": v["state"] = "Virginia"
+# Future Ready Frederick: the transcribed spot asks viewers to call 'the board of supervisors', i.e. Frederick County, Virginia (Maryland's Frederick County has a County Council)
+for a in ads:
+    if a["id"] == "US-45":
+        a["place"] = "Virginia (Frederick County)"
+        a["notes"] = "Pro-data-center group active during Frederick County, Virginia's data center fight; its video asks viewers to call the county Board of Supervisors. Funders not disclosed."
+for m in meta:
+    if m["sponsor"] == "Future Ready Frederick": m["state"] = "Virginia"
+
 for a in ads:
     if a["id"] == "US-29":
         a["notes"] = (a.get("notes") or "") + " Earthjustice ran about a dozen Meta ads (Apr–May 2026) on its suit over xAI's Southaven, Mississippi power plant."

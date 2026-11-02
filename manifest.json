@@ -61,27 +61,6 @@
         "Built": "R 4.1.1; ; 'Sat, 21 Aug 2021 18:04:39 +0000'; unix"
       }
     },
-    "RColorBrewer": {
-      "Source": "CRAN",
-      "Repository": null,
-      "description": {
-        "Package": "RColorBrewer",
-        "Version": "1.1-3",
-        "Date": "2022-04-03",
-        "Title": "ColorBrewer Palettes",
-        "Authors@R": "c(person(given = \"Erich\", family = \"Neuwirth\", role = c(\"aut\",\n        \"cre\"), email = \"erich.neuwirth@univie.ac.at\"))",
-        "Author": "Erich Neuwirth [aut, cre]",
-        "Maintainer": "Erich Neuwirth <erich.neuwirth@univie.ac.at>",
-        "Depends": "R (>= 2.0.0)",
-        "Description": "Provides color schemes for maps (and other graphics)\n        designed by Cynthia Brewer as described at http://colorbrewer2.org.",
-        "License": "Apache License 2.0",
-        "Packaged": "2022-04-03 10:26:20 UTC; neuwirth",
-        "NeedsCompilation": "no",
-        "Repository": "CRAN",
-        "Date/Publication": "2022-04-03 19:20:13 UTC",
-        "Built": "R 4.2.0; ; 'Fri, 20 May 2022 15:51:46 +0000'; unix"
-      }
-    },
     "Rcpp": {
       "Source": "CRAN",
       "Repository": null,
@@ -1195,31 +1174,6 @@
         "Built": "R 4.1.2; ; 'Sun, 20 Mar 2022 02:35:46 +0530'; unix"
       }
     },
-    "wordcloud": {
-      "Source": "CRAN",
-      "Repository": null,
-      "description": {
-        "Package": "wordcloud",
-        "Type": "Package",
-        "Title": "Word Clouds",
-        "Version": "2.6",
-        "Author": "Ian Fellows",
-        "Maintainer": "Ian Fellows <ian@fellstat.com>",
-        "Description": "Functionality to create pretty word clouds, visualize differences and similarity between documents, and avoid over-plotting in scatter plots with text.",
-        "License": "LGPL-2.1",
-        "LazyLoad": "yes",
-        "Depends": "methods, RColorBrewer",
-        "Imports": "Rcpp (>= 0.9.4)",
-        "Suggests": "tm (>= 0.6), slam",
-        "URL": "http://blog.fellstat.com/?cat=11 http://www.fellstat.com",
-        "LinkingTo": "Rcpp",
-        "NeedsCompilation": "yes",
-        "Packaged": "2018-08-24 18:57:30 UTC; ianfellows",
-        "Repository": "CRAN",
-        "Date/Publication": "2018-08-24 19:20:03 UTC",
-        "Built": "R 4.0.2; x86_64-pc-linux-gnu; 'Wed, 23 Sep 2020 13:08:33 +0200'; unix"
-      }
-    },
     "xfun": {
       "Source": "CRAN",
       "Repository": null,
@@ -1298,34 +1252,40 @@
   },
   "files": {
     "app.R": {
-      "checksum": "19420adc21b40efd4819ae87720393ee"
+      "checksum": "4741bdfa1c19abe7cbaa51b072d39422"
     },
     "data/ads_all.csv": {
-      "checksum": "56ad000e1147a927eeeb222d4df82154"
+      "checksum": "bd3839092560dc0be8b8940239322137"
     },
     "data/campaigns.csv": {
-      "checksum": "b5b051c82ce90d13066f4026585924e2"
+      "checksum": "34c4adc1ca5b4f9a3f76b1a9dd54c4eb"
+    },
+    "data/internal_docs.csv": {
+      "checksum": "5ccba38e2dacc0e3121712d7ff2ad15d"
     },
     "data/lawsuits.csv": {
       "checksum": "c5420d54b07dab5e582ff9d509c2f68c"
     },
     "data/meta_ads.csv": {
-      "checksum": "eb78f43afa17e081470d890f4445efbd"
+      "checksum": "40c7447531091d4f4f0010394af9ab90"
     },
     "data/meta_audience.csv": {
       "checksum": "f3ada1ba73620376629b710b84b21d7e"
     },
     "data/meta_counts.csv": {
-      "checksum": "cfa1687af99285816447d8735ff25b34"
+      "checksum": "b73eda9418c397c28f9914393aee6392"
+    },
+    "data/search_log.csv": {
+      "checksum": "ffd97148a562e0b8bd4e97a6d1f3b556"
     },
     "data/template_by_state.csv": {
       "checksum": "767f8c8fa2f9dc146ada70cc677bcef5"
     },
     "data/word_freq.csv": {
-      "checksum": "6cec23596003d7a234e280101947b839"
+      "checksum": "5f7ae303fc82dcb808a6199a4b8f8417"
     },
     "data/youtube_ads.csv": {
-      "checksum": "f8075444cd94e01255b9f7a1e56050f3"
+      "checksum": "909c52c7e79b16ec46c68b4bde794fce"
     }
   },
   "users": null
