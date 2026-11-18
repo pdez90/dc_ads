@@ -198,6 +198,7 @@ VA_IDS = ["US-01", "US-02", "US-03", "US-04", "US-18", "US-20"]
 for x in VA_IDS:
     if "L-01" not in lawmap[x]: lawmap[x].append("L-01")
 
+HOOK = "A"; exec(open(os.path.join(B, "final_enrich.py"), encoding="utf-8").read())
 for r in camp:
     a = C[r["id"]]
     k = a[4]; fc = FC[k]
@@ -313,6 +314,7 @@ import ast
 _s = open(os.path.join(B, "sectors.py"), encoding="utf-8").read()
 M_PAID4 = ast.literal_eval(_s[_s.index("M_PAID4 = ") + 10:_s.index("}", _s.index("M_PAID4 = ")) + 1])
 UNLABELED = {"1007646302344543", "1442097564548229", "1927445971757558", "1077055241572370", "1913744136701738", "4680740768826912", "1064803106540533", "970055792802575", "39910901075163809"}
+HOOK = "B"; exec(open(os.path.join(B, "final_enrich.py"), encoding="utf-8").read())
 for m in meta:
     i = m["library_id"]; s = m["sponsor"]; a = aud.get(i)
     m["appears_as"] = re.sub(r"\s*\(.*?\)", "", s)
@@ -357,10 +359,16 @@ for m in meta:
     m["lawsuit_ids"] = "L-01" if m["appears_as"] == "Virginia Connects" else ""
     m["lawsuit_role"] = "Sponsor named in suit" if m["lawsuit_ids"] else ""
 
+HOOK = "C"; exec(open(os.path.join(B, "final_enrich.py"), encoding="utf-8").read())
 # ---------------------------------------------------------------- unified table
 TYPE = {r["appears_as"]: r["sponsor_type"] for r in camp}
 NUC = {"Nuclear Energy Institute", "Nuclear Matters", "Constellation", "Clean Jobs for Pennsylvania"}
+STYPE7 = {"Consumer Action for a Strong Economy": "Industry/advocacy group", "Building Our Future Ohio": "Local pro-data-center group",
+          "Mississippi Black Chamber of Commerce": "Local pro-data-center group", "San Jose Silicon Valley Chamber of Commerce": "Local pro-data-center group",
+          "Bright Future Iowa": "Local pro-data-center group", "World Economic Forum": "International organization", "Virtus Solis": "Space-based power developer",
+          "Meta": "Hyperscaler", "QTS Data Centers": "Operator", "NetChoice": "Tech industry group", "Wyoming Driven Innovation": "Local pro-data-center group"}
 def stype(g):
+    if g in STYPE7 and not TYPE.get(g): return STYPE7[g]
     if g.startswith("Power Connection"): return "Labor union"
     if g == "AirTrunk": return "Data center operator"
     if g.startswith("Fair Rates for Wisconsin"): return "Advocacy group"
@@ -412,7 +420,7 @@ def themes(r):
 def category(r):
     st = (r.get("sponsor_type") or "").lower(); ct = (r.get("claim_type") or "").lower()
     if "nuclear industry" in st: return "Nuclear industry"
-    if st in ("gas industry", "coal and fossil advocacy", "electric utility", "electric utility trade group", "fuel cell maker"): return "Other industries riding the boom"
+    if st in ("gas industry", "coal and fossil advocacy", "electric utility", "electric utility trade group", "fuel cell maker", "space-based power developer"): return "Other industries riding the boom"
     if "counter" in ct or "counter" in st or "opposing" in st: return "Opposition and counter-ads"
     return "Data center industry and allies"
 for r in allrows:
