@@ -86,7 +86,7 @@ css <- "\n.wcloud{display:flex;flex-wrap:wrap;justify-content:center;align-items
 .video-wrap{position:relative;padding-top:56.25%}.video-wrap iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
 .hero{padding:64px 0 34px}.hero h1{font:600 clamp(2.6rem,7vw,4.6rem)/1.02 Fraunces,serif;margin-bottom:.35em}
 .hero .q{font:400 clamp(1.35rem,3.2vw,2rem)/1.25 Fraunces,serif;max-width:720px}
-.hero .intro{max-width:560px;color:#4b4840;font-size:1rem;margin:18px 0 22px}.doors .btn{margin:0 10px 8px 0;border-radius:0;padding:.55rem 1.1rem}
+.hero .intro{max-width:640px;color:#2b2a26;font:400 clamp(1.15rem,2.2vw,1.4rem)/1.45 Fraunces,serif;margin:18px 0 26px}.doors .btn{margin:0 10px 8px 0;border-radius:0;padding:.55rem 1.1rem}
 .room{background:#141412;padding:30px 0 38px;box-shadow:0 0 0 100vmax #141412;clip-path:inset(0 -100vmax)}.pick{display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin-bottom:14px}.pick .form-group{margin:0}.pick-and{color:#b9b4a6}
 .ex-pair{display:grid;grid-template-columns:1fr 1fr;gap:26px}.ex-card{margin:0}
 .ex-still{position:relative;padding-top:56.25%;background:#000;cursor:pointer;display:block;width:100%;border:0}
@@ -98,7 +98,7 @@ css <- "\n.wcloud{display:flex;flex-wrap:wrap;justify-content:center;align-items
 .ex-cap .who{font-size:.85rem;color:#4b4840}.ex-cap .who b{color:#1b1b18}
 .ex-switch{display:none;gap:8px;margin-bottom:12px}.ex-switch button{flex:1;border:1px solid #b9b4a6;background:none;color:#f6f3ec;padding:.5rem;border-radius:0}.ex-switch button.on{background:#f6f3ec;color:#141412}
 @media (max-width:767px){.ex-pair{grid-template-columns:1fr}.ex-switch{display:flex}.ex-pair .ex-card{display:none}.ex-pair .ex-card.on{display:block}.ex-cap{min-height:12rem}}
-.wall{max-width:560px;margin:34px 0 10px;border-top:2px solid #1b1b18;padding-top:14px}.wall h4{font:600 1.25rem Fraunces,serif}.wall p{font-size:.95rem;color:#4b4840}
+.wall{max-width:600px;margin:52px 0 30px}.wall p{font-size:1.05rem;line-height:1.55;color:#2b2a26;margin-bottom:.6rem}.wall a{font-size:.9rem}
 .seq{padding:26px 12px 60px}.seq-item{max-width:760px;margin-top:38px;border-top:1px solid #c9c4b8;padding-top:16px;position:relative}
 .seq-n{font:.8rem 'IBM Plex Mono',monospace;color:#6b675e}.seq h3{font:600 1.6rem Fraunces,serif;margin:.1em 0 .5em}.seq p{font-size:.95rem;color:#4b4840}
 .names{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin:14px 0}.names div{border-top:2px solid #1b1b18;padding-top:8px}
@@ -111,6 +111,8 @@ table.dataTable td{vertical-align:top}
 
 stat <- function(n, label) div(class = "stat me-4 mb-2", tags$b(n), tags$span(label))
 groups_sorted <- sort(unique(ads$appears_as))
+n_unl <- sum(ads$kind == "Meta ad" & ads$category != "Opposition and counter-ads" &
+             grepl("Not shown|commercial ad|without a required", nz(ads$paid_for_by)))
 
 ui <- page_navbar(
   title = "Selling the Cloud", id = "nav", theme = theme, bg = "#1b1b18", inverse = TRUE,
@@ -119,8 +121,7 @@ ui <- page_navbar(
   nav_panel("Exhibition", value = "Exhibition",
     div(class = "hero", div(class = "container-xl",
       h1("Selling the Cloud"),
-      p(class = "q", "What does a data center promise its neighbors?"),
-      p(class = "intro", "In ads across nine states, a familiar script makes a local promise about water and electricity. Choose two states to hear how the words change."),
+      p(class = "intro", "Across nine states, America Connects ran ads about the water and electricity data centers use. In Louisiana and Indiana, the water ads sound much the same. Listen for the moment the number changes."),
       div(class = "doors", tags$a(href = "#compare", class = "btn btn-dark", "Compare two ads"),
           actionLink("go_archive", "Browse the archive", class = "btn btn-outline-dark")))),
     div(class = "room", id = "compare", div(class = "container-xl",
@@ -135,7 +136,7 @@ ui <- page_navbar(
         span(class = "seq-n", "2"), h3("The name on the ad"),
         uiOutput("ex_name")),
       div(class = "seq-item",
-        span(class = "seq-n", "3"), h3("Where the numbers come from"),
+        span(class = "seq-n", "3"), h3("The figures across seven states"),
         uiOutput("ex_numbers")))),
 
   nav_menu("Archive",
@@ -192,6 +193,7 @@ ui <- page_navbar(
       div(class = "container-xl py-3",
         h2("Facebook & Instagram ads (Meta Ad Library)"),
         p(class = "lede", HTML("Energy, water and cost claims from Meta ads. Spend and impressions are Meta's ranges. For ads labeled as social-issue ads, Meta publishes who paid and the age, gender and location of the people reached. <b>The newest state 'Connects' water ads (Sept–Oct 2026), QTS's ads and Compass's 'We Agree' ads ran without that label</b>, so Meta publishes no payer, spend or audience for them.")),
+      p(class = "lede", sprintf("In all, %d industry ads in the archive ran without the label that makes Meta show who paid.", n_unl)),
         card(card_header("Who saw each ad: share of impressions by age (Meta)"), plotOutput("p_aud", height = "430px")),
         DTOutput("t_meta"), br(),
         h5("Ads found per sponsor (exact-phrase search, US, all dates)"), tableOutput("t_meta_n"))),
@@ -317,39 +319,28 @@ server <- function(input, output, session) {
       div(class = "ex-pair", ex_card(a, "a", TRUE), ex_card(b, "b", FALSE)))
   })
   output$ex_wall <- renderUI({
-    st <- input$ex_b; req(st); r <- template[template$state == st, ]
-    if (!is.na(r$water_pct)) div(class = "wall",
-      h4(sprintf("What does %s%% measure?", r$water_pct)),
-      p(sprintf("The %s ad gives a percentage of time. A resident reading it can learn how often some facilities cool without water. How many gallons they use on a hot day is a different question.", st)),
-      actionLink("go_record", "View the ad record"))
-    else div(class = "wall",
-      h4("What does a share of the state's water measure?"),
-      p(sprintf("The %s ad compares data centers with all the water used in the state. A resident reading it can learn that they are a small part of that total. How much one facility draws from a local supply on a hot day is a different question.", st)),
-      actionLink("go_record", "View the ad record"))
+    a <- input$ex_a; b <- input$ex_b; req(a, b)
+    ta <- !is.na(template$water_pct[template$state == a]); tb <- !is.na(template$water_pct[template$state == b])
+    txt <- if (ta && tb) "Both ads use the phrase \u201cof the time.\u201d It tells us how often some data centers cool their equipment without water. Neither ad says how many gallons they use on a hot day."
+      else if (!ta && !tb) "Both ads compare data centers with all the water used in the state. Neither ad says how many gallons a data center uses on a hot day."
+      else sprintf("The %s ad counts time: how often some data centers cool their equipment without water. The %s ad counts share: how data centers compare with all the water used in the state. Neither ad says how many gallons a data center uses on a hot day.",
+                   if (ta) a else b, if (ta) b else a)
+    div(class = "wall", p(txt), actionLink("go_record", sprintf("View the %s ad record", b)))
   })
   output$ex_name <- renderUI({
-    n_unl <- sum(ads$kind == "Meta ad" & ads$category != "Opposition and counter-ads" &
-                 grepl("Not shown|commercial ad|without a required", nz(ads$paid_for_by)))
-    req(input$ex_b)
-    tagList(
-      p("The name on the screen is not always the name on the invoice. For the second ad above, the public record shows three different names."),
-      div(class = "names",
-        div(tags$small("Name viewers saw"), tags$b(videos$appears_as[videos$youtube_id == template$water_video[template$state == input$ex_b]][1])),
-        div(tags$small("Advertiser listed by Google"), tags$b("America Connects")),
-        div(tags$small("Payer listed by Google"), tags$b("GMMB, Inc."))),
-      p(sprintf("On Facebook and Instagram, %d industry ads in the archive ran without the label that makes Meta show who paid.", n_unl)),
-      actionLink("go_meta", "See the Facebook and Instagram records"))
+    b <- input$ex_b; req(b)
+    nm <- videos$appears_as[videos$youtube_id == template$water_video[template$state == b]][1]
+    p(sprintf("The %s ad carries the name %s. Google lists America Connects as the advertiser and GMMB, Inc. as the payer.", b, nm))
   })
   output$ex_numbers <- renderUI({
     d <- template[!is.na(template$water_pct), ]; d <- d[order(d$water_pct), ]
     tagList(
-      p("Several ads describe how often some data centers can cool their equipment without water. The figure in the Louisiana ad is 90%. In Indiana, it is 98%."),
+      p("The same phrase turns up in five more states, each time with a different percentage."),
       div(class = "figs", lapply(seq_len(nrow(d)), function(i) div(tags$b(paste0(d$water_pct[i], "%")), span(d$state[i])))),
       p("We could not find a published source for these state percentages."),
       p(actionLink("go_states", "Read each state's wording"), " \u00b7 ", actionLink("go_docs", "Documents behind the ads")))
   })
   observeEvent(input$go_archive, nav_select("nav", "Find ads"))
-  observeEvent(input$go_meta,    nav_select("nav", "Meta ads"))
   observeEvent(input$go_states,  nav_select("nav", "The same script, state by state"))
   observeEvent(input$go_docs,    nav_select("nav", "Documents behind the ads"))
   observeEvent(input$go_record, {
