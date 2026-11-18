@@ -396,7 +396,13 @@ server <- function(input, output, session) {
     a$label <- paste0(a$paid_for_by, " · ", sub(" - .*", "", a$ran))
     a <- a[order(a$age_55_plus), ]
     m <- t(as.matrix(a[, c("age_18_34", "age_35_54", "age_55_plus")]))
-    par(mar = c(4, 22, 2, 1), family = "sans", las = 1)
+    # label margin shrinks on narrow screens so the chart still draws on a phone
+    w <- session$clientData$output_p_aud_width
+    req(!is.null(w), w > 0)
+    left <- max(5, min(22, floor(w * 0.5 / 14.4)))
+    keep <- floor(left * 2.3)
+    if (left < 22) a$label <- ifelse(nchar(a$label) > keep, paste0(substr(a$label, 1, keep - 1), "…"), a$label)
+    par(mar = c(4, left, 2, 1), family = "sans", las = 1)
     barplot(m, horiz = TRUE, names.arg = a$label, col = c("#1f6f9a", "#9a958a", "#c26a00"), border = NA,
             xlim = c(0, 100), xlab = "% of impressions", cex.names = .8)
     legend("top", inset = -0.07, horiz = TRUE, xpd = TRUE, bty = "n", fill = c("#1f6f9a", "#9a958a", "#c26a00"),
